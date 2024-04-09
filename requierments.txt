@@ -3,3 +3,6 @@ numpy
 scipy
 ipython
 jupyter
+
+#Optional (needed for MILP and pytfa optimization)
+# cplex
