@@ -1,0 +1,5 @@
+pytfa
+numpy
+scipy
+ipython
+jupyter
