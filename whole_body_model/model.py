@@ -59,7 +59,7 @@ def fluxes(x,A,p):
     else:
         LI = 1.0 - rho * (KI_lipo + 1.0) * I0 / (I0 + KI_lipo)
         
-    if with_LI:
+    if with_SI:
         SI =  I / (I + KA_glut4) / ( I0 / (I0 + KA_glut4))
     else:
         SI = 1.0
@@ -70,7 +70,7 @@ def fluxes(x,A,p):
     else:
         GI = 1.0
             
-        
+   
     # Lactate action
     if with_LL:
         LL = 1.0/(L/KIL+1.0) * (1.0/KIL+1.0)
@@ -101,7 +101,7 @@ def fluxes(x,A,p):
     vLG = vLG * GI
     
     return np.array([vL, vG, vF, vK, vGL, vFK,  vLG, v0, vA, vR,
-            v_in_L, v_in_G, v_in_F, v_in_K, vI])
+                     v_in_L, v_in_G, v_in_F, v_in_K, vI])
     
 
 def equation(x,A,p):

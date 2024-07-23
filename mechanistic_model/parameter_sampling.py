@@ -22,7 +22,7 @@ if __name__ == '__main__':
     # Load the tfa model 
     model_file = 'reduced_model_ETC_core_20240710-100629_continuous.json'
     tmodel = load_json_model(model_file)
-    sol = tmodel.optimize()
+    #sol = tmodel.optimize()
 
     # Reload and prepare the model
     kmodel = load_yaml_model(model_file.replace("_continuous.json", "_kinetic_curated.yml"))
@@ -65,6 +65,32 @@ if __name__ == '__main__':
     path_for_output = './'+tfa_sample_file.replace(".csv",'')+'/paramter_pop_{}.h5'
 
     flux_fun = make_flux_fun(kmodel, QSSA)
+
+    # Integrate brenda enyzme data into the model
+
+    # PGI
+    PGI_f6p_c_KM = 50e-3 # mM
+    PGI_g6p_c_KM = 0.5 # mM
+    kmodel.reactions.PGI.parameters.km_product.bounds = (PGI_f6p_c_KM * 0.8 , PGI_f6p_c_KM * 1.2)
+    kmodel.reactions.PGI.parameters.km_substrate.bounds = (PGI_g6p_c_KM * 0.8 , PGI_g6p_c_KM * 1.2)
+
+    # LDH_L 
+    LDH_L_pyruvate_c_KM = 0.05 # mM
+    LDH_L_lac_L_c_KM = 5 # mM
+    kmodel.reactions.LDH_L.parameters.km_product2.bounds = (LDH_L_pyruvate_c_KM * 0.8 , LDH_L_pyruvate_c_KM * 1.2)
+    kmodel.reactions.LDH_L.parameters.km_substrate2.bounds = (LDH_L_lac_L_c_KM * 0.8 , LDH_L_lac_L_c_KM * 1.2)
+
+    # NDPK1m 
+    NDPK1m_atp_c_KM = 1.0 # mM
+    NDPK1m_gdp_c_KM = 0.1 # mM
+
+    NDPK1m_adp_c_KM = 0.1 # mM
+    NDPK1m_gtp_c_KM = 1.0 # mM
+
+    kmodel.reactions.NDPK1m.parameters.km_product1 = (NDPK1m_gtp_c_KM * 0.8 , NDPK1m_gtp_c_KM * 1.2)
+    kmodel.reactions.NDPK1m.parameters.km_substrate1 = (NDPK1m_gdp_c_KM * 0.8 , NDPK1m_gdp_c_KM * 1.2)
+    kmodel.reactions.NDPK1m.parameters.km_product2 = (NDPK1m_adp_c_KM * 0.8 , NDPK1m_adp_c_KM * 1.2)
+    kmodel.reactions.NDPK1m.parameters.km_substrate2 = (NDPK1m_atp_c_KM * 0.8 , NDPK1m_atp_c_KM * 1.2)
 
 
     for i, sample in tfa_samples.iterrows():

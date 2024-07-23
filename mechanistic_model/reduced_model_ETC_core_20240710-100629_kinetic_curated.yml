@@ -789,6 +789,12 @@ reactions:
         mechanism_stoichiometry:
           small_molecule: 1.0
         small_molecule: h_m
+      IM_nadh_m:
+        class: InhibitionModifier
+        inhibitor: nadh_m
+      IM_succoa_m:
+        class: InhibitionModifier
+        inhibitor: succoa_m
     name: AKGDm
   ATPS4mi:
     enzyme: null
@@ -935,6 +941,18 @@ reactions:
         mechanism_stoichiometry:
           small_molecule: 1.0
         small_molecule: h_m
+      IM_nadh_m:
+        class: InhibitionModifier
+        inhibitor: nadh_m
+      IM_succoa_m:
+        class: InhibitionModifier
+        inhibitor: succoa_m
+      IM_atp_m:
+        class: InhibitionModifier
+        inhibitor: atp_m
+      AM_adp_m:
+        class: ActivationModifier
+        activator: adp_m
     name: CSm
   CYOOm2i:
     enzyme: null
@@ -1158,6 +1176,9 @@ reactions:
         mechanism_stoichiometry:
           small_molecule: 1.0
         small_molecule: h_c
+      IM_g6p_c:
+        class: InhibitionModifier
+        inhibitor: g6p_c
     name: HEX1
   ICDHxm:
     enzyme: null
@@ -1180,14 +1201,20 @@ reactions:
         mechanism_stoichiometry:
           small_molecule: 1.0
         small_molecule: h_m
+      IM_atp_m:
+        class: InhibitionModifier
+        inhibitor: atp_m
+      AM_adp_m:
+        class: ActivationModifier
+        activator: adp_m
     name: ICDHxm
   LDH_L:
     enzyme: null
     mechanism:
       class: H1GeneralizedReversibleHill
       mechanism_stoichiometry: *id001
-      product1: pyr_c
-      product2: nadh_c
+      product1: nadh_c
+      product2: pyr_c
       substrate1: nad_c
       substrate2: lac_L_c
     modifiers:
@@ -1361,6 +1388,15 @@ reactions:
       IM_nadh_m:
         class: InhibitionModifier
         inhibitor: nadh_m
+      IM_accoa_m:
+        class: InhibitionModifier
+        inhibitor: accoa_m
+      AM_coa_m:
+        class: ActivationModifier
+        activator: coa_m
+      AM_nad_m:
+        class: ActivationModifier
+        activator: nad_m
     name: PDHm
   PFK:
     enzyme: null
@@ -1377,6 +1413,15 @@ reactions:
         mechanism_stoichiometry:
           small_molecule: 1.0
         small_molecule: h_c
+      IM_atp_c:
+        class: InhibitionModifier
+        inhibitor: atp_c
+      AM_amp_c:
+        class: ActivationModifier
+        activator: amp_c
+      AM_adp_c:
+        class: ActivationModifier
+        activator: adp_c
     name: PFK
   PGI:
     enzyme: null
@@ -1436,6 +1481,12 @@ reactions:
         mechanism_stoichiometry:
           small_molecule: -1.0
         small_molecule: h_c
+      IM_atp_c:
+        class: InhibitionModifier
+        inhibitor: atp_c
+      AM_fdp_c:
+        class: ActivationModifier
+        activator: fdp_c
     name: PYK
   PYRt2m:
     enzyme: null
