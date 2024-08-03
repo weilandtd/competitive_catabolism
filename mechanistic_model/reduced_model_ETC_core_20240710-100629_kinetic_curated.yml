@@ -23,9 +23,7 @@ boundary_conditions:
   CC_na1_c:
     class: ConstantConcentration
     reactant: na1_c
-  CC_pi_c:
-    class: ConstantConcentration
-    reactant: pi_c
+
   CC_o2_e:
     class: ConstantConcentration
     reactant: o2_e
@@ -44,6 +42,7 @@ parameters:
   hdca_e: null
   hill_coefficient_ATPS4mi: 1.0
   hill_coefficient_FBA: 1.0
+  hill_coefficient_PFK: 1.0
   k1_bwd_ACONTm: null
   k1_bwd_BHBt: null
   k1_bwd_BHBtm: null
@@ -1159,7 +1158,10 @@ reactions:
       class: ReversibleMichaelisMenten
       product: glc_D_c
       substrate: glc_D_e
-    modifiers: {}
+    modifiers:
+      IM_lac_L_c:
+        class: InhibitionModifier
+        inhibitor: lac_L_c
     name: GLCt1r
   HEX1:
     enzyme: null
@@ -1223,6 +1225,9 @@ reactions:
         mechanism_stoichiometry:
           small_molecule: 2.0
         small_molecule: h_c
+      IM_pmtcoa_c:
+        class: InhibitionModifier
+        inhibitor: pmtcoa_c
     name: LDH_L
   LDH_Lm:
     enzyme: null
@@ -1401,7 +1406,7 @@ reactions:
   PFK:
     enzyme: null
     mechanism:
-      class: H1GeneralizedReversibleHill
+      class: GeneralizedReversibleHill
       mechanism_stoichiometry: *id001
       product1: fdp_c
       product2: adp_c

@@ -34,7 +34,7 @@ if __name__ == '__main__':
 
 
     # Initiate a parameter sampler
-    params = SimpleParameterSampler.Parameters(n_samples = 10)
+    params = SimpleParameterSampler.Parameters(n_samples = 25)
     sampler = SimpleParameterSampler(params)
 
 
@@ -87,10 +87,32 @@ if __name__ == '__main__':
     NDPK1m_adp_c_KM = 0.1 # mM
     NDPK1m_gtp_c_KM = 1.0 # mM
 
-    kmodel.reactions.NDPK1m.parameters.km_product1 = (NDPK1m_gtp_c_KM * 0.8 , NDPK1m_gtp_c_KM * 1.2)
-    kmodel.reactions.NDPK1m.parameters.km_substrate1 = (NDPK1m_gdp_c_KM * 0.8 , NDPK1m_gdp_c_KM * 1.2)
-    kmodel.reactions.NDPK1m.parameters.km_product2 = (NDPK1m_adp_c_KM * 0.8 , NDPK1m_adp_c_KM * 1.2)
-    kmodel.reactions.NDPK1m.parameters.km_substrate2 = (NDPK1m_atp_c_KM * 0.8 , NDPK1m_atp_c_KM * 1.2)
+    kmodel.reactions.NDPK1m.parameters.km_product1.bounds = (NDPK1m_gtp_c_KM * 0.8 , NDPK1m_gtp_c_KM * 1.2)
+    kmodel.reactions.NDPK1m.parameters.km_substrate1.bounds = (NDPK1m_gdp_c_KM * 0.8 , NDPK1m_gdp_c_KM * 1.2)
+    kmodel.reactions.NDPK1m.parameters.km_product2.bounds = (NDPK1m_adp_c_KM * 0.8 , NDPK1m_adp_c_KM * 1.2)
+    kmodel.reactions.NDPK1m.parameters.km_substrate2.bounds = (NDPK1m_atp_c_KM * 0.8 , NDPK1m_atp_c_KM * 1.2)
+
+    # GLUT4 KM
+    kmodel.reactions.GLCt1r.parameters.km_substrate.bounds = (4.9, 5.1)
+    kmodel.reactions.GLCt1r.parameters.km_product.bounds = (4.9, 5.1)
+
+    # Hexokinase HK1 
+    # https://www.brenda-enzymes.org/enzyme.php?ecno=2.7.1.1#KM%20VALUE%20[mM]
+    kmodel.reactions.HEX1.parameters.km_substrate1.bounds = (0.1, 0.4) # ATP Brenda
+    kmodel.reactions.HEX1.parameters.km_substrate2.bounds = (0.02, 0.05) # Glucose
+
+    # PFK 
+    # HAS actual hill kinetics
+    # https://onlinelibrary.wiley.com/doi/10.1002/jcb.24039
+    # https://febs.onlinelibrary.wiley.com/doi/10.1016/j.febslet.2007.05.059
+    kmodel.reactions.PFK.parameters.km_substrate1.bounds = (0.03, 0.04) # ATP Brenda
+    kmodel.reactions.PFK.parameters.km_substrate2.bounds = (0.07, 0.09) # F6P
+    
+
+    # LDH pmt-coa inhibition
+    # https://www.science.org/doi/10.1126/science.abm3452?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed#sec-3
+    # Arround 1 uM
+    kmodel.reactions.LDH_L.parameters.k_inhibition_IM_pmtcoa_c_LDH_L.bounds = (0.8e-3 , 1.2e-3)
 
 
     for i, sample in tfa_samples.iterrows():
@@ -149,7 +171,7 @@ if __name__ == '__main__':
     Prune parameters based on the time scales
     """
 
-    MAX_EIGENVALUES = -1.0    # 1/hr
+    MAX_EIGENVALUES = -2.0 # 30 min 
     #MIN_EIGENVALUES = -1e13   
 
     # Prune parameter based on eigenvalues
