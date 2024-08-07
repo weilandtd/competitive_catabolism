@@ -791,9 +791,6 @@ reactions:
       IM_nadh_m:
         class: InhibitionModifier
         inhibitor: nadh_m
-      IM_succoa_m:
-        class: InhibitionModifier
-        inhibitor: succoa_m
     name: AKGDm
   ATPS4mi:
     enzyme: null
@@ -940,15 +937,9 @@ reactions:
         mechanism_stoichiometry:
           small_molecule: 1.0
         small_molecule: h_m
-      IM_nadh_m:
-        class: InhibitionModifier
-        inhibitor: nadh_m
       IM_succoa_m:
         class: InhibitionModifier
         inhibitor: succoa_m
-      IM_atp_m:
-        class: InhibitionModifier
-        inhibitor: atp_m
       AM_adp_m:
         class: ActivationModifier
         activator: adp_m
@@ -1158,10 +1149,7 @@ reactions:
       class: ReversibleMichaelisMenten
       product: glc_D_c
       substrate: glc_D_e
-    modifiers:
-      IM_lac_L_c:
-        class: InhibitionModifier
-        inhibitor: lac_L_c
+    modifiers: {}
     name: GLCt1r
   HEX1:
     enzyme: null
@@ -1393,15 +1381,9 @@ reactions:
       IM_nadh_m:
         class: InhibitionModifier
         inhibitor: nadh_m
-      IM_accoa_m:
-        class: InhibitionModifier
-        inhibitor: accoa_m
       AM_coa_m:
         class: ActivationModifier
         activator: coa_m
-      AM_nad_m:
-        class: ActivationModifier
-        activator: nad_m
     name: PDHm
   PFK:
     enzyme: null
@@ -1424,9 +1406,6 @@ reactions:
       AM_amp_c:
         class: ActivationModifier
         activator: amp_c
-      AM_adp_c:
-        class: ActivationModifier
-        activator: adp_c
     name: PFK
   PGI:
     enzyme: null

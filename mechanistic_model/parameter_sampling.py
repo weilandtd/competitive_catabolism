@@ -115,6 +115,27 @@ if __name__ == '__main__':
     kmodel.reactions.LDH_L.parameters.k_inhibition_IM_pmtcoa_c_LDH_L.bounds = (0.8e-3 , 1.2e-3)
 
 
+    # BDHm 
+    # https://www.brenda-enzymes.org/all_enzymes.php?ecno=1.1.1.30&table=KM_Value#TAB
+    kmodel.reactions.BDHm.parameters.km_substrate1.bounds = (0.05, 0.07) # NAD
+    kmodel.reactions.BDHm.parameters.km_substrate2.bounds = (0.3, 0.7) # 3BHb -> GUESS
+    kmodel.reactions.BDHm.parameters.km_product1.bounds = (0.02, 0.03) # NADH
+    kmodel.reactions.BDHm.parameters.km_product2.bounds = (0.25, 0.35) # AcAc
+
+    # OCOAT1m/ SCOT1
+    # https://www.brenda-enzymes.org/enzyme.php?ecno=2.8.3.5
+    kmodel.reactions.OCOAT1m.parameters.km_substrate1.bounds = (0.1, 0.3) # SucCoa
+    kmodel.reactions.OCOAT1m.parameters.km_substrate2.bounds = (0.05, 0.1) # ACAC 0.07
+    kmodel.reactions.OCOAT1m.parameters.km_product1.bounds = (0.02, 0.03) # Succ
+    kmodel.reactions.OCOAT1m.parameters.km_product2.bounds = (0.04, 0.06) # AcAcCoa
+
+    #Acetyl CoA C acetyltransferase mitochondrial
+    # https://www.brenda-enzymes.org/enzyme.php?ecno=2.3.1.9#KM%20VALUE%20[mM]
+    kmodel.reactions.ACACT1rm.parameters.km_substrate1.bounds = (0.03, 0.031) # AcCoa
+    kmodel.reactions.ACACT1rm.parameters.km_substrate2.bounds = (0.03, 0.031) # AcCoa
+    kmodel.reactions.ACACT1rm.parameters.km_product1.bounds = (0.01, 0.03) # CoA
+    kmodel.reactions.ACACT1rm.parameters.km_product2.bounds = (4e-3, 5e-3) # AcAcCoa
+
     for i, sample in tfa_samples.iterrows():
         # Load fluxes and concentrations
         fluxes = load_fluxes(sample, tmodel, kmodel,
