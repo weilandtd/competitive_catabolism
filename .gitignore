@@ -3,6 +3,7 @@
 
 # Database file 
 *.xml
+*.xlsx
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
