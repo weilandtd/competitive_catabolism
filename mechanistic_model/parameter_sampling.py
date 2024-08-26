@@ -20,7 +20,7 @@ import os
 if __name__ == '__main__':
 
     # Load the tfa model 
-    model_file = 'reduced_model_ETC_core_20240710-100629_continuous.json'
+    model_file = 'reduced_model_ETC_core_20240816-155234_continuous.json'
     tmodel = load_json_model(model_file)
     #sol = tmodel.optimize()
 
@@ -34,12 +34,12 @@ if __name__ == '__main__':
 
 
     # Initiate a parameter sampler
-    params = SimpleParameterSampler.Parameters(n_samples = 25)
+    params = SimpleParameterSampler.Parameters(n_samples = 10)
     sampler = SimpleParameterSampler(params)
 
 
     # Load TFA samples 
-    tfa_sample_file = 'reduced_model_ETC_core_20240710-100629_tfa_sampling.csv'
+    tfa_sample_file = 'reduced_model_ETC_core_20240816-155234_tfa_sampling.csv'
     tfa_samples = pd.read_csv(tfa_sample_file)
 
 
@@ -83,10 +83,8 @@ if __name__ == '__main__':
     # NDPK1m 
     NDPK1m_atp_c_KM = 1.0 # mM
     NDPK1m_gdp_c_KM = 0.1 # mM
-
     NDPK1m_adp_c_KM = 0.1 # mM
     NDPK1m_gtp_c_KM = 1.0 # mM
-
     kmodel.reactions.NDPK1m.parameters.km_product1.bounds = (NDPK1m_gtp_c_KM * 0.8 , NDPK1m_gtp_c_KM * 1.2)
     kmodel.reactions.NDPK1m.parameters.km_substrate1.bounds = (NDPK1m_gdp_c_KM * 0.8 , NDPK1m_gdp_c_KM * 1.2)
     kmodel.reactions.NDPK1m.parameters.km_product2.bounds = (NDPK1m_adp_c_KM * 0.8 , NDPK1m_adp_c_KM * 1.2)
@@ -108,6 +106,7 @@ if __name__ == '__main__':
     kmodel.reactions.PFK.parameters.km_substrate1.bounds = (0.03, 0.04) # ATP Brenda
     kmodel.reactions.PFK.parameters.km_substrate2.bounds = (0.07, 0.09) # F6P
     
+    # GAPDH
 
     # LDH pmt-coa inhibition
     # https://www.science.org/doi/10.1126/science.abm3452?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed#sec-3
@@ -136,6 +135,19 @@ if __name__ == '__main__':
     kmodel.reactions.ACACT1rm.parameters.km_product1.bounds = (0.01, 0.03) # CoA
     kmodel.reactions.ACACT1rm.parameters.km_product2.bounds = (4e-3, 5e-3) # AcAcCoa
 
+    # # G3PD1 - Glycerol 3-phosphate dehydrogenase (NAD+)
+    # # https://www.brenda-enzymes.org/enzyme.php?ecno=1.1.1.8#KM%20VALUE%20[mM]
+    kmodel.reactions.G3PD1.parameters.km_product1.bounds = (0.002, 0.010) # NADH
+    kmodel.reactions.G3PD1.parameters.km_product2.bounds = (0.02, 0.03) # DAHP (high affinity)
+    kmodel.reactions.G3PD1.parameters.km_substrate1.bounds = (0.01, 0.04) # NAD+
+    kmodel.reactions.G3PD1.parameters.km_substrate2.bounds = (0.5,2.0) # Glycerol-3P (loew affinity)
+
+    # TPI - le
+    # https://www.brenda-enzymes.org/enzyme.php?ecno=5.3.1.1#KM%20VALUE%20[mM]
+    kmodel.reactions.TPI.parameters.km_substrate.bounds = (0.5, 1.5) #DHAP
+    kmodel.reactions.TPI.parameters.km_product.bounds = (0.25, 1.0) # GAP
+
+    
     for i, sample in tfa_samples.iterrows():
         # Load fluxes and concentrations
         fluxes = load_fluxes(sample, tmodel, kmodel,
@@ -149,6 +161,10 @@ if __name__ == '__main__':
         # ATP dissipation should be saturated KM << [atp_c]
         atp_c = concentrations['atp_c']
         kmodel.reactions.cyt_atp2adp.parameters.km_substrate1.bounds = (atp_c*1e-4, atp_c*1e-3)
+
+        # Malate dydrognease in cytosol should be sensitive to NADH
+        nadh_c = concentrations['nadh_c']
+        kmodel.reactions.MDH.parameters.km_substrate2.bounds = (nadh_c*2.0, nadh_c*5.0)
         
         # Fetch equilibrium constants
         load_equilibrium_constants(sample, tmodel, kmodel,
@@ -177,8 +193,6 @@ if __name__ == '__main__':
 
         params_population.save(path_for_output.format(i))
 
-    
-
 
     # Process df and save dataframe
     lambda_max_all = pd.concat(lambda_max_all, axis=1)
@@ -192,7 +206,7 @@ if __name__ == '__main__':
     Prune parameters based on the time scales
     """
 
-    MAX_EIGENVALUES = -2.0 # 30 min 
+    MAX_EIGENVALUES = -2.0 # 20 min 
     #MIN_EIGENVALUES = -1e13   
 
     # Prune parameter based on eigenvalues

@@ -17,12 +17,6 @@ boundary_conditions:
   CC_lac_L_e:
     class: ConstantConcentration
     reactant: lac_L_e
-  CC_na1_e:
-    class: ConstantConcentration
-    reactant: na1_e
-  CC_na1_c:
-    class: ConstantConcentration
-    reactant: na1_c
   CC_o2_e:
     class: ConstantConcentration
     reactant: o2_e
@@ -35,13 +29,10 @@ parameters:
   co2_e: null
   glc_D_e: null
   h_e: null
-  h_c: null
-  na1_c: null
-  pi_c: null
   hdca_e: null
   hill_coefficient_ATPS4mi: 1.0
   hill_coefficient_FBA: 1.0
-  hill_coefficient_PFK: 1.0
+  hill_coefficient_cyt_atp2adp: 1.0
   k1_bwd_ACONTm: null
   k1_bwd_BHBt: null
   k1_bwd_BHBtm: null
@@ -114,64 +105,74 @@ parameters:
   k2_fwd_PYRt2m: null
   k2_fwd_PiC: null
   k2_fwd_TPI: null
-  k_equilibrium_ACACT1rm: 4.1883083680472327e-05
+  k_equilibrium_ACACT1rm: 4.188308368047225e-05
   k_equilibrium_ACONTm: 0.010842487564550293
-  k_equilibrium_ADK1: 14.091135629102606
+  k_equilibrium_ADK1: 32670403.98228655
   k_equilibrium_AKGDm: 0.0032072010606079364
-  k_equilibrium_ATPS4mi: 29225796330047.81
-  k_equilibrium_ATPtm: 34.6912287136253
+  k_equilibrium_AKGMALtm: 29.243978319472713
+  k_equilibrium_ASPGLUm: 37.89278396460706
+  k_equilibrium_ASPTA: 0.2355043858130296
+  k_equilibrium_ASPTAm: 0.23596625370959765
+  k_equilibrium_ATPS4mi: 29225796330047.707
+  k_equilibrium_ATPtm: 34.69122871362541
   k_equilibrium_BDHm: 9.010262472754527e-11
-  k_equilibrium_BHBt: 29.318222038656774
-  k_equilibrium_BHBtm: 0.0340935947295815
+  k_equilibrium_BHBt: 0.10328221266672102
+  k_equilibrium_BHBtm: 0.0340935947295814
   k_equilibrium_C160CPT1: 58.39192026420905
-  k_equilibrium_C160CPT2: 0.017126043834867034
+  k_equilibrium_C160CPT2: 0.01712604383486714
   k_equilibrium_CO2t: 0.03412010742297334
   k_equilibrium_CO2tm: 0.03412010742297334
   k_equilibrium_CSm: 0.001975852840284076
   k_equilibrium_CYOOm2i: 3.914218253263365e+44
-  k_equilibrium_CYOR_u10mi: 9.035935534031091e-18
+  k_equilibrium_CYOR_u10mi: 9.035935534030964e-18
   k_equilibrium_ENO: 0.11270027016955442
-  k_equilibrium_FACOAL160i: 82189935.3051171
-  k_equilibrium_FADH2ETC: 0.1936670986446711
-  k_equilibrium_FAOXC160: 8.645138613060034e-38
-  k_equilibrium_FATP1t: 8.735234298374294
-  k_equilibrium_FBA: 0.00015645069947599552
-  k_equilibrium_FUMm: 10.787581956686207
-  k_equilibrium_G3PD1: 1.0109952157920143e-18
+  k_equilibrium_FACOAL160i: 82189935.30511856
+  k_equilibrium_FADH2ETC: 0.005876120266897479
+  k_equilibrium_FAOXC160: 8.645138613059912e-38
+  k_equilibrium_FATP1t: 56.313551317942995
+  k_equilibrium_FBA: 0.00015645069947599525
+  k_equilibrium_FUMm: 1.9926421063528572
+  k_equilibrium_G3PD1: 8.712540807499112e-11
   k_equilibrium_GAPD: 7.282769226440488e-16
-  k_equilibrium_GLCt1r: 0.034120107422973375
-  k_equilibrium_HEX1: 2.2957463853278647e-05
+  k_equilibrium_GLCt1r: 0.03412010742297333
+  k_equilibrium_HEX1: 2.295746385327852e-05
   k_equilibrium_ICDHxm: 4.10819272037982e-10
   k_equilibrium_LDH_L: 3.685317860912816e-19
   k_equilibrium_LDH_Lm: 3.664356145223258e-22
-  k_equilibrium_L_LACt2r: 0.09621649906118643
-  k_equilibrium_L_LACtm: 0.034113887844221286
+  k_equilibrium_L_LACDcm: 0.508163746060314
+  k_equilibrium_L_LACt2r: 0.5861412068924836
+  k_equilibrium_L_LACtm: 0.4009572193398859
+  k_equilibrium_MDH: 2.6367074365461844e-20
   k_equilibrium_MDHm: 1.4456079196314295e-21
-  k_equilibrium_NADH2_u10mi: 1.317615051713783e+21
-  k_equilibrium_NAt3_1: 11.113005641567039
-  k_equilibrium_NDPK1m: 4.991562456213886
-  k_equilibrium_O2t: 0.17074267521420108
-  k_equilibrium_O2tm: 1.5025355418849737
-  k_equilibrium_OCOAT1m: 5.428600170483773
-  k_equilibrium_PDHm: 0.003080315639852099
+  k_equilibrium_NADH2_u10mi: 2.056984824662962e+21
+  k_equilibrium_NAt3_1: 9.231724008556618
+  k_equilibrium_NDPK1m: 4.916262416645838
+  k_equilibrium_O2t: 0.2860404674979556
+  k_equilibrium_O2tm: 0.5547451490869446
+  k_equilibrium_OCOAT1m: 5.428600170483765
+  k_equilibrium_PDHm: 0.003080315639852088
   k_equilibrium_PFK: 1.1101112971041165e-05
-  k_equilibrium_PGI: 1.171442514522025
-  k_equilibrium_PGK: 849.3255595227054
-  k_equilibrium_PGM: 0.07275956537388921
+  k_equilibrium_PGI: 0.8224699819071645
+  k_equilibrium_PGK: 849.3255595227068
+  k_equilibrium_PGM: 0.07275956537388899
   k_equilibrium_PPA: 4.890864162714257e-10
-  k_equilibrium_PYK: 11788830060035.766
-  k_equilibrium_PYRt2m: 0.03412010742297334
-  k_equilibrium_PiC: 0.023004395856193655
-  k_equilibrium_SUCOAS1m: 0.7216878442629144
-  k_equilibrium_TPI: 0.11270027016955442
-  k_equilibrium_cyt_atp2adp: 0.0022826938601539764
-  k_equilibrium_r0205: 3053334.2060735305
-  k_equilibrium_r0509: 2.3969417983476475
-  k_equilibrium_r2435: 29.307569348091157
+  k_equilibrium_PYK: 3672471478698.6143
+  k_equilibrium_PYRt2m: 0.03412010742297325
+  k_equilibrium_PiC: 0.023004395856193675
+  k_equilibrium_SUCOAS1m: 0.3504737470728471
+  k_equilibrium_TPI: 0.11270027016955457
+  k_equilibrium_cyt_atp2adp: 0.002282693860153978
+  k_equilibrium_r0205: 18610480.744723763
+  k_equilibrium_r0509: 3.2142932531938984
+  k_equilibrium_r2435: 0.043795669664758674
   kcat_forward_ACACT1rm: null
   kcat_forward_ACONTm: null
   kcat_forward_ADK1: null
   kcat_forward_AKGDm: null
+  kcat_forward_AKGMALtm: null
+  kcat_forward_ASPGLUm: null
+  kcat_forward_ASPTA: null
+  kcat_forward_ASPTAm: null
   kcat_forward_ATPS4mi: null
   kcat_forward_ATPtm: null
   kcat_forward_BDHm: null
@@ -198,8 +199,10 @@ parameters:
   kcat_forward_ICDHxm: null
   kcat_forward_LDH_L: null
   kcat_forward_LDH_Lm: null
+  kcat_forward_L_LACDcm: null
   kcat_forward_L_LACt2r: null
   kcat_forward_L_LACtm: null
+  kcat_forward_MDH: null
   kcat_forward_MDHm: null
   kcat_forward_NADH2_u10mi: null
   kcat_forward_NAt3_1: null
@@ -225,6 +228,10 @@ parameters:
   km_product1_ACACT1rm: null
   km_product1_ADK1: null
   km_product1_AKGDm: null
+  km_product1_AKGMALtm: null
+  km_product1_ASPGLUm: null
+  km_product1_ASPTA: null
+  km_product1_ASPTAm: null
   km_product1_ATPtm: null
   km_product1_BDHm: null
   km_product1_C160CPT1: null
@@ -242,6 +249,8 @@ parameters:
   km_product1_ICDHxm: null
   km_product1_LDH_L: null
   km_product1_LDH_Lm: null
+  km_product1_L_LACDcm: null
+  km_product1_MDH: null
   km_product1_MDHm: null
   km_product1_NADH2_u10mi: null
   km_product1_NAt3_1: null
@@ -259,6 +268,10 @@ parameters:
   km_product1_r2435: null
   km_product2_ACACT1rm: null
   km_product2_AKGDm: null
+  km_product2_AKGMALtm: null
+  km_product2_ASPGLUm: null
+  km_product2_ASPTA: null
+  km_product2_ASPTAm: null
   km_product2_ATPtm: null
   km_product2_BDHm: null
   km_product2_C160CPT1: null
@@ -275,6 +288,8 @@ parameters:
   km_product2_ICDHxm: null
   km_product2_LDH_L: null
   km_product2_LDH_Lm: null
+  km_product2_L_LACDcm: null
+  km_product2_MDH: null
   km_product2_MDHm: null
   km_product2_NADH2_u10mi: null
   km_product2_NAt3_1: null
@@ -317,6 +332,10 @@ parameters:
   km_substrate1_ACACT1rm: null
   km_substrate1_ADK1: null
   km_substrate1_AKGDm: null
+  km_substrate1_AKGMALtm: null
+  km_substrate1_ASPGLUm: null
+  km_substrate1_ASPTA: null
+  km_substrate1_ASPTAm: null
   km_substrate1_ATPS4mi: null
   km_substrate1_ATPtm: null
   km_substrate1_BDHm: null
@@ -334,6 +353,8 @@ parameters:
   km_substrate1_ICDHxm: null
   km_substrate1_LDH_L: null
   km_substrate1_LDH_Lm: null
+  km_substrate1_L_LACDcm: null
+  km_substrate1_MDH: null
   km_substrate1_MDHm: null
   km_substrate1_NADH2_u10mi: null
   km_substrate1_NAt3_1: null
@@ -350,6 +371,10 @@ parameters:
   km_substrate1_r2435: null
   km_substrate2_ADK1: null
   km_substrate2_AKGDm: null
+  km_substrate2_AKGMALtm: null
+  km_substrate2_ASPGLUm: null
+  km_substrate2_ASPTA: null
+  km_substrate2_ASPTAm: null
   km_substrate2_ATPS4mi: null
   km_substrate2_ATPtm: null
   km_substrate2_BDHm: null
@@ -367,6 +392,8 @@ parameters:
   km_substrate2_ICDHxm: null
   km_substrate2_LDH_L: null
   km_substrate2_LDH_Lm: null
+  km_substrate2_L_LACDcm: null
+  km_substrate2_MDH: null
   km_substrate2_MDHm: null
   km_substrate2_NADH2_u10mi: null
   km_substrate2_NAt3_1: null
@@ -408,7 +435,6 @@ parameters:
   km_substrate_TPI: null
   km_substrate_cyt_atp2adp: null
   lac_L_e: null
-  na1_e: null
   o2_e: null
   total_enzyme_concentration_ACONTm: null
   total_enzyme_concentration_BHBt: null
@@ -453,6 +479,10 @@ parameters:
   vmax_forward_ACONTm: null
   vmax_forward_ADK1: null
   vmax_forward_AKGDm: null
+  vmax_forward_AKGMALtm: null
+  vmax_forward_ASPGLUm: null
+  vmax_forward_ASPTA: null
+  vmax_forward_ASPTAm: null
   vmax_forward_ATPS4mi: null
   vmax_forward_ATPtm: null
   vmax_forward_BDHm: null
@@ -479,8 +509,10 @@ parameters:
   vmax_forward_ICDHxm: null
   vmax_forward_LDH_L: null
   vmax_forward_LDH_Lm: null
+  vmax_forward_L_LACDcm: null
   vmax_forward_L_LACt2r: null
   vmax_forward_L_LACtm: null
+  vmax_forward_MDH: null
   vmax_forward_MDHm: null
   vmax_forward_NADH2_u10mi: null
   vmax_forward_NAt3_1: null
@@ -528,12 +560,21 @@ reactants:
   adp_m:
     compartment: null
     name: adp_m
+  akg_c:
+    compartment: null
+    name: akg_c
   akg_m:
     compartment: null
     name: akg_m
   amp_c:
     compartment: null
     name: amp_c
+  asp_L_c:
+    compartment: null
+    name: asp_L_c
+  asp_L_m:
+    compartment: null
+    name: asp_L_m
   atp_c:
     compartment: null
     name: atp_c
@@ -612,6 +653,12 @@ reactants:
   glc_D_e:
     compartment: null
     name: glc_D_e
+  glu_L_c:
+    compartment: null
+    name: glu_L_c
+  glu_L_m:
+    compartment: null
+    name: glu_L_m
   glyc3p_c:
     compartment: null
     name: glyc3p_c
@@ -645,6 +692,9 @@ reactants:
   lac_L_m:
     compartment: null
     name: lac_L_m
+  mal_L_c:
+    compartment: null
+    name: mal_L_c
   mal_L_m:
     compartment: null
     name: mal_L_m
@@ -675,6 +725,9 @@ reactants:
   o2_m:
     compartment: null
     name: o2_m
+  oaa_c:
+    compartment: null
+    name: oaa_c
   oaa_m:
     compartment: null
     name: oaa_m
@@ -724,16 +777,14 @@ reactions:
   ACACT1rm:
     enzyme: null
     mechanism:
-      class: H1GeneralizedReversibleHill
+      class: Convenience
       mechanism_stoichiometry:
         product1: 1.0
         product2: 1.0
-        substrate1: -1.0
-        substrate2: -1.0
+        substrate1: -2.0
       product1: coa_m
       product2: aacoa_m
       substrate1: accoa_m
-      substrate2: accoa_m
     modifiers: {}
     name: ACACT1rm
   ACONTm:
@@ -747,14 +798,12 @@ reactions:
   ADK1:
     enzyme: null
     mechanism:
-      class: H1GeneralizedReversibleHill
+      class: Convenience
       mechanism_stoichiometry:
-        product1: 1.0
-        product2: 1.0
+        product1: 2.0
         substrate1: -1.0
         substrate2: -1.0
       product1: adp_c
-      product2: adp_c
       substrate1: atp_c
       substrate2: amp_c
     modifiers:
@@ -787,13 +836,65 @@ reactions:
         mechanism_stoichiometry:
           small_molecule: 1.0
         small_molecule: h_m
-      IM_nadh_m:
-        class: InhibitionModifier
-        inhibitor: nadh_m
-      IM_succoa_m:
-        class: InhibitionModifier
-        inhibitor: succoa_m
     name: AKGDm
+  AKGMALtm:
+    enzyme: null
+    mechanism:
+      class: H1GeneralizedReversibleHill
+      mechanism_stoichiometry: &id001
+        product1: 1.0
+        product2: 1.0
+        substrate1: -1.0
+        substrate2: -1.0
+      product1: mal_L_m
+      product2: akg_c
+      substrate1: mal_L_c
+      substrate2: akg_m
+    modifiers: {}
+    name: AKGMALtm
+  ASPGLUm:
+    enzyme: null
+    mechanism:
+      class: H1GeneralizedReversibleHill
+      mechanism_stoichiometry: *id001
+      product1: glu_L_m
+      product2: asp_L_c
+      substrate1: glu_L_c
+      substrate2: asp_L_m
+    modifiers:
+      DSM_h_c:
+        class: DisplacementSmallMoleculeModifier
+        mechanism_stoichiometry:
+          small_molecule: -1.0
+        small_molecule: h_c
+      DSM_h_m:
+        class: DisplacementSmallMoleculeModifier
+        mechanism_stoichiometry:
+          small_molecule: 1.0
+        small_molecule: h_m
+    name: ASPGLUm
+  ASPTA:
+    enzyme: null
+    mechanism:
+      class: H1GeneralizedReversibleHill
+      mechanism_stoichiometry: *id001
+      product1: oaa_c
+      product2: glu_L_c
+      substrate1: asp_L_c
+      substrate2: akg_c
+    modifiers: {}
+    name: ASPTA
+  ASPTAm:
+    enzyme: null
+    mechanism:
+      class: H1GeneralizedReversibleHill
+      mechanism_stoichiometry: *id001
+      product1: oaa_m
+      product2: glu_L_m
+      substrate1: asp_L_m
+      substrate2: akg_m
+    modifiers: {}
+    name: ASPTAm
   ATPS4mi:
     enzyme: null
     mechanism:
@@ -817,11 +918,7 @@ reactions:
     enzyme: null
     mechanism:
       class: H1GeneralizedReversibleHill
-      mechanism_stoichiometry: &id001
-        product1: 1.0
-        product2: 1.0
-        substrate1: -1.0
-        substrate2: -1.0
+      mechanism_stoichiometry: *id001
       product1: atp_c
       product2: adp_m
       substrate1: atp_m
@@ -905,23 +1002,17 @@ reactions:
   CO2t:
     enzyme: null
     mechanism:
-      class: RevMassaction
-      mechanism_stoichiometry:
-        product1: 1.0
-        substrate1: -1.0
-      product1: co2_c
-      substrate1: co2_e
+      class: ReversibleMichaelisMenten
+      product: co2_c
+      substrate: co2_e
     modifiers: {}
     name: CO2t
   CO2tm:
     enzyme: null
     mechanism:
-      class: RevMassaction
-      mechanism_stoichiometry:
-        product1: 1.0
-        substrate1: -1.0
-      product1: co2_m
-      substrate1: co2_c
+      class: ReversibleMichaelisMenten
+      product: co2_m
+      substrate: co2_c
     modifiers: {}
     name: CO2tm
   CSm:
@@ -931,34 +1022,19 @@ reactions:
       mechanism_stoichiometry: *id001
       product1: coa_m
       product2: cit_m
-      substrate1: accoa_m
-      substrate2: oaa_m
+      substrate1: oaa_m
+      substrate2: accoa_m
     modifiers:
       DSM_h_m:
         class: DisplacementSmallMoleculeModifier
         mechanism_stoichiometry:
           small_molecule: 1.0
         small_molecule: h_m
-      IM_succoa_m:
-        class: InhibitionModifier
-        inhibitor: succoa_m
-      IM_atp_m:
-        class: InhibitionModifier
-        inhibitor: atp_m
-      IM_nadh_m:
-        class: InhibitionModifier
-        inhibitor: nadh_m
-      IM_cit_m:
-        class: InhibitionModifier
-        inhibitor: cit_m
-      AM_adp_m:
-        class: ActivationModifier
-        activator: adp_m
     name: CSm
   CYOOm2i:
     enzyme: null
     mechanism:
-      class: RevMassaction
+      class: Convenience
       mechanism_stoichiometry:
         product1: 4.0
         substrate1: -1.0
@@ -981,20 +1057,16 @@ reactions:
   CYOR_u10mi:
     enzyme: null
     mechanism:
-      class: RevMassaction
-      mechanism_stoichiometry:
-        product1: 1.0
+      class: Convenience
+      mechanism_stoichiometry: &id003
+        product1: 2.0
         product2: 1.0
-        product3: 1.0
         substrate1: -1.0
-        substrate2: -1.0
-        substrate3: -1.0
-      product1: q10_m
-      product2: focytC_m
-      product3: focytC_m
+        substrate2: -2.0
+      product1: focytC_m
+      product2: q10_m
       substrate1: q10h2_m
       substrate2: ficytC_m
-      substrate3: ficytC_m
     modifiers:
       DSM_h_c:
         class: DisplacementSmallMoleculeModifier
@@ -1018,14 +1090,8 @@ reactions:
   FACOAL160i:
     enzyme: null
     mechanism:
-      class: Convenience
-      mechanism_stoichiometry:
-        product1: 1.0
-        product2: 1.0
-        product3: 1.0
-        substrate1: -1.0
-        substrate2: -1.0
-        substrate3: -1.0
+      class: H1GeneralizedReversibleHill
+      mechanism_stoichiometry: *id002
       product1: ppi_c
       product2: pmtcoa_c
       product3: amp_c
@@ -1042,7 +1108,7 @@ reactions:
   FADH2ETC:
     enzyme: null
     mechanism:
-      class: RevMassaction
+      class: H1GeneralizedReversibleHill
       mechanism_stoichiometry: *id001
       product1: q10h2_m
       product2: fad_m
@@ -1058,7 +1124,7 @@ reactions:
   FAOXC160:
     enzyme: null
     mechanism:
-      class: RevMassaction
+      class: Convenience
       mechanism_stoichiometry:
         product1: 8.0
         product2: 7.0
@@ -1177,9 +1243,6 @@ reactions:
         mechanism_stoichiometry:
           small_molecule: 1.0
         small_molecule: h_c
-      IM_g6p_c:
-        class: InhibitionModifier
-        inhibitor: g6p_c
     name: HEX1
   ICDHxm:
     enzyme: null
@@ -1202,20 +1265,14 @@ reactions:
         mechanism_stoichiometry:
           small_molecule: 1.0
         small_molecule: h_m
-      IM_atp_m:
-        class: InhibitionModifier
-        inhibitor: atp_m
-      AM_adp_m:
-        class: ActivationModifier
-        activator: adp_m
     name: ICDHxm
   LDH_L:
     enzyme: null
     mechanism:
       class: H1GeneralizedReversibleHill
       mechanism_stoichiometry: *id001
-      product1: nadh_c
-      product2: pyr_c
+      product1: pyr_c
+      product2: nadh_c
       substrate1: nad_c
       substrate2: lac_L_c
     modifiers:
@@ -1224,9 +1281,6 @@ reactions:
         mechanism_stoichiometry:
           small_molecule: 2.0
         small_molecule: h_c
-      IM_pmtcoa_c:
-        class: InhibitionModifier
-        inhibitor: pmtcoa_c
     name: LDH_L
   LDH_Lm:
     enzyme: null
@@ -1235,8 +1289,8 @@ reactions:
       mechanism_stoichiometry: *id001
       product1: pyr_m
       product2: nadh_m
-      substrate1: lac_L_m
-      substrate2: nad_m
+      substrate1: nad_m
+      substrate2: lac_L_m
     modifiers:
       DSM_h_m:
         class: DisplacementSmallMoleculeModifier
@@ -1244,6 +1298,22 @@ reactions:
           small_molecule: 2.0
         small_molecule: h_m
     name: LDH_Lm
+  L_LACDcm:
+    enzyme: null
+    mechanism:
+      class: Convenience
+      mechanism_stoichiometry: *id003
+      product1: focytC_m
+      product2: pyr_c
+      substrate1: lac_L_c
+      substrate2: ficytC_m
+    modifiers:
+      DSM_h_c:
+        class: DisplacementSmallMoleculeModifier
+        mechanism_stoichiometry:
+          small_molecule: 2.0
+        small_molecule: h_c
+    name: L_LACDcm
   L_LACt2r:
     enzyme: null
     mechanism:
@@ -1280,6 +1350,22 @@ reactions:
           small_molecule: 1.0
         small_molecule: h_m
     name: L_LACtm
+  MDH:
+    enzyme: null
+    mechanism:
+      class: H1GeneralizedReversibleHill
+      mechanism_stoichiometry: *id001
+      product1: oaa_c
+      product2: nadh_c
+      substrate1: nad_c
+      substrate2: mal_L_c
+    modifiers:
+      DSM_h_c:
+        class: DisplacementSmallMoleculeModifier
+        mechanism_stoichiometry:
+          small_molecule: 2.0
+        small_molecule: h_c
+    name: MDH
   MDHm:
     enzyme: null
     mechanism:
@@ -1287,8 +1373,8 @@ reactions:
       mechanism_stoichiometry: *id001
       product1: oaa_m
       product2: nadh_m
-      substrate1: mal_L_m
-      substrate2: nad_m
+      substrate1: nad_m
+      substrate2: mal_L_m
     modifiers:
       DSM_h_m:
         class: DisplacementSmallMoleculeModifier
@@ -1299,7 +1385,7 @@ reactions:
   NADH2_u10mi:
     enzyme: null
     mechanism:
-      class: RevMassaction
+      class: H1GeneralizedReversibleHill
       mechanism_stoichiometry: *id001
       product1: q10h2_m
       product2: nad_m
@@ -1320,7 +1406,7 @@ reactions:
   NAt3_1:
     enzyme: null
     mechanism:
-      class: RevMassaction
+      class: H1GeneralizedReversibleHill
       mechanism_stoichiometry: *id001
       product1: na1_e
       product2: h_c
@@ -1342,23 +1428,17 @@ reactions:
   O2t:
     enzyme: null
     mechanism:
-      class: RevMassaction
-      mechanism_stoichiometry:
-        product1: 1.0
-        substrate1: -1.0
-      product1: o2_c
-      substrate1: o2_e
+      class: ReversibleMichaelisMenten
+      product: o2_c
+      substrate: o2_e
     modifiers: {}
     name: O2t
   O2tm:
     enzyme: null
     mechanism:
-      class: RevMassaction
-      mechanism_stoichiometry:
-        product1: 1.0
-        substrate1: -1.0
-      product1: o2_m
-      substrate1: o2_c
+      class: ReversibleMichaelisMenten
+      product: o2_m
+      substrate: o2_c
     modifiers: {}
     name: O2tm
   OCOAT1m:
@@ -1375,7 +1455,7 @@ reactions:
   PDHm:
     enzyme: null
     mechanism:
-      class: Convenience
+      class: H1GeneralizedReversibleHill
       mechanism_stoichiometry: *id002
       product1: nadh_m
       product2: co2_m
@@ -1389,17 +1469,11 @@ reactions:
         mechanism_stoichiometry:
           small_molecule: 1.0
         small_molecule: h_m
-      IM_nadh_m:
-        class: InhibitionModifier
-        inhibitor: nadh_m
-      AM_coa_m:
-        class: ActivationModifier
-        activator: coa_m
     name: PDHm
   PFK:
     enzyme: null
     mechanism:
-      class: GeneralizedReversibleHill
+      class: H1GeneralizedReversibleHill
       mechanism_stoichiometry: *id001
       product1: fdp_c
       product2: adp_c
@@ -1411,15 +1485,6 @@ reactions:
         mechanism_stoichiometry:
           small_molecule: 1.0
         small_molecule: h_c
-      IM_atp_c:
-        class: InhibitionModifier
-        inhibitor: atp_c
-      AM_amp_c:
-        class: ActivationModifier
-        activator: amp_c
-      AM_adp_c:
-        class: ActivationModifier
-        activator: adp_c
     name: PFK
   PGI:
     enzyme: null
@@ -1451,7 +1516,7 @@ reactions:
   PPA:
     enzyme: null
     mechanism:
-      class: RevMassaction
+      class: Convenience
       mechanism_stoichiometry:
         product1: 2.0
         substrate1: -1.0
@@ -1479,12 +1544,6 @@ reactions:
         mechanism_stoichiometry:
           small_molecule: -1.0
         small_molecule: h_c
-      IM_atp_c:
-        class: InhibitionModifier
-        inhibitor: atp_c
-      AM_fdp_c:
-        class: ActivationModifier
-        activator: fdp_c
     name: PYK
   PYRt2m:
     enzyme: null
@@ -1528,8 +1587,8 @@ reactions:
       class: H1GeneralizedReversibleHill
       mechanism_stoichiometry: *id002
       product1: succoa_m
-      product2: gdp_m
-      product3: pi_m
+      product2: pi_m
+      product3: gdp_m
       substrate1: succ_m
       substrate2: gtp_m
       substrate3: coa_m
@@ -1546,14 +1605,10 @@ reactions:
   cyt_atp2adp:
     enzyme: null
     mechanism:
-      class: IrrevMichaelisMenten
-      mechanism_stoichiometry:
-        product1: 1.0
-        product2: 1.0
-        substrate1: -1.0
+      class: UniBiReversibleHill
       product1: pi_c
       product2: adp_c
-      substrate1: atp_c
+      substrate: atp_c
     modifiers:
       DSM_h_c:
         class: DisplacementSmallMoleculeModifier
@@ -1579,8 +1634,8 @@ reactions:
       mechanism_stoichiometry: *id001
       product1: q10h2_m
       product2: fum_m
-      substrate1: q10_m 
-      substrate2: succ_m
+      substrate1: succ_m
+      substrate2: q10_m
     modifiers: {}
     name: r0509
   r2435:
