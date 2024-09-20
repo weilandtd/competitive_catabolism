@@ -277,6 +277,6 @@ if __name__ == '__main__':
                       )
     
     # Make a histogram of the slow eigenvalues
-    # import matplotlib.pyplot as plt
-    # plt.hist(np.log10(-1/np.real(lambda_max_all.values.flatten())), bins=100)
-    # plt.show()
+    import matplotlib.pyplot as plt
+    plt.hist(-1/np.real(lambda_max_all.values.flatten()), bins=100)
+    plt.show()
