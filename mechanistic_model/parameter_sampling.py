@@ -16,6 +16,7 @@ import pandas as pd
 import numpy as np
 import os
 
+from tqdm import tqdm
 
 if __name__ == '__main__':
 
@@ -45,12 +46,12 @@ if __name__ == '__main__':
 
     # Scaling parameters
     CONCENTRATION_SCALING = 1e3 # 1 mol to 1 mmol
-    TIME_SCALING = 1 # 1min
+    TIME_SCALING = 1.0 # 1min
     DENSITY = 1200 # g/L 
     GDW_GWW_RATIO = 1.0 # Fluxes are in gWW
 
     # To test how close to zero the dxdt is
-    flux_scaling_factor = 1e-3 / (GDW_GWW_RATIO / DENSITY) \
+    flux_scaling_factor = 1e-6 / (GDW_GWW_RATIO / DENSITY) \
                           * CONCENTRATION_SCALING \
                           / TIME_SCALING
     
@@ -96,8 +97,8 @@ if __name__ == '__main__':
 
     # Hexokinase HK1 
     # https://www.brenda-enzymes.org/enzyme.php?ecno=2.7.1.1#KM%20VALUE%20[mM]
-    kmodel.reactions.HEX1.parameters.km_substrate1.bounds = (0.1, 0.4) # ATP Brenda
-    kmodel.reactions.HEX1.parameters.km_substrate2.bounds = (0.02, 0.05) # Glucose
+    # kmodel.reactions.HEX1.parameters.km_substrate1.bounds = (0.1, 0.4) # ATP Brenda
+    # kmodel.reactions.HEX1.parameters.km_substrate2.bounds = (0.1, 1.0) # Glucose
 
     # PFK 
     # HAS actual hill kinetics
@@ -138,34 +139,52 @@ if __name__ == '__main__':
     # # G3PD1 - Glycerol 3-phosphate dehydrogenase (NAD+)
     # # https://www.brenda-enzymes.org/enzyme.php?ecno=1.1.1.8#KM%20VALUE%20[mM]
     kmodel.reactions.G3PD1.parameters.km_product1.bounds = (0.002, 0.010) # NADH
-    kmodel.reactions.G3PD1.parameters.km_product2.bounds = (0.02, 0.03) # DAHP (high affinity)
+    kmodel.reactions.G3PD1.parameters.km_product2.bounds = (0.02, 0.03) # DAHP
     kmodel.reactions.G3PD1.parameters.km_substrate1.bounds = (0.01, 0.04) # NAD+
-    kmodel.reactions.G3PD1.parameters.km_substrate2.bounds = (0.5,2.0) # Glycerol-3P (loew affinity)
+    kmodel.reactions.G3PD1.parameters.km_substrate2.bounds = (0.5,1.0) # Glycerol-3P
+
+    # r0205 - GPD2 - Glycerol-3-phosphate dehydrogenase (Quinone)
+    # Brenda 
+    kmodel.reactions.r0205.parameters.km_substrate2.bounds = (6, 10) # Glycerol-3P
 
     # TPI - le
     # https://www.brenda-enzymes.org/enzyme.php?ecno=5.3.1.1#KM%20VALUE%20[mM]
     kmodel.reactions.TPI.parameters.km_substrate.bounds = (0.5, 1.5) #DHAP
     kmodel.reactions.TPI.parameters.km_product.bounds = (0.25, 1.0) # GAP
 
+    # NOTE DW -> TRANSPORTERS SHOULD HAVE SAME KM for substrate and product pairs
     
-    for i, sample in tfa_samples.iterrows():
+    for i, sample in tqdm(tfa_samples.iterrows()):
         # Load fluxes and concentrations
         fluxes = load_fluxes(sample, tmodel, kmodel,
                                 density=DENSITY,
                                 ratio_gdw_gww=GDW_GWW_RATIO,
                                 concentration_scaling=CONCENTRATION_SCALING,
-                                time_scaling=TIME_SCALING)
+                                time_scaling=TIME_SCALING,
+                                xmol_in_flux=1e-6)
+        
         concentrations = load_concentrations(sample, tmodel, kmodel,
                                                 concentration_scaling=CONCENTRATION_SCALING)
         
         # ATP dissipation should be saturated KM << [atp_c]
         atp_c = concentrations['atp_c']
         kmodel.reactions.cyt_atp2adp.parameters.km_substrate1.bounds = (atp_c*1e-4, atp_c*1e-3)
+        kmodel.reactions.NaK_pump.parameters.km_substrate1.bounds = (atp_c*1e-4, atp_c*1e-3)
 
-        # Malate dydrognease in cytosol should be sensitive to NADH
-        nadh_c = concentrations['nadh_c']
-        kmodel.reactions.MDH.parameters.km_substrate2.bounds = (nadh_c*2.0, nadh_c*5.0)
-        
+        # FATP1t - Fatty acid transport unsaturated
+        hdca_e = concentrations['hdca_e']
+        kmodel.reactions.FATP1t.parameters.km_substrate1.bounds = (hdca_e*4.9, hdca_e*5.0)
+        kmodel.reactions.FATP1t.parameters.km_product1.bounds = (hdca_e*4.9, hdca_e*5.0)
+
+        # ASPGLUm unsaturated - This is a commited step in the malate aspartate shuttle
+        # Substrate control of asp and glu 
+        asp_L_c = concentrations['asp_L_c'] 
+        glu_L_c = concentrations['glu_L_c']
+        kmodel.reactions.ASPGLUm.parameters.km_substrate1.bounds = (glu_L_c*4.9, glu_L_c*5)
+        kmodel.reactions.ASPGLUm.parameters.km_substrate2.bounds = (asp_L_c*4.9, asp_L_c*5)
+        kmodel.reactions.ASPGLUm.parameters.km_product1.bounds = (glu_L_c*4.9, glu_L_c*5)
+        kmodel.reactions.ASPGLUm.parameters.km_product2.bounds = (asp_L_c*4.9, asp_L_c*5)
+
         # Fetch equilibrium constants
         load_equilibrium_constants(sample, tmodel, kmodel,
                                 concentration_scaling=CONCENTRATION_SCALING,
@@ -206,11 +225,10 @@ if __name__ == '__main__':
     Prune parameters based on the time scales
     """
 
-    MAX_EIGENVALUES = -2.0 # 20 min 
-    #MIN_EIGENVALUES = -1e13   
+    MAX_EIGENVALUES = -0.01 # 100 min -> Effects observed in fules choice are typically acute < 15 min 
 
     # Prune parameter based on eigenvalues
-    is_selected = (lambda_max_all < MAX_EIGENVALUES ) #& (lambda_min_all > MIN_EIGENVALUES )
+    is_selected = (lambda_max_all < MAX_EIGENVALUES )
     is_selected.columns = range(lambda_max_all.shape[1])
 
     fast_parameters = []
@@ -228,4 +246,37 @@ if __name__ == '__main__':
     parameter_population = ParameterValuePopulation(fast_parameters,
                                                kmodel=kmodel,
                                                index=fast_index)
+    
     parameter_population.save( tfa_sample_file.replace(".csv",'_pruned_parameters.hdf5'))
+
+
+
+    # Modal analysis
+    from skimpy.analysis.modal import modal_matrix
+    from skimpy.viz.modal import plot_modal_matrix
+    import random
+
+    # Pic a random parameter set and plot the modal matrix
+    index = random.choice(list(parameter_population._index.keys()))
+    # Print the index
+    print(f"Will perform modal analysis on index: {index}")
+
+    sample = tfa_samples.iloc[int(index.split(',')[0])]
+    concentrations = load_concentrations(sample, tmodel, kmodel,
+                                                concentration_scaling=CONCENTRATION_SCALING)
+    parameter_values = parameter_population[index]
+
+    kmodel.prepare()
+    kmodel.compile_jacobian(sim_type=QSSA,ncpu=8)
+    M = modal_matrix(kmodel,concentrations,parameter_values)
+
+    plot_modal_matrix(M,filename='modal_matrix.html',
+                      width=800, height=600,
+                      clustered=True,
+                      backend='svg',
+                      )
+    
+    # Make a histogram of the slow eigenvalues
+    # import matplotlib.pyplot as plt
+    # plt.hist(np.log10(-1/np.real(lambda_max_all.values.flatten())), bins=100)
+    # plt.show()

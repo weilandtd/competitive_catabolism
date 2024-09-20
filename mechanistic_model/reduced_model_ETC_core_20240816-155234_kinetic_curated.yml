@@ -26,6 +26,15 @@ boundary_conditions:
   CC_na1_c:
     class: ConstantConcentration
     reactant: na1_c
+  CC_k_e:
+    class: ConstantConcentration
+    reactant: k_e
+  CC_k_c:
+    class: ConstantConcentration
+    reactant: k_c
+  CC_pi_e:
+    class: ConstantConcentration
+    reactant: pi_e
 compartments: {}
 constraints: {}
 initial_conditions: {}
@@ -38,7 +47,7 @@ parameters:
   h_c: null
   na1_c: null
   na1_e: null
-  pi_c: null
+  pi_e: null
   hdca_e: null
   hill_coefficient_ATPS4mi: 1.0
   hill_coefficient_FBA: 1.0
@@ -545,7 +554,19 @@ parameters:
   vmax_forward_r0205: null
   vmax_forward_r0509: null
   vmax_forward_r2435: null
+  k_c: null
+  k_e: null
+  pi_e: null
 reactants:
+  k_c:
+    compartment: null
+    name: k_c
+  k_e:
+    compartment: null
+    name: k_e
+  pi_e:
+    compartment: null
+    name: pi_e
   _13dpg_c:
     compartment: null
     name: _13dpg_c
@@ -853,6 +874,9 @@ reactions:
       IM_nadh_m:
         class: InhibitionModifier
         inhibitor: nadh_m
+      IM_atp_m:
+        class: InhibitionModifier
+        inhibitor: atp_m
       IM_succoa_m:
         class: InhibitionModifier
         inhibitor: succoa_m
@@ -964,9 +988,12 @@ reactions:
   BHBt:
     enzyme: null
     mechanism:
-      class: ReversibleMichaelisMenten
-      product: bhb_c
-      substrate: bhb_e
+      class: H1GeneralizedReversibleHill
+      mechanism_stoichiometry:
+        product1: 1.0
+        substrate1: -1.0
+      product1: bhb_c
+      substrate1: bhb_e
     modifiers:
       DSM_h_c:
         class: DisplacementSmallMoleculeModifier
@@ -982,9 +1009,12 @@ reactions:
   BHBtm:
     enzyme: null
     mechanism:
-      class: ReversibleMichaelisMenten
-      product: bhb_m
-      substrate: bhb_c
+      class: H1GeneralizedReversibleHill
+      mechanism_stoichiometry:
+        product1: 1.0
+        substrate1: -1.0
+      product1: bhb_m
+      substrate1: bhb_c
     modifiers:
       DSM_h_c:
         class: DisplacementSmallMoleculeModifier
@@ -1062,6 +1092,9 @@ reactions:
       IM_nadh_m:
         class: InhibitionModifier
         inhibitor: nadh_m
+      IM_cit_m:
+        class: InhibitionModifier
+        inhibitor: cit_m
       AM_adp_m:
         class: ActivationModifier
         activator: adp_m
@@ -1207,9 +1240,12 @@ reactions:
   FATP1t:
     enzyme: null
     mechanism:
-      class: ReversibleMichaelisMenten
-      product: hdca_e
-      substrate: hdca_c
+      class: H1GeneralizedReversibleHill
+      mechanism_stoichiometry:
+        product1: 1.0
+        substrate1: -1.0
+      product1: hdca_e
+      substrate1: hdca_c
     modifiers:
       DSM_na1_c:
         class: DisplacementSmallMoleculeModifier
@@ -1300,6 +1336,15 @@ reactions:
         mechanism_stoichiometry:
           small_molecule: 1.0
         small_molecule: h_c
+      IM_g6p_c:
+        class: InhibitionModifier
+        inhibitor: g6p_c
+      IM_atp_c:
+        class: InhibitionModifier
+        inhibitor: atp_c
+      AM_pi_c:
+        class: ActivationModifier
+        activator: pi_c
     name: HEX1
   ICDHxm:
     enzyme: null
@@ -1322,6 +1367,12 @@ reactions:
         mechanism_stoichiometry:
           small_molecule: 1.0
         small_molecule: h_m
+      IM_atp_m:
+        class: InhibitionModifier
+        inhibitor: atp_m
+      AM_adp_m:
+        class: ActivationModifier
+        activator: adp_m
     name: ICDHxm
   LDH_L:
     enzyme: null
@@ -1385,9 +1436,12 @@ reactions:
   L_LACt2r:
     enzyme: null
     mechanism:
-      class: ReversibleMichaelisMenten
-      product: lac_L_c
-      substrate: lac_L_e
+      class: H1GeneralizedReversibleHill
+      mechanism_stoichiometry:
+        product1: 1.0
+        substrate1: -1.0
+      product1: lac_L_c
+      substrate1: lac_L_e
     modifiers:
       DSM_h_c:
         class: DisplacementSmallMoleculeModifier
@@ -1403,9 +1457,12 @@ reactions:
   L_LACtm:
     enzyme: null
     mechanism:
-      class: ReversibleMichaelisMenten
-      product: lac_L_m
-      substrate: lac_L_c
+      class: H1GeneralizedReversibleHill
+      mechanism_stoichiometry:
+        product1: 1.0
+        substrate1: -1.0
+      product1: lac_L_m
+      substrate1: lac_L_c
     modifiers:
       DSM_h_c:
         class: DisplacementSmallMoleculeModifier
@@ -1546,12 +1603,18 @@ reactions:
       IM_nadh_m:
         class: InhibitionModifier
         inhibitor: nadh_m
+      IM_accoa_m:
+        class: InhibitionModifier
+        inhibitor: accoa_m
       AM_coa_m:
         class: ActivationModifier
         activator: coa_m
       AM_nad_m:
         class: ActivationModifier
         activator: nad_m
+      AM_adp_m:
+        class: ActivationModifier
+        activator: adp_m
     name: PDHm
   PFK:
     enzyme: null
@@ -1568,6 +1631,9 @@ reactions:
         mechanism_stoichiometry:
           small_molecule: 1.0
         small_molecule: h_c
+      IM_cit_m:
+        class: InhibitionModifier
+        inhibitor: cit_m
       IM_atp_c:
         class: InhibitionModifier
         inhibitor: atp_c
@@ -1639,9 +1705,15 @@ reactions:
       IM_atp_c:
         class: InhibitionModifier
         inhibitor: atp_c
+      IM_nadh_c:
+        class: InhibitionModifier
+        inhibitor: nadh_c
       AM_fdp_c:
         class: ActivationModifier
         activator: fdp_c
+      AM_adp_c:
+        class: ActivationModifier
+        activator: adp_c
     name: PYK
   PYRt2m:
     enzyme: null
@@ -1751,3 +1823,86 @@ reactions:
       substrate2: crn_m
     modifiers: {}
     name: r2435
+  Na_dummy:
+    enzyme: null
+    mechanism:
+      class: ReversibleMichaelisMenten
+      product: na1_c
+      substrate: na1_e
+    modifiers: {}
+    name: Na_dummy
+  NaK_pump:
+    enzyme: null
+    mechanism:
+      class: IrrevMichaelisMenten
+      mechanism_stoichiometry:
+        product1: 1.0
+        product2: 1.0
+        substrate1: -1.0
+      product1: pi_c
+      product2: adp_c
+      substrate1: atp_c
+    modifiers:
+      DSM_h_c:
+        class: DisplacementSmallMoleculeModifier
+        mechanism_stoichiometry:
+          small_molecule: 1.0
+        small_molecule: h_c
+      DSM_k_c:
+        class: DisplacementSmallMoleculeModifier
+        mechanism_stoichiometry:
+          small_molecule: 2.0
+        small_molecule: k_c
+      DSM_k_e:
+        class: DisplacementSmallMoleculeModifier
+        mechanism_stoichiometry:
+          small_molecule: -2.0
+        small_molecule: k_e
+      DSM_na1_c:
+        class: DisplacementSmallMoleculeModifier
+        mechanism_stoichiometry:
+          small_molecule: -3.0
+        small_molecule: na1_c
+      DSM_na1_e:
+        class: DisplacementSmallMoleculeModifier
+        mechanism_stoichiometry:
+          small_molecule: 3.0
+        small_molecule: na1_e
+    name: NaK_pump  
+  K_channel:
+    enzyme: null
+    mechanism:
+      class: RevMassaction
+      mechanism_stoichiometry:
+        product1: 1.0
+        substrate1: -1.0
+      product1: k_c
+      substrate1: k_e
+    modifiers: {}
+    name: K_channel
+  PIt1:
+    enzyme: null
+    mechanism:
+      class: ReversibleMichaelisMenten
+      product: pi_c
+      substrate: pi_e
+    modifiers:
+      DSM_na1_c:
+        class: DisplacementSmallMoleculeModifier
+        mechanism_stoichiometry:
+          small_molecule: 2.0
+        small_molecule: na1_c
+      DSM_na1_e:
+        class: DisplacementSmallMoleculeModifier
+        mechanism_stoichiometry:
+          small_molecule: -2.0
+        small_molecule: na1_e
+    name: PIt1
+  PiE:
+    enzyme: null
+    mechanism:
+      class: ReversibleMichaelisMenten
+      product: pi_c
+      substrate: pi_e
+    modifiers: {}
+    name: PiE

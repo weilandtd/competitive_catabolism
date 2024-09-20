@@ -30,9 +30,10 @@ parameters:
   glc_D_e: null
   h_e: null
   hdca_e: null
-  hill_coefficient_ATPS4mi: 1.0
-  hill_coefficient_FBA: 1.0
-  hill_coefficient_cyt_atp2adp: 1.0
+  hill_coefficient_ATPS4mi: null
+  hill_coefficient_FBA: null
+  hill_coefficient_NaK_pump: null
+  hill_coefficient_cyt_atp2adp: null
   k1_bwd_ACONTm: null
   k1_bwd_BHBt: null
   k1_bwd_BHBtm: null
@@ -42,14 +43,18 @@ parameters:
   k1_bwd_FATP1t: null
   k1_bwd_FUMm: null
   k1_bwd_GLCt1r: null
+  k1_bwd_K_channel: null
   k1_bwd_L_LACt2r: null
   k1_bwd_L_LACtm: null
+  k1_bwd_Na_dummy: null
   k1_bwd_O2t: null
   k1_bwd_O2tm: null
   k1_bwd_PGI: null
   k1_bwd_PGM: null
+  k1_bwd_PIt1: null
   k1_bwd_PYRt2m: null
   k1_bwd_PiC: null
+  k1_bwd_PiE: null
   k1_bwd_TPI: null
   k1_fwd_ACONTm: null
   k1_fwd_BHBt: null
@@ -60,14 +65,18 @@ parameters:
   k1_fwd_FATP1t: null
   k1_fwd_FUMm: null
   k1_fwd_GLCt1r: null
+  k1_fwd_K_channel: null
   k1_fwd_L_LACt2r: null
   k1_fwd_L_LACtm: null
+  k1_fwd_Na_dummy: null
   k1_fwd_O2t: null
   k1_fwd_O2tm: null
   k1_fwd_PGI: null
   k1_fwd_PGM: null
+  k1_fwd_PIt1: null
   k1_fwd_PYRt2m: null
   k1_fwd_PiC: null
+  k1_fwd_PiE: null
   k1_fwd_TPI: null
   k2_bwd_ACONTm: null
   k2_bwd_BHBt: null
@@ -78,14 +87,18 @@ parameters:
   k2_bwd_FATP1t: null
   k2_bwd_FUMm: null
   k2_bwd_GLCt1r: null
+  k2_bwd_K_channel: null
   k2_bwd_L_LACt2r: null
   k2_bwd_L_LACtm: null
+  k2_bwd_Na_dummy: null
   k2_bwd_O2t: null
   k2_bwd_O2tm: null
   k2_bwd_PGI: null
   k2_bwd_PGM: null
+  k2_bwd_PIt1: null
   k2_bwd_PYRt2m: null
   k2_bwd_PiC: null
+  k2_bwd_PiE: null
   k2_bwd_TPI: null
   k2_fwd_ACONTm: null
   k2_fwd_BHBt: null
@@ -96,75 +109,84 @@ parameters:
   k2_fwd_FATP1t: null
   k2_fwd_FUMm: null
   k2_fwd_GLCt1r: null
+  k2_fwd_K_channel: null
   k2_fwd_L_LACt2r: null
   k2_fwd_L_LACtm: null
+  k2_fwd_Na_dummy: null
   k2_fwd_O2t: null
   k2_fwd_O2tm: null
   k2_fwd_PGI: null
   k2_fwd_PGM: null
+  k2_fwd_PIt1: null
   k2_fwd_PYRt2m: null
   k2_fwd_PiC: null
+  k2_fwd_PiE: null
   k2_fwd_TPI: null
-  k_equilibrium_ACACT1rm: 4.188308368047225e-05
-  k_equilibrium_ACONTm: 0.010842487564550293
-  k_equilibrium_ADK1: 32670403.98228655
-  k_equilibrium_AKGDm: 0.0032072010606079364
-  k_equilibrium_AKGMALtm: 29.243978319472713
-  k_equilibrium_ASPGLUm: 37.89278396460706
-  k_equilibrium_ASPTA: 0.2355043858130296
-  k_equilibrium_ASPTAm: 0.23596625370959765
-  k_equilibrium_ATPS4mi: 29225796330047.707
-  k_equilibrium_ATPtm: 34.69122871362541
-  k_equilibrium_BDHm: 9.010262472754527e-11
-  k_equilibrium_BHBt: 0.10328221266672102
-  k_equilibrium_BHBtm: 0.0340935947295814
-  k_equilibrium_C160CPT1: 58.39192026420905
-  k_equilibrium_C160CPT2: 0.01712604383486714
-  k_equilibrium_CO2t: 0.03412010742297334
-  k_equilibrium_CO2tm: 0.03412010742297334
-  k_equilibrium_CSm: 0.001975852840284076
-  k_equilibrium_CYOOm2i: 3.914218253263365e+44
-  k_equilibrium_CYOR_u10mi: 9.035935534030964e-18
-  k_equilibrium_ENO: 0.11270027016955442
-  k_equilibrium_FACOAL160i: 82189935.30511856
-  k_equilibrium_FADH2ETC: 0.005876120266897479
-  k_equilibrium_FAOXC160: 8.645138613059912e-38
-  k_equilibrium_FATP1t: 56.313551317942995
-  k_equilibrium_FBA: 0.00015645069947599525
-  k_equilibrium_FUMm: 1.9926421063528572
-  k_equilibrium_G3PD1: 8.712540807499112e-11
-  k_equilibrium_GAPD: 7.282769226440488e-16
-  k_equilibrium_GLCt1r: 0.03412010742297333
-  k_equilibrium_HEX1: 2.295746385327852e-05
-  k_equilibrium_ICDHxm: 4.10819272037982e-10
-  k_equilibrium_LDH_L: 3.685317860912816e-19
-  k_equilibrium_LDH_Lm: 3.664356145223258e-22
-  k_equilibrium_L_LACDcm: 0.508163746060314
-  k_equilibrium_L_LACt2r: 0.5861412068924836
-  k_equilibrium_L_LACtm: 0.4009572193398859
-  k_equilibrium_MDH: 2.6367074365461844e-20
-  k_equilibrium_MDHm: 1.4456079196314295e-21
-  k_equilibrium_NADH2_u10mi: 2.056984824662962e+21
-  k_equilibrium_NAt3_1: 9.231724008556618
-  k_equilibrium_NDPK1m: 4.916262416645838
-  k_equilibrium_O2t: 0.2860404674979556
-  k_equilibrium_O2tm: 0.5547451490869446
-  k_equilibrium_OCOAT1m: 5.428600170483765
-  k_equilibrium_PDHm: 0.003080315639852088
-  k_equilibrium_PFK: 1.1101112971041165e-05
-  k_equilibrium_PGI: 0.8224699819071645
-  k_equilibrium_PGK: 849.3255595227068
-  k_equilibrium_PGM: 0.07275956537388899
-  k_equilibrium_PPA: 4.890864162714257e-10
-  k_equilibrium_PYK: 3672471478698.6143
-  k_equilibrium_PYRt2m: 0.03412010742297325
-  k_equilibrium_PiC: 0.023004395856193675
-  k_equilibrium_SUCOAS1m: 0.3504737470728471
-  k_equilibrium_TPI: 0.11270027016955457
-  k_equilibrium_cyt_atp2adp: 0.002282693860153978
-  k_equilibrium_r0205: 18610480.744723763
-  k_equilibrium_r0509: 3.2142932531938984
-  k_equilibrium_r2435: 0.043795669664758674
+  k_equilibrium_ACACT1rm: 4.904649714044893e-05
+  k_equilibrium_ACONTm: 0.005517356045146882
+  k_equilibrium_ADK1: 16624805.870048136
+  k_equilibrium_AKGDm: 0.0063026633286139624
+  k_equilibrium_AKGMALtm: 0.9978093669684575
+  k_equilibrium_ASPGLUm: 1110.572352347475
+  k_equilibrium_ASPTA: 2.036298832298862
+  k_equilibrium_ASPTAm: 0.2359662537095983
+  k_equilibrium_ATPS4mi: 29225796330048.02
+  k_equilibrium_ATPtm: 1016.740272087172
+  k_equilibrium_BDHm: 4.686754504083976e-18
+  k_equilibrium_BHBt: 1.0003425749209167
+  k_equilibrium_BHBtm: 0.9992246474732026
+  k_equilibrium_C160CPT1: 0.48715619518494985
+  k_equilibrium_C160CPT2: 0.017126043834867096
+  k_equilibrium_CO2t: 0.999998311067222
+  k_equilibrium_CO2tm: 0.999998311067222
+  k_equilibrium_CSm: 0.0038828670245063374
+  k_equilibrium_CYOOm2i: 1.351980168765497e+40
+  k_equilibrium_CYOR_u10mi: 5.503481616485542e-19
+  k_equilibrium_ENO: 0.05734915656649577
+  k_equilibrium_FACOAL160i: 82189935.30511768
+  k_equilibrium_FADH2ETC: 0.011547516672896066
+  k_equilibrium_FAOXC160: 8.645138613060281e-38
+  k_equilibrium_FATP1t: 0.9988228002930455
+  k_equilibrium_FBA: 7.961219299375281e-05
+  k_equilibrium_FUMm: 5.489416535356556
+  k_equilibrium_G3PD1: 5.144594847129094e-19
+  k_equilibrium_GAPD: 2.643623874775543e-16
+  k_equilibrium_GLCt1r: 0.999998311067222
+  k_equilibrium_HEX1: 4.5115090326957296e-05
+  k_equilibrium_ICDHxm: 2.0905130677321717e-10
+  k_equilibrium_K_channel: 10.349232782037971
+  k_equilibrium_LDH_L: 1.8753271015661562e-19
+  k_equilibrium_LDH_Lm: 1.8646604304643677e-22
+  k_equilibrium_L_LACDcm: 0.5081637460603095
+  k_equilibrium_L_LACt2r: 1.0000816360822984
+  k_equilibrium_L_LACtm: 0.9998160265224979
+  k_equilibrium_MDH: 7.378513384929864e-21
+  k_equilibrium_MDHm: 7.356184221384818e-22
+  k_equilibrium_NADH2_u10mi: 1.214588537775037e+25
+  k_equilibrium_NAt3_1: 1.0000016889356298
+  k_equilibrium_NDPK1m: 4.752970952997086
+  k_equilibrium_NaK_pump: 0.0007410768467424846
+  k_equilibrium_Na_dummy: 1.7539166658508545
+  k_equilibrium_O2t: 0.999998311067222
+  k_equilibrium_O2tm: 0.999998311067222
+  k_equilibrium_OCOAT1m: 0.007318933012764199
+  k_equilibrium_PDHm: 0.006053313171507854
+  k_equilibrium_PFK: 2.1815463485822147e-05
+  k_equilibrium_PGI: 0.5961054048308927
+  k_equilibrium_PGK: 0.0005991394053821478
+  k_equilibrium_PGM: 0.2004411931251522
+  k_equilibrium_PIt1: 1.060435844676379
+  k_equilibrium_PPA: 4.161595826814543e-05
+  k_equilibrium_PYK: 4279310744769.2915
+  k_equilibrium_PYRt2m: 1.0000016889356276
+  k_equilibrium_PiC: 0.2252386432434911
+  k_equilibrium_PiE: 0.009900749858660313
+  k_equilibrium_SUCOAS1m: 0.36724125958618486
+  k_equilibrium_TPI: 0.08808793454755724
+  k_equilibrium_cyt_atp2adp: 0.0022826938601539825
+  k_equilibrium_r0205: 24696600970.921055
+  k_equilibrium_r0509: 4597.376430686776
+  k_equilibrium_r2435: 0.9999791033605977
   kcat_forward_ACACT1rm: null
   kcat_forward_ACONTm: null
   kcat_forward_ADK1: null
@@ -197,6 +219,7 @@ parameters:
   kcat_forward_GLCt1r: null
   kcat_forward_HEX1: null
   kcat_forward_ICDHxm: null
+  kcat_forward_K_channel: null
   kcat_forward_LDH_L: null
   kcat_forward_LDH_Lm: null
   kcat_forward_L_LACDcm: null
@@ -207,6 +230,8 @@ parameters:
   kcat_forward_NADH2_u10mi: null
   kcat_forward_NAt3_1: null
   kcat_forward_NDPK1m: null
+  kcat_forward_NaK_pump: null
+  kcat_forward_Na_dummy: null
   kcat_forward_O2t: null
   kcat_forward_O2tm: null
   kcat_forward_OCOAT1m: null
@@ -215,10 +240,12 @@ parameters:
   kcat_forward_PGI: null
   kcat_forward_PGK: null
   kcat_forward_PGM: null
+  kcat_forward_PIt1: null
   kcat_forward_PPA: null
   kcat_forward_PYK: null
   kcat_forward_PYRt2m: null
   kcat_forward_PiC: null
+  kcat_forward_PiE: null
   kcat_forward_SUCOAS1m: null
   kcat_forward_TPI: null
   kcat_forward_cyt_atp2adp: null
@@ -255,6 +282,7 @@ parameters:
   km_product1_NADH2_u10mi: null
   km_product1_NAt3_1: null
   km_product1_NDPK1m: null
+  km_product1_NaK_pump: null
   km_product1_OCOAT1m: null
   km_product1_PDHm: null
   km_product1_PFK: null
@@ -294,6 +322,7 @@ parameters:
   km_product2_NADH2_u10mi: null
   km_product2_NAt3_1: null
   km_product2_NDPK1m: null
+  km_product2_NaK_pump: null
   km_product2_OCOAT1m: null
   km_product2_PDHm: null
   km_product2_PFK: null
@@ -320,14 +349,18 @@ parameters:
   km_product_FATP1t: null
   km_product_FUMm: null
   km_product_GLCt1r: null
+  km_product_K_channel: null
   km_product_L_LACt2r: null
   km_product_L_LACtm: null
+  km_product_Na_dummy: null
   km_product_O2t: null
   km_product_O2tm: null
   km_product_PGI: null
   km_product_PGM: null
+  km_product_PIt1: null
   km_product_PYRt2m: null
   km_product_PiC: null
+  km_product_PiE: null
   km_product_TPI: null
   km_substrate1_ACACT1rm: null
   km_substrate1_ADK1: null
@@ -424,14 +457,19 @@ parameters:
   km_substrate_FBA: null
   km_substrate_FUMm: null
   km_substrate_GLCt1r: null
+  km_substrate_K_channel: null
   km_substrate_L_LACt2r: null
   km_substrate_L_LACtm: null
+  km_substrate_NaK_pump: null
+  km_substrate_Na_dummy: null
   km_substrate_O2t: null
   km_substrate_O2tm: null
   km_substrate_PGI: null
   km_substrate_PGM: null
+  km_substrate_PIt1: null
   km_substrate_PYRt2m: null
   km_substrate_PiC: null
+  km_substrate_PiE: null
   km_substrate_TPI: null
   km_substrate_cyt_atp2adp: null
   lac_L_e: null
@@ -445,14 +483,18 @@ parameters:
   total_enzyme_concentration_FATP1t: null
   total_enzyme_concentration_FUMm: null
   total_enzyme_concentration_GLCt1r: null
+  total_enzyme_concentration_K_channel: null
   total_enzyme_concentration_L_LACt2r: null
   total_enzyme_concentration_L_LACtm: null
+  total_enzyme_concentration_Na_dummy: null
   total_enzyme_concentration_O2t: null
   total_enzyme_concentration_O2tm: null
   total_enzyme_concentration_PGI: null
   total_enzyme_concentration_PGM: null
+  total_enzyme_concentration_PIt1: null
   total_enzyme_concentration_PYRt2m: null
   total_enzyme_concentration_PiC: null
+  total_enzyme_concentration_PiE: null
   total_enzyme_concentration_TPI: null
   vmax_backward_ACONTm: null
   vmax_backward_ATPS4mi: null
@@ -465,14 +507,19 @@ parameters:
   vmax_backward_FBA: null
   vmax_backward_FUMm: null
   vmax_backward_GLCt1r: null
+  vmax_backward_K_channel: null
   vmax_backward_L_LACt2r: null
   vmax_backward_L_LACtm: null
+  vmax_backward_NaK_pump: null
+  vmax_backward_Na_dummy: null
   vmax_backward_O2t: null
   vmax_backward_O2tm: null
   vmax_backward_PGI: null
   vmax_backward_PGM: null
+  vmax_backward_PIt1: null
   vmax_backward_PYRt2m: null
   vmax_backward_PiC: null
+  vmax_backward_PiE: null
   vmax_backward_TPI: null
   vmax_backward_cyt_atp2adp: null
   vmax_forward_ACACT1rm: null
@@ -507,6 +554,7 @@ parameters:
   vmax_forward_GLCt1r: null
   vmax_forward_HEX1: null
   vmax_forward_ICDHxm: null
+  vmax_forward_K_channel: null
   vmax_forward_LDH_L: null
   vmax_forward_LDH_Lm: null
   vmax_forward_L_LACDcm: null
@@ -517,6 +565,8 @@ parameters:
   vmax_forward_NADH2_u10mi: null
   vmax_forward_NAt3_1: null
   vmax_forward_NDPK1m: null
+  vmax_forward_NaK_pump: null
+  vmax_forward_Na_dummy: null
   vmax_forward_O2t: null
   vmax_forward_O2tm: null
   vmax_forward_OCOAT1m: null
@@ -525,10 +575,12 @@ parameters:
   vmax_forward_PGI: null
   vmax_forward_PGK: null
   vmax_forward_PGM: null
+  vmax_forward_PIt1: null
   vmax_forward_PPA: null
   vmax_forward_PYK: null
   vmax_forward_PYRt2m: null
   vmax_forward_PiC: null
+  vmax_forward_PiE: null
   vmax_forward_SUCOAS1m: null
   vmax_forward_TPI: null
   vmax_forward_cyt_atp2adp: null
@@ -683,6 +735,12 @@ reactants:
   icit_m:
     compartment: null
     name: icit_m
+  k_c:
+    compartment: null
+    name: k_c
+  k_e:
+    compartment: null
+    name: k_e
   lac_L_c:
     compartment: null
     name: lac_L_c
@@ -737,6 +795,9 @@ reactants:
   pi_c:
     compartment: null
     name: pi_c
+  pi_e:
+    compartment: null
+    name: pi_e
   pi_m:
     compartment: null
     name: pi_m
@@ -1266,6 +1327,14 @@ reactions:
           small_molecule: 1.0
         small_molecule: h_m
     name: ICDHxm
+  K_channel:
+    enzyme: null
+    mechanism:
+      class: ReversibleMichaelisMenten
+      product: k_c
+      substrate: k_e
+    modifiers: {}
+    name: K_channel
   LDH_L:
     enzyme: null
     mechanism:
@@ -1425,6 +1494,48 @@ reactions:
       substrate2: atp_m
     modifiers: {}
     name: NDPK1m
+  NaK_pump:
+    enzyme: null
+    mechanism:
+      class: UniBiReversibleHill
+      product1: pi_c
+      product2: adp_c
+      substrate: atp_c
+    modifiers:
+      DSM_h_c:
+        class: DisplacementSmallMoleculeModifier
+        mechanism_stoichiometry:
+          small_molecule: 1.0
+        small_molecule: h_c
+      DSM_k_c:
+        class: DisplacementSmallMoleculeModifier
+        mechanism_stoichiometry:
+          small_molecule: 2.0
+        small_molecule: k_c
+      DSM_k_e:
+        class: DisplacementSmallMoleculeModifier
+        mechanism_stoichiometry:
+          small_molecule: -2.0
+        small_molecule: k_e
+      DSM_na1_c:
+        class: DisplacementSmallMoleculeModifier
+        mechanism_stoichiometry:
+          small_molecule: -3.0
+        small_molecule: na1_c
+      DSM_na1_e:
+        class: DisplacementSmallMoleculeModifier
+        mechanism_stoichiometry:
+          small_molecule: 3.0
+        small_molecule: na1_e
+    name: NaK_pump
+  Na_dummy:
+    enzyme: null
+    mechanism:
+      class: ReversibleMichaelisMenten
+      product: na1_c
+      substrate: na1_e
+    modifiers: {}
+    name: Na_dummy
   O2t:
     enzyme: null
     mechanism:
@@ -1513,6 +1624,24 @@ reactions:
       substrate: _2pg_c
     modifiers: {}
     name: PGM
+  PIt1:
+    enzyme: null
+    mechanism:
+      class: ReversibleMichaelisMenten
+      product: pi_c
+      substrate: pi_e
+    modifiers:
+      DSM_na1_c:
+        class: DisplacementSmallMoleculeModifier
+        mechanism_stoichiometry:
+          small_molecule: 2.0
+        small_molecule: na1_c
+      DSM_na1_e:
+        class: DisplacementSmallMoleculeModifier
+        mechanism_stoichiometry:
+          small_molecule: -2.0
+        small_molecule: na1_e
+    name: PIt1
   PPA:
     enzyme: null
     mechanism:
@@ -1581,6 +1710,14 @@ reactions:
           small_molecule: 1.0
         small_molecule: h_m
     name: PiC
+  PiE:
+    enzyme: null
+    mechanism:
+      class: ReversibleMichaelisMenten
+      product: pi_c
+      substrate: pi_e
+    modifiers: {}
+    name: PiE
   SUCOAS1m:
     enzyme: null
     mechanism:
