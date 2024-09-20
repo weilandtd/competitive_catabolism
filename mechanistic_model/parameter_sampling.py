@@ -28,11 +28,36 @@ if __name__ == '__main__':
     # Reload and prepare the model
     kmodel = load_yaml_model(model_file.replace("_continuous.json", "_kinetic_curated.yml"))
 
+    # These are common for the sodium gneralize the assingemnt 
+    for parameter in kmodel.parameters.values(): 
+        if 'charge_ion_MPM_na1_m_na1_c' in str(parameter.symbol):
+            parameter.value = 1
+            print(parameter.symbol , parameter.value)
+        if 'delta_psi_scaled_MPM_na1_m_na1_c' in str(parameter.symbol):
+            parameter.value = 2.5
+            print(parameter.symbol , parameter.value)
+        if 'delta_ion_concentration_MPM_na1_m_na1_c' in str(parameter.symbol):
+            parameter.value = -2
+            print(parameter.symbol , parameter.value)
+
+
+    # Parametrize the membrane potential modifiers
+    # Charge export from mitochondria
+    kmodel.parameters.charge_transport_MPM_na1_m_na1_c_NADH2_u10mi.value = -4 # 4 H+ to the outside (Complex I)
+    kmodel.parameters.charge_transport_MPM_na1_m_na1_c_CYOOm2i.value = -4 # 4 H+ to the outside (Complex IV)
+    kmodel.parameters.charge_transport_MPM_na1_m_na1_c_CYOR_u10mi.value = -4 # 4 H+ to the outside (Complex III)
+    
+    kmodel.parameters.charge_transport_MPM_na1_m_na1_c_ATPtm.value = 1 # 1- to the outside 
+
+    # Charge import into mitochondria
+    kmodel.parameters.charge_transport_MPM_na1_m_na1_c_ASPGLUm.value = 1 # 1 H+ to the inside
+    kmodel.parameters.charge_transport_MPM_na1_m_na1_c_ATPS4mi.value = 3 # 3 H+ to the inside
+
+
     # Compile the jacobian expressions
     NCPU = 12
     kmodel.prepare()
     kmodel.compile_jacobian(ncpu=NCPU)
-
 
     # Initiate a parameter sampler
     params = SimpleParameterSampler.Parameters(n_samples = 10)
@@ -68,7 +93,6 @@ if __name__ == '__main__':
     flux_fun = make_flux_fun(kmodel, QSSA)
 
     # Integrate brenda enyzme data into the model
-
     # PGI
     PGI_f6p_c_KM = 50e-3 # mM
     PGI_g6p_c_KM = 0.5 # mM
@@ -251,32 +275,32 @@ if __name__ == '__main__':
 
 
 
-    # Modal analysis
-    from skimpy.analysis.modal import modal_matrix
-    from skimpy.viz.modal import plot_modal_matrix
-    import random
+    # # Modal analysis
+    # from skimpy.analysis.modal import modal_matrix
+    # from skimpy.viz.modal import plot_modal_matrix
+    # import random
 
-    # Pic a random parameter set and plot the modal matrix
-    index = random.choice(list(parameter_population._index.keys()))
-    # Print the index
-    print(f"Will perform modal analysis on index: {index}")
+    # # Pic a random parameter set and plot the modal matrix
+    # index = random.choice(list(parameter_population._index.keys()))
+    # # Print the index
+    # print(f"Will perform modal analysis on index: {index}")
 
-    sample = tfa_samples.iloc[int(index.split(',')[0])]
-    concentrations = load_concentrations(sample, tmodel, kmodel,
-                                                concentration_scaling=CONCENTRATION_SCALING)
-    parameter_values = parameter_population[index]
+    # sample = tfa_samples.iloc[int(index.split(',')[0])]
+    # concentrations = load_concentrations(sample, tmodel, kmodel,
+    #                                             concentration_scaling=CONCENTRATION_SCALING)
+    # parameter_values = parameter_population[index]
 
-    kmodel.prepare()
-    kmodel.compile_jacobian(sim_type=QSSA,ncpu=8)
-    M = modal_matrix(kmodel,concentrations,parameter_values)
+    # kmodel.prepare()
+    # kmodel.compile_jacobian(sim_type=QSSA,ncpu=8)
+    # M = modal_matrix(kmodel,concentrations,parameter_values)
 
-    plot_modal_matrix(M,filename='modal_matrix.html',
-                      width=800, height=600,
-                      clustered=True,
-                      backend='svg',
-                      )
+    # plot_modal_matrix(M,filename='modal_matrix.html',
+    #                   width=800, height=600,
+    #                   clustered=True,
+    #                   backend='svg',
+    #                   )
     
-    # Make a histogram of the slow eigenvalues
-    import matplotlib.pyplot as plt
-    plt.hist(-1/np.real(lambda_max_all.values.flatten()), bins=100)
-    plt.show()
+    # # Make a histogram of the slow eigenvalues
+    # import matplotlib.pyplot as plt
+    # plt.hist(-1/np.real(lambda_max_all.values.flatten()), bins=100)
+    # plt.show()

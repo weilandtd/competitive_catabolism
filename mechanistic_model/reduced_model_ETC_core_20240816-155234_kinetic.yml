@@ -46,6 +46,7 @@ parameters:
   k1_bwd_K_channel: null
   k1_bwd_L_LACt2r: null
   k1_bwd_L_LACtm: null
+  k1_bwd_Na_channel: null
   k1_bwd_Na_dummy: null
   k1_bwd_O2t: null
   k1_bwd_O2tm: null
@@ -68,6 +69,7 @@ parameters:
   k1_fwd_K_channel: null
   k1_fwd_L_LACt2r: null
   k1_fwd_L_LACtm: null
+  k1_fwd_Na_channel: null
   k1_fwd_Na_dummy: null
   k1_fwd_O2t: null
   k1_fwd_O2tm: null
@@ -90,6 +92,7 @@ parameters:
   k2_bwd_K_channel: null
   k2_bwd_L_LACt2r: null
   k2_bwd_L_LACtm: null
+  k2_bwd_Na_channel: null
   k2_bwd_Na_dummy: null
   k2_bwd_O2t: null
   k2_bwd_O2tm: null
@@ -112,6 +115,7 @@ parameters:
   k2_fwd_K_channel: null
   k2_fwd_L_LACt2r: null
   k2_fwd_L_LACtm: null
+  k2_fwd_Na_channel: null
   k2_fwd_Na_dummy: null
   k2_fwd_O2t: null
   k2_fwd_O2tm: null
@@ -122,71 +126,72 @@ parameters:
   k2_fwd_PiC: null
   k2_fwd_PiE: null
   k2_fwd_TPI: null
-  k_equilibrium_ACACT1rm: 4.904649714044893e-05
+  k_equilibrium_ACACT1rm: 4.904649714044875e-05
   k_equilibrium_ACONTm: 0.005517356045146882
   k_equilibrium_ADK1: 16624805.870048136
-  k_equilibrium_AKGDm: 0.0063026633286139624
-  k_equilibrium_AKGMALtm: 0.9978093669684575
-  k_equilibrium_ASPGLUm: 1110.572352347475
-  k_equilibrium_ASPTA: 2.036298832298862
+  k_equilibrium_AKGDm: 0.006302663328614013
+  k_equilibrium_AKGMALtm: 0.9978093669684589
+  k_equilibrium_ASPGLUm: 345.21777294300597
+  k_equilibrium_ASPTA: 9.518152306924677
   k_equilibrium_ASPTAm: 0.2359662537095983
   k_equilibrium_ATPS4mi: 29225796330048.02
-  k_equilibrium_ATPtm: 1016.740272087172
+  k_equilibrium_ATPtm: 316.0503785723469
   k_equilibrium_BDHm: 4.686754504083976e-18
   k_equilibrium_BHBt: 1.0003425749209167
   k_equilibrium_BHBtm: 0.9992246474732026
   k_equilibrium_C160CPT1: 0.48715619518494985
-  k_equilibrium_C160CPT2: 0.017126043834867096
+  k_equilibrium_C160CPT2: 0.01712604383486714
   k_equilibrium_CO2t: 0.999998311067222
   k_equilibrium_CO2tm: 0.999998311067222
   k_equilibrium_CSm: 0.0038828670245063374
-  k_equilibrium_CYOOm2i: 1.351980168765497e+40
-  k_equilibrium_CYOR_u10mi: 5.503481616485542e-19
-  k_equilibrium_ENO: 0.05734915656649577
-  k_equilibrium_FACOAL160i: 82189935.30511768
+  k_equilibrium_CYOOm2i: 1.3519801687654586e+40
+  k_equilibrium_CYOR_u10mi: 2.4284350409206418e-18
+  k_equilibrium_ENO: 0.04090986761357331
+  k_equilibrium_FACOAL160i: 2.2714093557224444e-05
   k_equilibrium_FADH2ETC: 0.011547516672896066
-  k_equilibrium_FAOXC160: 8.645138613060281e-38
-  k_equilibrium_FATP1t: 0.9988228002930455
+  k_equilibrium_FAOXC160: 8.645138613060034e-38
+  k_equilibrium_FATP1t: 0.10987013690474377
   k_equilibrium_FBA: 7.961219299375281e-05
-  k_equilibrium_FUMm: 5.489416535356556
+  k_equilibrium_FUMm: 5.489416535356563
   k_equilibrium_G3PD1: 5.144594847129094e-19
   k_equilibrium_GAPD: 2.643623874775543e-16
   k_equilibrium_GLCt1r: 0.999998311067222
   k_equilibrium_HEX1: 4.5115090326957296e-05
   k_equilibrium_ICDHxm: 2.0905130677321717e-10
   k_equilibrium_K_channel: 10.349232782037971
-  k_equilibrium_LDH_L: 1.8753271015661562e-19
+  k_equilibrium_LDH_L: 1.8753271015661694e-19
   k_equilibrium_LDH_Lm: 1.8646604304643677e-22
   k_equilibrium_L_LACDcm: 0.5081637460603095
   k_equilibrium_L_LACt2r: 1.0000816360822984
-  k_equilibrium_L_LACtm: 0.9998160265224979
-  k_equilibrium_MDH: 7.378513384929864e-21
-  k_equilibrium_MDHm: 7.356184221384818e-22
-  k_equilibrium_NADH2_u10mi: 1.214588537775037e+25
-  k_equilibrium_NAt3_1: 1.0000016889356298
-  k_equilibrium_NDPK1m: 4.752970952997086
-  k_equilibrium_NaK_pump: 0.0007410768467424846
-  k_equilibrium_Na_dummy: 1.7539166658508545
+  k_equilibrium_L_LACtm: 0.9998160265224987
+  k_equilibrium_MDH: 1.0343507423131672e-20
+  k_equilibrium_MDHm: 7.356184221384923e-22
+  k_equilibrium_NADH2_u10mi: 6.244320531617994e+24
+  k_equilibrium_NDPK1m: 5.384257426880819
+  k_equilibrium_NaH_antiport: 1.000001688935629
+  k_equilibrium_NaK_pump: 0.0007410768467424853
+  k_equilibrium_Na_channel: 344.5635145003092
+  k_equilibrium_Na_dummy: 0.11571709683039122
   k_equilibrium_O2t: 0.999998311067222
   k_equilibrium_O2tm: 0.999998311067222
-  k_equilibrium_OCOAT1m: 0.007318933012764199
-  k_equilibrium_PDHm: 0.006053313171507854
+  k_equilibrium_OCOAT1m: 0.007318933012764166
+  k_equilibrium_PDHm: 0.006053313171507844
   k_equilibrium_PFK: 2.1815463485822147e-05
   k_equilibrium_PGI: 0.5961054048308927
-  k_equilibrium_PGK: 0.0005991394053821478
+  k_equilibrium_PGK: 0.0005991394053821447
   k_equilibrium_PGM: 0.2004411931251522
-  k_equilibrium_PIt1: 1.060435844676379
-  k_equilibrium_PPA: 4.161595826814543e-05
-  k_equilibrium_PYK: 4279310744769.2915
-  k_equilibrium_PYRt2m: 1.0000016889356276
-  k_equilibrium_PiC: 0.2252386432434911
-  k_equilibrium_PiE: 0.009900749858660313
-  k_equilibrium_SUCOAS1m: 0.36724125958618486
+  k_equilibrium_PIt1: 1.0604322626696898
+  k_equilibrium_PPA: 0.00011416528043872418
+  k_equilibrium_PYK: 4279310744769.3374
+  k_equilibrium_PYRt2m: 1.0000016889356305
+  k_equilibrium_PiC: 0.22523864324349133
+  k_equilibrium_PiE: 0.00990078330214697
+  k_equilibrium_SUCOAS1m: 0.36724125958618714
   k_equilibrium_TPI: 0.08808793454755724
-  k_equilibrium_cyt_atp2adp: 0.0022826938601539825
+  k_equilibrium_cyt_atp2adp: 0.0022826938601539864
   k_equilibrium_r0205: 24696600970.921055
   k_equilibrium_r0509: 4597.376430686776
-  k_equilibrium_r2435: 0.9999791033605977
+  k_equilibrium_r2435: 0.9999791033605961
   kcat_forward_ACACT1rm: null
   kcat_forward_ACONTm: null
   kcat_forward_ADK1: null
@@ -228,9 +233,10 @@ parameters:
   kcat_forward_MDH: null
   kcat_forward_MDHm: null
   kcat_forward_NADH2_u10mi: null
-  kcat_forward_NAt3_1: null
   kcat_forward_NDPK1m: null
+  kcat_forward_NaH_antiport: null
   kcat_forward_NaK_pump: null
+  kcat_forward_Na_channel: null
   kcat_forward_Na_dummy: null
   kcat_forward_O2t: null
   kcat_forward_O2tm: null
@@ -280,8 +286,8 @@ parameters:
   km_product1_MDH: null
   km_product1_MDHm: null
   km_product1_NADH2_u10mi: null
-  km_product1_NAt3_1: null
   km_product1_NDPK1m: null
+  km_product1_NaH_antiport: null
   km_product1_NaK_pump: null
   km_product1_OCOAT1m: null
   km_product1_PDHm: null
@@ -320,8 +326,8 @@ parameters:
   km_product2_MDH: null
   km_product2_MDHm: null
   km_product2_NADH2_u10mi: null
-  km_product2_NAt3_1: null
   km_product2_NDPK1m: null
+  km_product2_NaH_antiport: null
   km_product2_NaK_pump: null
   km_product2_OCOAT1m: null
   km_product2_PDHm: null
@@ -352,6 +358,7 @@ parameters:
   km_product_K_channel: null
   km_product_L_LACt2r: null
   km_product_L_LACtm: null
+  km_product_Na_channel: null
   km_product_Na_dummy: null
   km_product_O2t: null
   km_product_O2tm: null
@@ -390,8 +397,8 @@ parameters:
   km_substrate1_MDH: null
   km_substrate1_MDHm: null
   km_substrate1_NADH2_u10mi: null
-  km_substrate1_NAt3_1: null
   km_substrate1_NDPK1m: null
+  km_substrate1_NaH_antiport: null
   km_substrate1_OCOAT1m: null
   km_substrate1_PDHm: null
   km_substrate1_PFK: null
@@ -429,8 +436,8 @@ parameters:
   km_substrate2_MDH: null
   km_substrate2_MDHm: null
   km_substrate2_NADH2_u10mi: null
-  km_substrate2_NAt3_1: null
   km_substrate2_NDPK1m: null
+  km_substrate2_NaH_antiport: null
   km_substrate2_OCOAT1m: null
   km_substrate2_PDHm: null
   km_substrate2_PFK: null
@@ -461,6 +468,7 @@ parameters:
   km_substrate_L_LACt2r: null
   km_substrate_L_LACtm: null
   km_substrate_NaK_pump: null
+  km_substrate_Na_channel: null
   km_substrate_Na_dummy: null
   km_substrate_O2t: null
   km_substrate_O2tm: null
@@ -486,6 +494,7 @@ parameters:
   total_enzyme_concentration_K_channel: null
   total_enzyme_concentration_L_LACt2r: null
   total_enzyme_concentration_L_LACtm: null
+  total_enzyme_concentration_Na_channel: null
   total_enzyme_concentration_Na_dummy: null
   total_enzyme_concentration_O2t: null
   total_enzyme_concentration_O2tm: null
@@ -511,6 +520,7 @@ parameters:
   vmax_backward_L_LACt2r: null
   vmax_backward_L_LACtm: null
   vmax_backward_NaK_pump: null
+  vmax_backward_Na_channel: null
   vmax_backward_Na_dummy: null
   vmax_backward_O2t: null
   vmax_backward_O2tm: null
@@ -563,9 +573,10 @@ parameters:
   vmax_forward_MDH: null
   vmax_forward_MDHm: null
   vmax_forward_NADH2_u10mi: null
-  vmax_forward_NAt3_1: null
   vmax_forward_NDPK1m: null
+  vmax_forward_NaH_antiport: null
   vmax_forward_NaK_pump: null
+  vmax_forward_Na_channel: null
   vmax_forward_Na_dummy: null
   vmax_forward_O2t: null
   vmax_forward_O2tm: null
@@ -762,6 +773,9 @@ reactants:
   na1_e:
     compartment: null
     name: na1_e
+  na1_m:
+    compartment: null
+    name: na1_m
   nad_c:
     compartment: null
     name: nad_c
@@ -1215,16 +1229,16 @@ reactions:
       product: hdca_e
       substrate: hdca_c
     modifiers:
-      DSM_na1_c:
+      DSM_h_c:
         class: DisplacementSmallMoleculeModifier
         mechanism_stoichiometry:
           small_molecule: -1.0
-        small_molecule: na1_c
-      DSM_na1_e:
+        small_molecule: h_c
+      DSM_h_e:
         class: DisplacementSmallMoleculeModifier
         mechanism_stoichiometry:
           small_molecule: 1.0
-        small_molecule: na1_e
+        small_molecule: h_e
     name: FATP1t
   FBA:
     enzyme: null
@@ -1472,17 +1486,6 @@ reactions:
           small_molecule: -6.0
         small_molecule: h_m
     name: NADH2_u10mi
-  NAt3_1:
-    enzyme: null
-    mechanism:
-      class: H1GeneralizedReversibleHill
-      mechanism_stoichiometry: *id001
-      product1: na1_e
-      product2: h_c
-      substrate1: na1_c
-      substrate2: h_e
-    modifiers: {}
-    name: NAt3_1
   NDPK1m:
     enzyme: null
     mechanism:
@@ -1494,6 +1497,21 @@ reactions:
       substrate2: atp_m
     modifiers: {}
     name: NDPK1m
+  NaH_antiport:
+    enzyme: null
+    mechanism:
+      class: H1GeneralizedReversibleHill
+      mechanism_stoichiometry:
+        product1: 1.0
+        product2: 1.0
+        substrate1: -1.0
+        substrate2: -1.0
+      product1: na1_c
+      product2: h_m
+      substrate1: na1_m
+      substrate2: h_c
+    modifiers: {}
+    name: NaH_antiport
   NaK_pump:
     enzyme: null
     mechanism:
@@ -1528,6 +1546,14 @@ reactions:
           small_molecule: 3.0
         small_molecule: na1_e
     name: NaK_pump
+  Na_channel:
+    enzyme: null
+    mechanism:
+      class: ReversibleMichaelisMenten
+      product: na1_m
+      substrate: na1_c
+    modifiers: {}
+    name: Na_channel
   Na_dummy:
     enzyme: null
     mechanism:

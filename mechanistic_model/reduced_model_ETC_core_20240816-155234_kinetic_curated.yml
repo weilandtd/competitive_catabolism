@@ -23,9 +23,6 @@ boundary_conditions:
   CC_na1_e:
     class: ConstantConcentration
     reactant: na1_e
-  CC_na1_c:
-    class: ConstantConcentration
-    reactant: na1_c
   CC_k_e:
     class: ConstantConcentration
     reactant: k_e
@@ -916,6 +913,10 @@ reactions:
         mechanism_stoichiometry:
           small_molecule: 1.0
         small_molecule: h_m
+      MPM_na1_m_na1_c:
+        class: MembranePotentialModifier
+        inside_ion: na1_m
+        outside_ion: na1_c
     name: ASPGLUm
   ASPTA:
     enzyme: null
@@ -957,6 +958,10 @@ reactions:
         mechanism_stoichiometry:
           small_molecule: 3.0
         small_molecule: h_m
+      MPM_na1_m_na1_c:
+        class: MembranePotentialModifier
+        inside_ion: na1_m
+        outside_ion: na1_c
     name: ATPS4mi
   ATPtm:
     enzyme: null
@@ -967,7 +972,11 @@ reactions:
       product2: adp_m
       substrate1: atp_m
       substrate2: adp_c
-    modifiers: {}
+    modifiers:
+      MPM_na1_m_na1_c:
+        class: MembranePotentialModifier
+        inside_ion: na1_m
+        outside_ion: na1_c    
     name: ATPtm
   BDHm:
     enzyme: null
@@ -1133,6 +1142,10 @@ reactions:
         mechanism_stoichiometry:
           small_molecule: -8.0
         small_molecule: h_m
+      MPM_na1_m_na1_c:
+        class: MembranePotentialModifier
+        inside_ion: na1_m
+        outside_ion: na1_c
     name: CYOOm2i
   CYOR_u10mi:
     enzyme: null
@@ -1162,6 +1175,10 @@ reactions:
         mechanism_stoichiometry:
           small_molecule: -2.0
         small_molecule: h_m
+      MPM_na1_m_na1_c:
+        class: MembranePotentialModifier
+        inside_ion: na1_m
+        outside_ion: na1_c
     name: CYOR_u10mi
   ENO:
     enzyme: null
@@ -1247,16 +1264,16 @@ reactions:
       product1: hdca_e
       substrate1: hdca_c
     modifiers:
-      DSM_na1_c:
+      DSM_h_c:
         class: DisplacementSmallMoleculeModifier
         mechanism_stoichiometry:
           small_molecule: -1.0
-        small_molecule: na1_c
-      DSM_na1_e:
+        small_molecule: h_c
+      DSM_h_e:
         class: DisplacementSmallMoleculeModifier
         mechanism_stoichiometry:
           small_molecule: 1.0
-        small_molecule: na1_e
+        small_molecule: h_e
     name: FATP1t
   FBA:
     enzyme: null
@@ -1527,18 +1544,11 @@ reactions:
         mechanism_stoichiometry:
           small_molecule: -6.0
         small_molecule: h_m
+      MPM_na1_m_na1_c:
+        class: MembranePotentialModifier
+        inside_ion: na1_m
+        outside_ion: na1_c
     name: NADH2_u10mi
-  NAt3_1:
-    enzyme: null
-    mechanism:
-      class: RevMassaction
-      mechanism_stoichiometry: *id001
-      product1: na1_e
-      product2: h_c
-      substrate1: na1_c
-      substrate2: h_e
-    modifiers: {}
-    name: NAt3_1
   NDPK1m:
     enzyme: null
     mechanism:
@@ -1906,3 +1916,26 @@ reactions:
       substrate: pi_e
     modifiers: {}
     name: PiE
+  NaH_antiport:
+    enzyme: null
+    mechanism:
+      class: H1GeneralizedReversibleHill
+      mechanism_stoichiometry:
+        product1: 1.0
+        product2: 1.0
+        substrate1: -1.0
+        substrate2: -1.0
+      product1: na1_c
+      product2: h_m
+      substrate1: na1_m
+      substrate2: h_c
+    modifiers: {}
+    name: NaH_antiport
+  Na_channel:
+    enzyme: null
+    mechanism:
+      class: ReversibleMichaelisMenten
+      product: na1_m
+      substrate: na1_c
+    modifiers: {}
+    name: Na_channel
