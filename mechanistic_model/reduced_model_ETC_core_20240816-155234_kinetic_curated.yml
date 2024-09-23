@@ -1104,6 +1104,9 @@ reactions:
       IM_cit_m:
         class: InhibitionModifier
         inhibitor: cit_m
+      IM_succoa_m:
+        class: InhibitionModifier
+        inhibitor: succoa_m
       AM_adp_m:
         class: ActivationModifier
         activator: adp_m
@@ -1356,12 +1359,6 @@ reactions:
       IM_g6p_c:
         class: InhibitionModifier
         inhibitor: g6p_c
-      IM_atp_c:
-        class: InhibitionModifier
-        inhibitor: atp_c
-      AM_pi_c:
-        class: ActivationModifier
-        activator: pi_c
     name: HEX1
   ICDHxm:
     enzyme: null
@@ -1616,6 +1613,9 @@ reactions:
       IM_accoa_m:
         class: InhibitionModifier
         inhibitor: accoa_m
+      IM_atp_m:
+        class: InhibitionModifier
+        inhibitor: atp_m  
       AM_coa_m:
         class: ActivationModifier
         activator: coa_m
@@ -1937,5 +1937,9 @@ reactions:
       class: ReversibleMichaelisMenten
       product: na1_m
       substrate: na1_c
-    modifiers: {}
+    modifiers:
+      MPM_na1_m_na1_c:
+        class: MembranePotentialModifier
+        inside_ion: na1_m
+        outside_ion: na1_c
     name: Na_channel

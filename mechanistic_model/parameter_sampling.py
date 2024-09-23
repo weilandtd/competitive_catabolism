@@ -34,7 +34,7 @@ if __name__ == '__main__':
             parameter.value = 1
             print(parameter.symbol , parameter.value)
         if 'delta_psi_scaled_MPM_na1_m_na1_c' in str(parameter.symbol):
-            parameter.value = 2.5
+            parameter.value = 2.6
             print(parameter.symbol , parameter.value)
         if 'delta_ion_concentration_MPM_na1_m_na1_c' in str(parameter.symbol):
             parameter.value = -2
@@ -43,16 +43,18 @@ if __name__ == '__main__':
 
     # Parametrize the membrane potential modifiers
     # Charge export from mitochondria
+    # Pos
     kmodel.parameters.charge_transport_MPM_na1_m_na1_c_NADH2_u10mi.value = -4 # 4 H+ to the outside (Complex I)
     kmodel.parameters.charge_transport_MPM_na1_m_na1_c_CYOOm2i.value = -4 # 4 H+ to the outside (Complex IV)
     kmodel.parameters.charge_transport_MPM_na1_m_na1_c_CYOR_u10mi.value = -4 # 4 H+ to the outside (Complex III)
-    
+    # Neg
     kmodel.parameters.charge_transport_MPM_na1_m_na1_c_ATPtm.value = 1 # 1- to the outside 
-
+    
     # Charge import into mitochondria
+    # Pos
     kmodel.parameters.charge_transport_MPM_na1_m_na1_c_ASPGLUm.value = 1 # 1 H+ to the inside
     kmodel.parameters.charge_transport_MPM_na1_m_na1_c_ATPS4mi.value = 3 # 3 H+ to the inside
-
+    kmodel.parameters.charge_transport_MPM_na1_m_na1_c_Na_channel.value = 1 # +1 to the inside 
 
     # Compile the jacobian expressions
     NCPU = 12
@@ -249,8 +251,8 @@ if __name__ == '__main__':
     Prune parameters based on the time scales
     """
 
-    MAX_EIGENVALUES = -0.01 # 100 min -> Effects observed in fules choice are typically acute < 15 min 
-
+    MAX_EIGENVALUES = -0.01 # 100 min time-scale (JUSTIFY!)
+    
     # Prune parameter based on eigenvalues
     is_selected = (lambda_max_all < MAX_EIGENVALUES )
     is_selected.columns = range(lambda_max_all.shape[1])
