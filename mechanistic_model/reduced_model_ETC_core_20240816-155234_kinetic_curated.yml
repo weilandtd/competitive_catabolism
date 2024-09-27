@@ -45,6 +45,7 @@ parameters:
   na1_c: null
   na1_e: null
   pi_e: null
+  pi_c: null
   hdca_e: null
   hill_coefficient_ATPS4mi: 1.0
   hill_coefficient_FBA: 1.0
@@ -1893,9 +1894,12 @@ reactions:
   PIt1:
     enzyme: null
     mechanism:
-      class: ReversibleMichaelisMenten
-      product: pi_c
-      substrate: pi_e
+      class: RevMassaction
+      mechanism_stoichiometry:
+        product1: 1.0
+        substrate1: -1.0
+      product1: pi_c
+      substrate1: pi_e
     modifiers:
       DSM_na1_c:
         class: DisplacementSmallMoleculeModifier
@@ -1911,15 +1915,18 @@ reactions:
   PiE:
     enzyme: null
     mechanism:
-      class: ReversibleMichaelisMenten
-      product: pi_c
-      substrate: pi_e
+      class: RevMassaction
+      mechanism_stoichiometry:
+        product1: 1.0
+        substrate1: -1.0
+      product1: pi_c
+      substrate1: pi_e
     modifiers: {}
     name: PiE
   NaH_antiport:
     enzyme: null
     mechanism:
-      class: H1GeneralizedReversibleHill
+      class: RevMassaction
       mechanism_stoichiometry:
         product1: 1.0
         product2: 1.0
@@ -1934,12 +1941,34 @@ reactions:
   Na_channel:
     enzyme: null
     mechanism:
-      class: ReversibleMichaelisMenten
-      product: na1_m
-      substrate: na1_c
+      class: H1GeneralizedReversibleHill
+      mechanism_stoichiometry:
+        product1: 1.0
+        substrate1: -1.0
+      product1: na1_m
+      substrate1: na1_c
     modifiers:
       MPM_na1_m_na1_c:
         class: MembranePotentialModifier
         inside_ion: na1_m
         outside_ion: na1_c
     name: Na_channel
+  NAt3_1:
+    enzyme: null
+    mechanism:
+      class: RevMassaction
+      mechanism_stoichiometry: *id001
+      product1: na1_e
+      product2: h_c
+      substrate1: na1_c
+      substrate2: h_e
+    modifiers: {}
+    name: NAt3_1
+  H_channel:
+    enzyme: null
+    mechanism:
+      class: ReversibleMichaelisMenten
+      product: h_c
+      substrate: h_e
+    modifiers: {}
+    name: H_channel
