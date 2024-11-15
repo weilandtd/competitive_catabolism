@@ -28,13 +28,19 @@ if __name__ == '__main__':
     # Reload and prepare the model
     kmodel = load_yaml_model(model_file.replace("_continuous.json", "_kinetic_curated.yml"))
 
+    faraday_const = 23.061 # kcal / mol / mV
+    RT = tmodel.RT # kcal /mol
+    delta_psi_scaled = 150/1000 * faraday_const / RT # mV * F / RT 
+
     # These are common for the sodium gneralize the assingemnt 
+    # Delta ion deltaH = 5.309573444801986e-05
+
     for parameter in kmodel.parameters.values(): 
         if 'charge_ion_MPM_na1_m_na1_c' in str(parameter.symbol):
             parameter.value = 1
             print(parameter.symbol , parameter.value)
         if 'delta_psi_scaled_MPM_na1_m_na1_c' in str(parameter.symbol):
-            parameter.value = 2.6
+            parameter.value = delta_psi_scaled
             print(parameter.symbol , parameter.value)
         if 'delta_ion_concentration_MPM_na1_m_na1_c' in str(parameter.symbol):
             parameter.value = -2
@@ -48,18 +54,19 @@ if __name__ == '__main__':
     kmodel.parameters.charge_transport_MPM_na1_m_na1_c_CYOOm2i.value = -4 # 4 H+ to the outside (Complex IV)
     kmodel.parameters.charge_transport_MPM_na1_m_na1_c_CYOR_u10mi.value = -4 # 4 H+ to the outside (Complex III)
     # Neg
-    kmodel.parameters.charge_transport_MPM_na1_m_na1_c_ATPtm.value = 1 # 1- to the outside 
+    kmodel.parameters.charge_transport_MPM_na1_m_na1_c_ATPtm.value = 1 # -1 to the outside 
     
     # Charge import into mitochondria
     # Pos
     kmodel.parameters.charge_transport_MPM_na1_m_na1_c_ASPGLUm.value = 1 # 1 H+ to the inside
     kmodel.parameters.charge_transport_MPM_na1_m_na1_c_ATPS4mi.value = 3 # 3 H+ to the inside
-    kmodel.parameters.charge_transport_MPM_na1_m_na1_c_Na_channel.value = 1 # +1 to the inside 
 
     # Compile the jacobian expressions
-    NCPU = 12
+    NCPU = 8
+    kmodel.repair()
     kmodel.prepare()
     kmodel.compile_jacobian(ncpu=NCPU)
+
 
     # Initiate a parameter sampler
     params = SimpleParameterSampler.Parameters(n_samples = 10)
@@ -130,10 +137,9 @@ if __name__ == '__main__':
     # HAS actual hill kinetics
     # https://onlinelibrary.wiley.com/doi/10.1002/jcb.24039
     # https://febs.onlinelibrary.wiley.com/doi/10.1016/j.febslet.2007.05.059
-    kmodel.reactions.PFK.parameters.km_substrate1.bounds = (0.03, 0.04) # ATP Brenda
-    kmodel.reactions.PFK.parameters.km_substrate2.bounds = (0.07, 0.09) # F6P
-    
-    # GAPDH
+    #kmodel.reactions.PFK.parameters.km_substrate1.bounds = (0.03, 0.04) # ATP Brenda
+    #kmodel.reactions.PFK.parameters.km_substrate2.bounds = (0.07, 0.09) # F6P
+
 
     # LDH pmt-coa inhibition
     # https://www.science.org/doi/10.1126/science.abm3452?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed#sec-3
@@ -161,21 +167,21 @@ if __name__ == '__main__':
     # kmodel.reactions.ACACT1rm.parameters.km_product1.bounds = (0.01, 0.03) # CoA
     # kmodel.reactions.ACACT1rm.parameters.km_product2.bounds = (4e-3, 5e-3) # AcAcCoa
 
-    # # # G3PD1 - Glycerol 3-phosphate dehydrogenase (NAD+)
-    # # # https://www.brenda-enzymes.org/enzyme.php?ecno=1.1.1.8#KM%20VALUE%20[mM]
+    # # # # G3PD1 - Glycerol 3-phosphate dehydrogenase (NAD+)
+    # # # # https://www.brenda-enzymes.org/enzyme.php?ecno=1.1.1.8#KM%20VALUE%20[mM]
     # kmodel.reactions.G3PD1.parameters.km_product1.bounds = (0.002, 0.010) # NADH
     # kmodel.reactions.G3PD1.parameters.km_product2.bounds = (0.02, 0.03) # DAHP
     # kmodel.reactions.G3PD1.parameters.km_substrate1.bounds = (0.01, 0.04) # NAD+
-    # kmodel.reactions.G3PD1.parameters.km_substrate2.bounds = (0.5,1.0) # Glycerol-3P
+    # kmodel.reactions.G3PD1.parameters.km_substrate2.bounds = (1.0,2.0) # Glycerol-3P
 
-    # # r0205 - GPD2 - Glycerol-3-phosphate dehydrogenase (Quinone)
-    # # Brenda 
-    # kmodel.reactions.r0205.parameters.km_substrate2.bounds = (6, 10) # Glycerol-3P
+    # # # r0205 - GPD2 - Glycerol-3-phosphate dehydrogenase (Quinone)
+    # # # Brenda 
+    # kmodel.reactions.r0205.parameters.km_substrate2.bounds = (0.5, 10) # Glycerol-3P
 
     # TPI - le
     # https://www.brenda-enzymes.org/enzyme.php?ecno=5.3.1.1#KM%20VALUE%20[mM]
-    kmodel.reactions.TPI.parameters.km_substrate.bounds = (0.5, 1.5) #DHAP
-    kmodel.reactions.TPI.parameters.km_product.bounds = (0.25, 1.0) # GAP
+    # kmodel.reactions.TPI.parameters.km_substrate.bounds = (1.0, 2.0) #DHAP
+    # kmodel.reactions.TPI.parameters.km_product.bounds = (0.25, 1.0) # GAP
 
 
     # NOTE DW -> TRANSPORTERS SHOULD HAVE SAME KM for substrate and product pairs
@@ -195,15 +201,14 @@ if __name__ == '__main__':
         # ATP dissipation should be saturated KM << [atp_c]
         atp_c = concentrations['atp_c']
         kmodel.reactions.cyt_atp2adp.parameters.km_substrate1.bounds = (atp_c*1e-4, atp_c*1e-3)
-        kmodel.reactions.NaK_pump.parameters.km_substrate1.bounds = (atp_c*1e-4, atp_c*1e-3)
 
         # FATP1t - Fatty acid transport unsaturated
         hdca_e = concentrations['hdca_e']
         kmodel.reactions.FATP1t.parameters.km_substrate1.bounds = (hdca_e*4.9, hdca_e*5.0)
         kmodel.reactions.FATP1t.parameters.km_product1.bounds = (hdca_e*4.9, hdca_e*5.0)
 
-        # ASPGLUm unsaturated - This is a commited step in the malate aspartate shuttle
-        # Substrate control of asp and glu 
+        # # ASPGLUm unsaturated - This is a commited step in the malate aspartate shuttle
+        # # Substrate control of asp and glu 
         asp_L_c = concentrations['asp_L_c'] 
         glu_L_c = concentrations['glu_L_c']
         kmodel.reactions.ASPGLUm.parameters.km_substrate1.bounds = (glu_L_c*4.9, glu_L_c*5)
@@ -211,7 +216,7 @@ if __name__ == '__main__':
         kmodel.reactions.ASPGLUm.parameters.km_product1.bounds = (glu_L_c*4.9, glu_L_c*5)
         kmodel.reactions.ASPGLUm.parameters.km_product2.bounds = (asp_L_c*4.9, asp_L_c*5)
 
-        # BDH and OCOAT1m unsaturated in their ketones effects
+        # BDH and OCOAT1m unsaturated in their ketones effects (mass action effect)
         # AcAc and 3HB
         acac_m = concentrations['acac_m']
         bhb_m = concentrations['bhb_m']
@@ -225,7 +230,7 @@ if __name__ == '__main__':
         
         # Generate sampels and fetch slowest and fastest eigenvalues
         params, lamda_max, lamda_min = sampler.sample(kmodel, fluxes, concentrations,
-                                                        only_stable=True,
+                                                        only_stable=False,
                                                         min_max_eigenvalues=True)
         
         # Test Nv = 0 
@@ -245,7 +250,6 @@ if __name__ == '__main__':
 
         params_population.save(path_for_output.format(i))
 
-
     # Process df and save dataframe
     lambda_max_all = pd.concat(lambda_max_all, axis=1)
     lambda_min_all = pd.concat(lambda_min_all, axis=1)
@@ -258,7 +262,7 @@ if __name__ == '__main__':
     Prune parameters based on the time scales
     """
 
-    MAX_EIGENVALUES = -0.01 # 100 min time-scale (JUSTIFY!)
+    MAX_EIGENVALUES = -0.01 # Faster than an half hour response time 
     
     # Prune parameter based on eigenvalues
     is_selected = (lambda_max_all < MAX_EIGENVALUES )
