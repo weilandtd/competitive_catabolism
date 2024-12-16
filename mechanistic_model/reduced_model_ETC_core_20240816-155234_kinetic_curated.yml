@@ -1234,6 +1234,12 @@ reactions:
         mechanism_stoichiometry:
           small_molecule: 7.0
         small_molecule: h_m
+      IM_fadh2_m:
+        class: InhibitionModifier
+        inhibitor: fadh2_m
+      IM_accoa_m:
+        class: InhibitionModifier
+        inhibitor: accoa_m
     name: FAOXC160
   FATP1t:
     enzyme: null

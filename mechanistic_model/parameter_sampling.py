@@ -262,7 +262,7 @@ if __name__ == '__main__':
     Prune parameters based on the time scales
     """
 
-    MAX_EIGENVALUES = -0.01 # Faster than an half hour response time 
+    MAX_EIGENVALUES = -1/60 # Faster than an half hour response time 
     
     # Prune parameter based on eigenvalues
     is_selected = (lambda_max_all < MAX_EIGENVALUES )
@@ -288,32 +288,32 @@ if __name__ == '__main__':
 
 
 
-    # # Modal analysis
-    # from skimpy.analysis.modal import modal_matrix
-    # from skimpy.viz.modal import plot_modal_matrix
-    # import random
+    # Modal analysis
+    from skimpy.analysis.modal import modal_matrix
+    from skimpy.viz.modal import plot_modal_matrix
+    import random
 
-    # # Pic a random parameter set and plot the modal matrix
-    # index = random.choice(list(parameter_population._index.keys()))
-    # # Print the index
-    # print(f"Will perform modal analysis on index: {index}")
+    # Pic a random parameter set and plot the modal matrix
+    index = random.choice(list(parameter_population._index.keys()))
+    # Print the index
+    print(f"Will perform modal analysis on index: {index}")
 
-    # sample = tfa_samples.iloc[int(index.split(',')[0])]
-    # concentrations = load_concentrations(sample, tmodel, kmodel,
-    #                                             concentration_scaling=CONCENTRATION_SCALING)
-    # parameter_values = parameter_population[index]
+    sample = tfa_samples.iloc[int(index.split(',')[0])]
+    concentrations = load_concentrations(sample, tmodel, kmodel,
+                                                concentration_scaling=CONCENTRATION_SCALING)
+    parameter_values = parameter_population[index]
 
-    # kmodel.prepare()
-    # kmodel.compile_jacobian(sim_type=QSSA,ncpu=8)
-    # M = modal_matrix(kmodel,concentrations,parameter_values)
+    kmodel.prepare()
+    kmodel.compile_jacobian(sim_type=QSSA,ncpu=8)
+    M = modal_matrix(kmodel,concentrations,parameter_values)
 
-    # plot_modal_matrix(M,filename='modal_matrix.html',
-    #                   width=800, height=600,
-    #                   clustered=True,
-    #                   backend='svg',
-    #                   )
+    plot_modal_matrix(M,filename='modal_matrix.html',
+                      width=800, height=600,
+                      clustered=True,
+                      backend='svg',
+                      )
     
-    # # Make a histogram of the slow eigenvalues
-    # import matplotlib.pyplot as plt
-    # plt.hist(-1/np.real(lambda_max_all.values.flatten()), bins=100)
-    # plt.show()
+    # Make a histogram of the slow eigenvalues
+    import matplotlib.pyplot as plt
+    plt.hist( np.log10(-1/np.real(lambda_max_all.values.flatten())), bins=100)
+    plt.show()
