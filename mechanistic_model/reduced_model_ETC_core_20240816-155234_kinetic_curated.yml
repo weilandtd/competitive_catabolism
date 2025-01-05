@@ -26,6 +26,9 @@ boundary_conditions:
   CC_h_c:
     class: ConstantConcentration
     reactant: h_c
+  # CC_insulin_e:
+  #   class: ConstantConcentration
+  #   reactant: insulin_e
 compartments: {}
 constraints: {}
 initial_conditions: {}
@@ -41,10 +44,15 @@ parameters:
   pi_e: null
   pi_c: null
   hdca_e: null
+  insulin_e: 1.0
   hill_coefficient_ATPS4mi: 1.0
   hill_coefficient_FBA: 1.0
   hill_coefficient_PFK: 1.0
   hill_coefficient_PYK: 1.0
+  hill_coefficient_HAMI_insulin_e_GLCt1r: 1.0
+  hill_coefficient_HAMI_insulin_e_PFK: 1.0
+  a_max_HAMI_insulin_e_GLCt1r: 5.0
+  a_max_HAMI_insulin_e_PFK: 5.0
   k1_bwd_ACONTm: null
   k1_bwd_BHBt: null
   k1_bwd_BHBtm: null
@@ -548,6 +556,9 @@ parameters:
   vmax_forward_r0509: null
   vmax_forward_r2435: null
 reactants:
+  insulin_e:
+    compartment: null
+    name: insulin_e
   _13dpg_c:
     compartment: null
     name: _13dpg_c
@@ -1234,12 +1245,9 @@ reactions:
         mechanism_stoichiometry:
           small_molecule: 7.0
         small_molecule: h_m
-      IM_fadh2_m:
+      IM_nadh_m:
         class: InhibitionModifier
-        inhibitor: fadh2_m
-      IM_accoa_m:
-        class: InhibitionModifier
-        inhibitor: accoa_m
+        inhibitor: nadh_m
     name: FAOXC160
   FATP1t:
     enzyme: null
@@ -1323,7 +1331,11 @@ reactions:
       class: ReversibleMichaelisMenten
       product: glc_D_c
       substrate: glc_D_e
-    modifiers: {}
+    modifiers:
+      HAMI_insulin_e:
+        class: HillActivationModifierInhibited
+        activator: insulin_e
+        inhibitor: pyr_c
     name: GLCt1r
   HEX1:
     enzyme: null
@@ -1634,6 +1646,10 @@ reactions:
       AM_adp_c:
         class: ActivationModifier
         activator: adp_c
+      HAMI_insulin_e:
+        class: HillActivationModifierInhibited
+        activator: insulin_e
+        inhibitor: pyr_c
     name: PFK
   PGI:
     enzyme: null
@@ -1840,3 +1856,21 @@ reactions:
       substrate1: na1_c
     modifiers: {}
     name: Na_channel
+  Insulin_secretion:
+    enzyme: null
+    mechanism:
+      class: IrrevMassaction
+      mechanism_stoichiometry:
+        product1: 1.0
+      product1: insulin_e
+    modifiers: {}
+    name: Insulin_secretion
+  Insulin_degradation:
+    enzyme: null
+    mechanism:
+      class: IrrevMassaction
+      mechanism_stoichiometry:
+        substrate1: -1.0
+      substrate1: insulin_e
+    modifiers: {}
+    name: Insulin_degradation

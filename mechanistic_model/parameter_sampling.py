@@ -77,7 +77,6 @@ if __name__ == '__main__':
     tfa_sample_file = 'reduced_model_ETC_core_20240816-155234_tfa_sampling.csv'
     tfa_samples = pd.read_csv(tfa_sample_file)
 
-
     # Scaling parameters
     CONCENTRATION_SCALING = 1e3 # 1 mol to 1 mmol
     TIME_SCALING = 1.0 # 1min
@@ -88,6 +87,19 @@ if __name__ == '__main__':
     flux_scaling_factor = 1e-6 / (GDW_GWW_RATIO / DENSITY) \
                           * CONCENTRATION_SCALING \
                           / TIME_SCALING
+    
+    # Add additional fluxes and concentration to model insulin turnover
+    # Turnover of inusnlin is about 5 min 
+    
+    tfa_samples['Insulin_secretion'] = 1/5 / flux_scaling_factor
+    tfa_samples['Insulin_degradation'] = 1/5 / flux_scaling_factor
+    tfa_samples['insulin_e'] = 1e-3 
+    
+
+    additional_fluxes = ['Insulin_secretion', 'Insulin_degradation']
+    additional_concentrations = ['insulin_e']
+
+
     
     S = get_stoichiometry(kmodel, kmodel.reactants).todense()
 
@@ -100,6 +112,10 @@ if __name__ == '__main__':
     path_for_output = './'+tfa_sample_file.replace(".csv",'')+'/paramter_pop_{}.h5'
 
     flux_fun = make_flux_fun(kmodel, QSSA)
+
+    # Fix insulin modifer activation constants
+    kmodel.reactions.GLCt1r.parameters.k_activation_HAMI_insulin_e_GLCt1r.bounds = (5, 5.001)
+    kmodel.reactions.PFK.parameters.k_activation_HAMI_insulin_e_PFK.bounds = (5, 5.001)
 
     # Integrate brenda enyzme data into the model
     # PGI
@@ -130,15 +146,15 @@ if __name__ == '__main__':
 
     # Hexokinase HK1 
     # https://www.brenda-enzymes.org/enzyme.php?ecno=2.7.1.1#KM%20VALUE%20[mM]
-    # kmodel.reactions.HEX1.parameters.km_substrate1.bounds = (0.1, 0.4) # ATP Brenda
-    # kmodel.reactions.HEX1.parameters.km_substrate2.bounds = (0.1, 1.0) # Glucose
+    kmodel.reactions.HEX1.parameters.km_substrate1.bounds = (0.1, 0.4) # ATP Brenda
+    kmodel.reactions.HEX1.parameters.km_substrate2.bounds = (0.1, 1.0) # Glucose
 
     # PFK 
     # HAS actual hill kinetics
     # https://onlinelibrary.wiley.com/doi/10.1002/jcb.24039
     # https://febs.onlinelibrary.wiley.com/doi/10.1016/j.febslet.2007.05.059
-    #kmodel.reactions.PFK.parameters.km_substrate1.bounds = (0.03, 0.04) # ATP Brenda
-    #kmodel.reactions.PFK.parameters.km_substrate2.bounds = (0.07, 0.09) # F6P
+    kmodel.reactions.PFK.parameters.km_substrate1.bounds = (0.03, 0.04) # ATP Brenda
+    kmodel.reactions.PFK.parameters.km_substrate2.bounds = (0.07, 0.09) # F6P
 
 
     # LDH pmt-coa inhibition
@@ -193,10 +209,12 @@ if __name__ == '__main__':
                                 ratio_gdw_gww=GDW_GWW_RATIO,
                                 concentration_scaling=CONCENTRATION_SCALING,
                                 time_scaling=TIME_SCALING,
-                                xmol_in_flux=1e-6)
+                                xmol_in_flux=1e-6,
+                                additional_fluxes=additional_fluxes)
         
         concentrations = load_concentrations(sample, tmodel, kmodel,
-                                                concentration_scaling=CONCENTRATION_SCALING)
+                                             concentration_scaling=CONCENTRATION_SCALING,
+                                             additional_concentrations=additional_concentrations)
         
         # ATP dissipation should be saturated KM << [atp_c]
         atp_c = concentrations['atp_c']
@@ -222,6 +240,10 @@ if __name__ == '__main__':
         bhb_m = concentrations['bhb_m']
         kmodel.reactions.BDHm.parameters.km_substrate2.bounds = (bhb_m*5, bhb_m*10)
         kmodel.reactions.OCOAT1m.parameters.km_substrate2.bounds = (acac_m*5, acac_m*10)
+
+        # FACOALm - Fatty acyl-CoA ligase 
+        hdca_c = concentrations['hdca_c']
+        kmodel.reactions.FACOAL160i.parameters.km_substrate1.bounds = (hdca_c*10, hdca_c*100)
 
         # Fetch equilibrium constants
         load_equilibrium_constants(sample, tmodel, kmodel,
@@ -262,7 +284,7 @@ if __name__ == '__main__':
     Prune parameters based on the time scales
     """
 
-    MAX_EIGENVALUES = -1/60 # Faster than an half hour response time 
+    MAX_EIGENVALUES = -1/60 # Faster than an hour response time 
     
     # Prune parameter based on eigenvalues
     is_selected = (lambda_max_all < MAX_EIGENVALUES )
@@ -315,5 +337,6 @@ if __name__ == '__main__':
     
     # Make a histogram of the slow eigenvalues
     import matplotlib.pyplot as plt
-    plt.hist( np.log10(-1/np.real(lambda_max_all.values.flatten())), bins=100)
+    bins = np.linspace(0, 240, 100)
+    plt.hist( -1/np.real(lambda_max_all.values.flatten()), bins=bins)
     plt.show()
