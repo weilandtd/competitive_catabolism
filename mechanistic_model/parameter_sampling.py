@@ -253,7 +253,8 @@ if __name__ == '__main__':
         # Generate sampels and fetch slowest and fastest eigenvalues
         params, lamda_max, lamda_min = sampler.sample(kmodel, fluxes, concentrations,
                                                         only_stable=False,
-                                                        min_max_eigenvalues=True)
+                                                        min_max_eigenvalues=True,
+                                                        seed=i+100)
         
         # Test Nv = 0 
         params_population = ParameterValuePopulation(params, kmodel)
@@ -322,7 +323,8 @@ if __name__ == '__main__':
 
     sample = tfa_samples.iloc[int(index.split(',')[0])]
     concentrations = load_concentrations(sample, tmodel, kmodel,
-                                                concentration_scaling=CONCENTRATION_SCALING)
+                                                concentration_scaling=CONCENTRATION_SCALING,
+                                                additional_concentrations=additional_concentrations)
     parameter_values = parameter_population[index]
 
     kmodel.prepare()
