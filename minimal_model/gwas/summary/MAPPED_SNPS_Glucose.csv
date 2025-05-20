@@ -1,0 +1,71 @@
+,pathway,gene_name,SNPS,PUBMEDID,STUDY,FIRST AUTHOR,DATE,P-VALUE,SAMPLE_SIZE,MAPPED_TRAIT
+0,Glucose catabolism,PFKP,rs566372607,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,1e-27,114870.0,Glucose
+1,Glucose catabolism,PFKP,rs566372607,36764567,Metabolomic Investigation of Major Depressive Disorder Identifies a Potentially Causal Association With Polyunsaturated Fatty Acids.,Davyson E,2023-02-09,6.9999999999999995e-25,88174.0,Glucose
+2,Glucose catabolism,SLC2A1,rs11210773,39024449,Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program.,Verma A,2024-07-19,6e-12,601780.0,Glucose
+3,Insulin receptor signaling,GRB10,rs10265504,34594039,A cross-population atlas of genetic associations for 220 human phenotypes.,Sakaue S,2021-09-30,2e-14,448252.0,Glucose
+4,Insulin receptor signaling,GRB10,rs2108349,34059833,The trans-ancestral genomic architecture of glycemic traits.,Chen J,2021-05-31,1e-15,200622.0,Glucose
+5,Insulin receptor signaling,GRB10,rs2108349,37679419,"GWAS of random glucose in 476,326 individuals provide insights into diabetes pathophysiology, complications and treatment stratification.",Lagou V,2023-09-07,1e-15,458862.0,Glucose
+6,Insulin receptor signaling,GRB10,rs2108349,37679419,"GWAS of random glucose in 476,326 individuals provide insights into diabetes pathophysiology, complications and treatment stratification.",Lagou V,2023-09-07,2e-15,475416.0,Glucose
+7,Insulin receptor signaling,GRB10,rs2190502,38448586,Genome-wide characterization of circulating metabolic biomarkers.,Karjalainen MK,2024-03-06,1e-10,136016.0,Glucose
+8,Insulin receptor signaling,GRB10,rs6976501,39024449,Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program.,Verma A,2024-07-19,3e-16,419946.0,Glucose
+9,Insulin receptor signaling,GRB10,rs6976501,39024449,Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program.,Verma A,2024-07-19,2e-13,601780.0,Glucose
+10,Insulin receptor signaling,PDE3B,rs117720468,34594039,A cross-population atlas of genetic associations for 220 human phenotypes.,Sakaue S,2021-09-30,9e-12,448252.0,Glucose
+11,Insulin secretion,GCK,rs117316370,33462484,Genetics of 35 blood and urine biomarkers in the UK Biobank.,Sinnott-Armstrong N,2021-01-18,5e-10,325386.0,Glucose
+12,Insulin secretion,GCK,rs138917529,37679419,"GWAS of random glucose in 476,326 individuals provide insights into diabetes pathophysiology, complications and treatment stratification.",Lagou V,2023-09-07,1.9999999999999998e-26,458862.0,Glucose
+13,Insulin secretion,GCK,rs138917529,37679419,"GWAS of random glucose in 476,326 individuals provide insights into diabetes pathophysiology, complications and treatment stratification.",Lagou V,2023-09-07,1.9999999999999998e-26,475416.0,Glucose
+14,Insulin secretion,GCK,rs16881016,33462484,Genetics of 35 blood and urine biomarkers in the UK Biobank.,Sinnott-Armstrong N,2021-01-18,7.000000000000001e-24,325386.0,Glucose
+15,Insulin secretion,GCK,rs1799884,34594039,A cross-population atlas of genetic associations for 220 human phenotypes.,Sakaue S,2021-09-30,3e-19,133336.0,Glucose
+16,Insulin secretion,GCK,rs1799884,39024449,Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program.,Verma A,2024-07-19,5e-162,601780.0,Glucose
+17,Insulin secretion,GCK,rs1799884,39024449,Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program.,Verma A,2024-07-19,4e-134,600867.0,Glucose
+18,Insulin secretion,GCK,rs1799884,39024449,Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program.,Verma A,2024-07-19,6.999999999999999e-84,601111.0,Glucose
+19,Insulin secretion,GCK,rs1799884,39024449,Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program.,Verma A,2024-07-19,5e-46,118233.0,Glucose
+20,Insulin secretion,GCK,rs1799884,39024449,Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program.,Verma A,2024-07-19,3e-29,118147.0,Glucose
+21,Insulin secretion,GCK,rs1799884,39024449,Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program.,Verma A,2024-07-19,3.9999999999999996e-26,117850.0,Glucose
+22,Insulin secretion,GCK,rs2300584,38448586,Genome-wide characterization of circulating metabolic biomarkers.,Karjalainen MK,2024-03-06,4.0000000000000006e-45,136016.0,Glucose
+23,Insulin secretion,GCK,rs2971669,31928498,Genetic Determinants of Clustering of Cardiometabolic Risk Factors in U.K. Biobank.,Lind L,2020-01-13,9.999999999999999e-26,291107.0,Glucose
+24,Insulin secretion,GCK,rs2971670,37679419,"GWAS of random glucose in 476,326 individuals provide insights into diabetes pathophysiology, complications and treatment stratification.",Lagou V,2023-09-07,6e-290,475416.0,Glucose
+25,Insulin secretion,GCK,rs2971670,37679419,"GWAS of random glucose in 476,326 individuals provide insights into diabetes pathophysiology, complications and treatment stratification.",Lagou V,2023-09-07,4e-277,458862.0,Glucose
+26,Insulin secretion,GCK,rs2971671,37679419,"GWAS of random glucose in 476,326 individuals provide insights into diabetes pathophysiology, complications and treatment stratification.",Lagou V,2023-09-07,1e-203,475416.0,Glucose
+27,Insulin secretion,GCK,rs2971671,37679419,"GWAS of random glucose in 476,326 individuals provide insights into diabetes pathophysiology, complications and treatment stratification.",Lagou V,2023-09-07,5e-195,458862.0,Glucose
+28,Insulin secretion,GCK,rs2971681,33462484,Genetics of 35 blood and urine biomarkers in the UK Biobank.,Sinnott-Armstrong N,2021-01-18,6e-30,325386.0,Glucose
+29,Insulin secretion,GCK,rs3757840,37679419,"GWAS of random glucose in 476,326 individuals provide insights into diabetes pathophysiology, complications and treatment stratification.",Lagou V,2023-09-07,9.000000000000001e-194,475416.0,Glucose
+30,Insulin secretion,GCK,rs3757840,37679419,"GWAS of random glucose in 476,326 individuals provide insights into diabetes pathophysiology, complications and treatment stratification.",Lagou V,2023-09-07,3e-191,458862.0,Glucose
+31,Insulin secretion,GCK,rs58053084,33462484,Genetics of 35 blood and urine biomarkers in the UK Biobank.,Sinnott-Armstrong N,2021-01-18,2.0000000000000003e-34,325386.0,Glucose
+32,Insulin secretion,GCK,rs6975024,29403010,Genetic analysis of quantitative traits in the Japanese population links cell types to complex human diseases.,Kanai M,2018-02-05,7e-16,93146.0,Glucose
+33,Insulin secretion,GCK,rs730497,33462484,Genetics of 35 blood and urine biomarkers in the UK Biobank.,Sinnott-Armstrong N,2021-01-18,4.0000000000000004e-261,325386.0,Glucose
+34,Insulin secretion,GCK,rs730497,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,6.9999999999999995e-40,114870.0,Glucose
+35,Insulin secretion,GCK,rs730497,36764567,Metabolomic Investigation of Major Depressive Disorder Identifies a Potentially Causal Association With Polyunsaturated Fatty Acids.,Davyson E,2023-02-09,9.999999999999999e-33,88174.0,Glucose
+36,Insulin secretion,GCK,rs74897641,33462484,Genetics of 35 blood and urine biomarkers in the UK Biobank.,Sinnott-Armstrong N,2021-01-18,3e-25,325386.0,Glucose
+37,Insulin secretion,GCK,rs753795627,34226706,Whole-exome imputation within UK Biobank powers rare coding variant association and fine-mapping analyses.,Barton AR,2021-07-05,3e-17,400458.0,Glucose
+38,Insulin secretion,GCK,rs79582698,33462484,Genetics of 35 blood and urine biomarkers in the UK Biobank.,Sinnott-Armstrong N,2021-01-18,2e-10,325386.0,Glucose
+39,Insulin secretion,GCKR,rs1260326,29403010,Genetic analysis of quantitative traits in the Japanese population links cell types to complex human diseases.,Kanai M,2018-02-05,2e-16,93146.0,Glucose
+40,Insulin secretion,GCKR,rs1260326,34059833,The trans-ancestral genomic architecture of glycemic traits.,Chen J,2021-05-31,4e-65,200622.0,Glucose
+41,Insulin secretion,GCKR,rs1260326,34594039,A cross-population atlas of genetic associations for 220 human phenotypes.,Sakaue S,2021-09-30,8e-70,448252.0,Glucose
+42,Insulin secretion,GCKR,rs1260326,34594039,A cross-population atlas of genetic associations for 220 human phenotypes.,Sakaue S,2021-09-30,2e-19,133336.0,Glucose
+43,Insulin secretion,GCKR,rs1260326,39024449,Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program.,Verma A,2024-07-19,2.0000000000000002e-82,419946.0,Glucose
+44,Insulin secretion,GCKR,rs1260326,39024449,Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program.,Verma A,2024-07-19,2e-48,601780.0,Glucose
+45,Insulin secretion,GCKR,rs1260326,39024449,Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program.,Verma A,2024-07-19,5e-43,419671.0,Glucose
+46,Insulin secretion,GCKR,rs1260326,39024449,Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program.,Verma A,2024-07-19,5e-27,601111.0,Glucose
+47,Insulin secretion,GCKR,rs780093,39024449,Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program.,Verma A,2024-07-19,9.999999999999999e-27,419287.0,Glucose
+48,Insulin secretion,GCKR,rs780094,33462484,Genetics of 35 blood and urine biomarkers in the UK Biobank.,Sinnott-Armstrong N,2021-01-18,4e-53,325386.0,Glucose
+49,Insulin secretion,GCKR,rs780094,37679419,"GWAS of random glucose in 476,326 individuals provide insights into diabetes pathophysiology, complications and treatment stratification.",Lagou V,2023-09-07,1e-35,458862.0,Glucose
+50,Insulin secretion,GCKR,rs780094,37679419,"GWAS of random glucose in 476,326 individuals provide insights into diabetes pathophysiology, complications and treatment stratification.",Lagou V,2023-09-07,3e-35,475416.0,Glucose
+51,Insulin secretion,GCKR,rs780094,39024449,Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program.,Verma A,2024-07-19,1e-21,600867.0,Glucose
+52,Insulin secretion,INS,rs3842752,33462484,Genetics of 35 blood and urine biomarkers in the UK Biobank.,Sinnott-Armstrong N,2021-01-18,2e-18,325386.0,Glucose
+53,Insulin secretion,INS,rs3842752,38448586,Genome-wide characterization of circulating metabolic biomarkers.,Karjalainen MK,2024-03-06,8e-15,136016.0,Glucose
+54,Insulin secretion,INS,rs3842752,39024449,Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program.,Verma A,2024-07-19,3e-11,600867.0,Glucose
+55,Insulin secretion,INS,rs3842753,34059833,The trans-ancestral genomic architecture of glycemic traits.,Chen J,2021-05-31,3e-09,200622.0,Glucose
+56,Insulin secretion,INS,rs3842753,37679419,"GWAS of random glucose in 476,326 individuals provide insights into diabetes pathophysiology, complications and treatment stratification.",Lagou V,2023-09-07,1e-21,458862.0,Glucose
+57,Insulin secretion,INS,rs3842753,37679419,"GWAS of random glucose in 476,326 individuals provide insights into diabetes pathophysiology, complications and treatment stratification.",Lagou V,2023-09-07,1e-21,475416.0,Glucose
+58,Insulin secretion,SLC30A8,rs11558471,39024449,Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program.,Verma A,2024-07-19,6e-113,419671.0,Glucose
+59,Insulin secretion,SLC30A8,rs11558471,39024449,Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program.,Verma A,2024-07-19,2.9999999999999995e-70,601111.0,Glucose
+60,Insulin secretion,SLC30A8,rs13266634,29403010,Genetic analysis of quantitative traits in the Japanese population links cell types to complex human diseases.,Kanai M,2018-02-05,2e-19,93146.0,Glucose
+61,Insulin secretion,SLC30A8,rs13266634,34594039,A cross-population atlas of genetic associations for 220 human phenotypes.,Sakaue S,2021-09-30,3.9999999999999997e-25,133336.0,Glucose
+62,Insulin secretion,SLC30A8,rs13266634,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,5e-13,114870.0,Glucose
+63,Insulin secretion,SLC30A8,rs13266634,36764567,Metabolomic Investigation of Major Depressive Disorder Identifies a Potentially Causal Association With Polyunsaturated Fatty Acids.,Davyson E,2023-02-09,8e-11,88174.0,Glucose
+64,Insulin secretion,SLC30A8,rs13266634,39024449,Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program.,Verma A,2024-07-19,9e-101,601780.0,Glucose
+65,Ketone metabolism,AACS,rs55657684,34594039,A cross-population atlas of genetic associations for 220 human phenotypes.,Sakaue S,2021-09-30,2e-09,448252.0,Glucose
+66,Ketone metabolism,AACS,rs60983647,33462484,Genetics of 35 blood and urine biomarkers in the UK Biobank.,Sinnott-Armstrong N,2021-01-18,2e-09,325386.0,Glucose
+67,Triglyceride biosynthesis,DGAT1,rs3757974,34594039,A cross-population atlas of genetic associations for 220 human phenotypes.,Sakaue S,2021-09-30,2e-12,448252.0,Glucose
+68,Triglyceride biosynthesis,DGAT1,rs3757974,39024449,Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program.,Verma A,2024-07-19,2e-18,601780.0,Glucose
+69,Triglyceride biosynthesis,DGAT1,rs3757974,39024449,Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program.,Verma A,2024-07-19,1e-15,601111.0,Glucose

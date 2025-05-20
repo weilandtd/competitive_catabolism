@@ -1,0 +1,9 @@
+,pathway,gene_name,SNPS,PUBMEDID,STUDY,FIRST AUTHOR,DATE,P-VALUE,SAMPLE_SIZE,MAPPED_TRAIT
+0,Glucose catabolism,PFKFB2,rs4844565,38448586,Genome-wide characterization of circulating metabolic biomarkers.,Karjalainen MK,2024-03-06,3e-13,136016.0,Lactate
+1,Glucose catabolism,PFKP,rs11251686,36764567,Metabolomic Investigation of Major Depressive Disorder Identifies a Potentially Causal Association With Polyunsaturated Fatty Acids.,Davyson E,2023-02-09,4e-12,88119.0,Lactate
+2,Glucose catabolism,PFKP,rs34538474,38448586,Genome-wide characterization of circulating metabolic biomarkers.,Karjalainen MK,2024-03-06,2e-11,136016.0,Lactate
+3,Glucose catabolism,PFKP,rs61835134,36764567,Metabolomic Investigation of Major Depressive Disorder Identifies a Potentially Causal Association With Polyunsaturated Fatty Acids.,Davyson E,2023-02-09,2.0000000000000003e-34,88119.0,Lactate
+4,Glucose catabolism,PFKP,rs61835136,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,8e-40,114806.0,Lactate
+5,Insulin secretion,GCKR,rs1260326,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,3e-12,114806.0,Lactate
+6,Insulin secretion,GCKR,rs1260326,36764567,Metabolomic Investigation of Major Depressive Disorder Identifies a Potentially Causal Association With Polyunsaturated Fatty Acids.,Davyson E,2023-02-09,1e-11,88119.0,Lactate
+7,Insulin secretion,GCKR,rs1260326,38448586,Genome-wide characterization of circulating metabolic biomarkers.,Karjalainen MK,2024-03-06,4.0000000000000004e-39,136016.0,Lactate

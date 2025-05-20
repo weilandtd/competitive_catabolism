@@ -21,45 +21,43 @@ from tqdm import tqdm
 if __name__ == '__main__':
 
     # Load the tfa model 
-    model_file = 'reduced_model_ETC_core_20240816-155234_continuous.json'
+    #model_file = 'reduced_model_ETC_core_20240816-155234_continuous.json'
+    model_file = 'reduced_model_ETC_core_20250228-213124_continuous.json'
     tmodel = load_json_model(model_file)
     #sol = tmodel.optimize()
 
     # Reload and prepare the model
     kmodel = load_yaml_model(model_file.replace("_continuous.json", "_kinetic_curated.yml"))
 
-    faraday_const = 23.061 # kcal / mol / mV
+
+    faraday_const = 23.061 # kcal / mol / V
     RT = tmodel.RT # kcal /mol
-    delta_psi_scaled = 150/1000 * faraday_const / RT # mV * F / RT 
+    delta_psi_scaled = -150/1000 * faraday_const / RT  # mV * F / RT 
 
-    # These are common for the sodium gneralize the assingemnt 
-    # Delta ion deltaH = 5.309573444801986e-05
+    # To be determined (10 min time scale)
+    kmodel.parameters.capacitance_MPDYN_m_MitoMembranePot.value = 30 * 0.1 # eq. 30s  time scale
 
+    # Parametrize the membrane potential modifiers
     for parameter in kmodel.parameters.values(): 
-        if 'charge_ion_MPM_na1_m_na1_c' in str(parameter.symbol):
-            parameter.value = 1
-            print(parameter.symbol , parameter.value)
-        if 'delta_psi_scaled_MPM_na1_m_na1_c' in str(parameter.symbol):
+        if 'delta_psi_scaled_MPM_psi_m_c' in str(parameter.symbol):
             parameter.value = delta_psi_scaled
             print(parameter.symbol , parameter.value)
-        if 'delta_ion_concentration_MPM_na1_m_na1_c' in str(parameter.symbol):
-            parameter.value = -2
-            print(parameter.symbol , parameter.value)
-
 
     # Parametrize the membrane potential modifiers
     # Charge export from mitochondria
     # Pos
-    kmodel.parameters.charge_transport_MPM_na1_m_na1_c_NADH2_u10mi.value = -4 # 4 H+ to the outside (Complex I)
-    kmodel.parameters.charge_transport_MPM_na1_m_na1_c_CYOOm2i.value = -4 # 4 H+ to the outside (Complex IV)
-    kmodel.parameters.charge_transport_MPM_na1_m_na1_c_CYOR_u10mi.value = -4 # 4 H+ to the outside (Complex III)
-    # Neg
-    kmodel.parameters.charge_transport_MPM_na1_m_na1_c_ATPtm.value = 1 # -1 to the outside 
+    kmodel.parameters.charge_transport_MPM_psi_m_c_NADH2_u10mi.value = -4 # 4 pos charges from inside (Complex I)
+    kmodel.parameters.charge_transport_MPM_psi_m_c_CYOR_u10mi.value = -4 # 4 H+ from insinde (Complex III)
+    kmodel.parameters.charge_transport_MPM_psi_m_c_CYOOm2i.value = -4 # 4 H+ from insinde (Complex IV)
+
+    
+    # Neg charge export from mitochondria
+    kmodel.parameters.charge_transport_MPM_psi_m_c_ATPtm.value = 1 # -1 to the outside 
     
     # Charge import into mitochondria
     # Pos
-    kmodel.parameters.charge_transport_MPM_na1_m_na1_c_ASPGLUm.value = 1 # 1 H+ to the inside
-    kmodel.parameters.charge_transport_MPM_na1_m_na1_c_ATPS4mi.value = 3 # 3 H+ to the inside
+    kmodel.parameters.charge_transport_MPM_psi_m_c_ASPGLUm.value = 1 # 1 H+ to the inside
+    kmodel.parameters.charge_transport_MPM_psi_m_c_ATPS4mi.value = 3 # 3 H+ to the inside
 
     # Compile the jacobian expressions
     NCPU = 8
@@ -74,7 +72,8 @@ if __name__ == '__main__':
 
 
     # Load TFA samples 
-    tfa_sample_file = 'reduced_model_ETC_core_20240816-155234_tfa_sampling.csv'
+    # tfa_sample_file = 'reduced_model_ETC_core_20240816-155234_tfa_sampling.csv'
+    tfa_sample_file = 'reduced_model_ETC_core_20250228-213124_tfa_sampling.csv'
     tfa_samples = pd.read_csv(tfa_sample_file)
 
     # Scaling parameters
@@ -90,17 +89,23 @@ if __name__ == '__main__':
     
     # Add additional fluxes and concentration to model insulin turnover
     # Turnover of inusnlin is about 5 min 
-    
     tfa_samples['Insulin_secretion'] = 1/5 / flux_scaling_factor
     tfa_samples['Insulin_degradation'] = 1/5 / flux_scaling_factor
     tfa_samples['insulin_e'] = 1e-3 
-    
 
-    additional_fluxes = ['Insulin_secretion', 'Insulin_degradation']
-    additional_concentrations = ['insulin_e']
+    # Time scale about 10 s 
+    tfa_samples['Stimulation_on'] = 6 / flux_scaling_factor 
+    tfa_samples['Stimulation_off'] = 6 / flux_scaling_factor
+    tfa_samples['stim_e'] = 1e-3
 
+    # Psuedo data for the membrane potential
+    tfa_samples['psi_m_c'] = delta_psi_scaled * 1e-3 # be aware of the scaling!!!
+    tfa_samples['MitoMembranePot'] = 1.0
 
-    
+    additional_fluxes = ['Insulin_secretion', 'Insulin_degradation', 'Stimulation_on', 'Stimulation_off', 'MitoMembranePot']
+    additional_concentrations = ['insulin_e', 'stim_e', 'psi_m_c',]
+
+    # Get the stoichiometry matrix
     S = get_stoichiometry(kmodel, kmodel.reactants).todense()
 
     lambda_max_all = []
@@ -113,95 +118,8 @@ if __name__ == '__main__':
 
     flux_fun = make_flux_fun(kmodel, QSSA)
 
-    # Fix insulin modifer activation constants
-    kmodel.reactions.GLCt1r.parameters.k_activation_HAMI_insulin_e_GLCt1r.bounds = (5, 5.001)
-    kmodel.reactions.PFK.parameters.k_activation_HAMI_insulin_e_PFK.bounds = (5, 5.001)
-
-    # Integrate brenda enyzme data into the model
-    # PGI
-    PGI_f6p_c_KM = 50e-3 # mM
-    PGI_g6p_c_KM = 0.5 # mM
-    kmodel.reactions.PGI.parameters.km_product.bounds = (PGI_f6p_c_KM * 0.8 , PGI_f6p_c_KM * 1.2)
-    kmodel.reactions.PGI.parameters.km_substrate.bounds = (PGI_g6p_c_KM * 0.8 , PGI_g6p_c_KM * 1.2)
-
-    # LDH_L 
-    LDH_L_pyruvate_c_KM = 0.05 # mM
-    LDH_L_lac_L_c_KM = 5 # mM
-    kmodel.reactions.LDH_L.parameters.km_product2.bounds = (LDH_L_pyruvate_c_KM * 0.8 , LDH_L_pyruvate_c_KM * 1.2)
-    kmodel.reactions.LDH_L.parameters.km_substrate2.bounds = (LDH_L_lac_L_c_KM * 0.8 , LDH_L_lac_L_c_KM * 1.2)
-
-    # NDPK1m 
-    NDPK1m_atp_c_KM = 1.0 # mM
-    NDPK1m_gdp_c_KM = 0.1 # mM
-    NDPK1m_adp_c_KM = 0.1 # mM
-    NDPK1m_gtp_c_KM = 1.0 # mM
-    kmodel.reactions.NDPK1m.parameters.km_product1.bounds = (NDPK1m_gtp_c_KM * 0.8 , NDPK1m_gtp_c_KM * 1.2)
-    kmodel.reactions.NDPK1m.parameters.km_substrate1.bounds = (NDPK1m_gdp_c_KM * 0.8 , NDPK1m_gdp_c_KM * 1.2)
-    kmodel.reactions.NDPK1m.parameters.km_product2.bounds = (NDPK1m_adp_c_KM * 0.8 , NDPK1m_adp_c_KM * 1.2)
-    kmodel.reactions.NDPK1m.parameters.km_substrate2.bounds = (NDPK1m_atp_c_KM * 0.8 , NDPK1m_atp_c_KM * 1.2)
-
-    # GLUT4 KM
-    kmodel.reactions.GLCt1r.parameters.km_substrate.bounds = (4.9, 5.1)
-    kmodel.reactions.GLCt1r.parameters.km_product.bounds = (4.9, 5.1)
-
-    # Hexokinase HK1 
-    # https://www.brenda-enzymes.org/enzyme.php?ecno=2.7.1.1#KM%20VALUE%20[mM]
-    kmodel.reactions.HEX1.parameters.km_substrate1.bounds = (0.1, 0.4) # ATP Brenda
-    kmodel.reactions.HEX1.parameters.km_substrate2.bounds = (0.1, 1.0) # Glucose
-
-    # PFK 
-    # HAS actual hill kinetics
-    # https://onlinelibrary.wiley.com/doi/10.1002/jcb.24039
-    # https://febs.onlinelibrary.wiley.com/doi/10.1016/j.febslet.2007.05.059
-    kmodel.reactions.PFK.parameters.km_substrate1.bounds = (0.03, 0.04) # ATP Brenda
-    kmodel.reactions.PFK.parameters.km_substrate2.bounds = (0.07, 0.09) # F6P
-
-
-    # LDH pmt-coa inhibition
-    # https://www.science.org/doi/10.1126/science.abm3452?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed#sec-3
-    # Arround 1 uM
-    kmodel.reactions.LDH_L.parameters.k_inhibition_IM_pmtcoa_c_LDH_L.bounds = (0.8e-3 , 1.2e-3)
-
-    # # BDHm 
-    # # https://www.brenda-enzymes.org/all_enzymes.php?ecno=1.1.1.30&table=KM_Value#TAB
-    # kmodel.reactions.BDHm.parameters.km_substrate1.bounds = (0.05, 0.07) # NAD
-    # kmodel.reactions.BDHm.parameters.km_substrate2.bounds = (1.0, 5.0) # 3BHb -> GUESS
-    # kmodel.reactions.BDHm.parameters.km_product1.bounds = (0.02, 0.03) # NADH
-    # kmodel.reactions.BDHm.parameters.km_product2.bounds = (0.25, 0.35) # AcAc
-
-    # # OCOAT1m/ SCOT1
-    # # https://www.brenda-enzymes.org/enzyme.php?ecno=2.8.3.5
-    # kmodel.reactions.OCOAT1m.parameters.km_substrate1.bounds = (0.1, 0.3) # SucCoa
-    # kmodel.reactions.OCOAT1m.parameters.km_substrate2.bounds = (0.05, 0.1) # ACAC 0.07
-    # kmodel.reactions.OCOAT1m.parameters.km_product1.bounds = (0.02, 0.03) # Succ
-    # kmodel.reactions.OCOAT1m.parameters.km_product2.bounds = (0.04, 0.06) # AcAcCoa
-
-    # #Acetyl CoA C acetyltransferase mitochondrial
-    # # https://www.brenda-enzymes.org/enzyme.php?ecno=2.3.1.9#KM%20VALUE%20[mM]
-    # kmodel.reactions.ACACT1rm.parameters.km_substrate1.bounds = (0.03, 0.031) # AcCoa
-    # kmodel.reactions.ACACT1rm.parameters.km_substrate2.bounds = (0.03, 0.031) # AcCoa
-    # kmodel.reactions.ACACT1rm.parameters.km_product1.bounds = (0.01, 0.03) # CoA
-    # kmodel.reactions.ACACT1rm.parameters.km_product2.bounds = (4e-3, 5e-3) # AcAcCoa
-
-    # # # # G3PD1 - Glycerol 3-phosphate dehydrogenase (NAD+)
-    # # # # https://www.brenda-enzymes.org/enzyme.php?ecno=1.1.1.8#KM%20VALUE%20[mM]
-    # kmodel.reactions.G3PD1.parameters.km_product1.bounds = (0.002, 0.010) # NADH
-    # kmodel.reactions.G3PD1.parameters.km_product2.bounds = (0.02, 0.03) # DAHP
-    # kmodel.reactions.G3PD1.parameters.km_substrate1.bounds = (0.01, 0.04) # NAD+
-    # kmodel.reactions.G3PD1.parameters.km_substrate2.bounds = (1.0,2.0) # Glycerol-3P
-
-    # # # r0205 - GPD2 - Glycerol-3-phosphate dehydrogenase (Quinone)
-    # # # Brenda 
-    # kmodel.reactions.r0205.parameters.km_substrate2.bounds = (0.5, 10) # Glycerol-3P
-
-    # TPI - le
-    # https://www.brenda-enzymes.org/enzyme.php?ecno=5.3.1.1#KM%20VALUE%20[mM]
-    # kmodel.reactions.TPI.parameters.km_substrate.bounds = (1.0, 2.0) #DHAP
-    # kmodel.reactions.TPI.parameters.km_product.bounds = (0.25, 1.0) # GAP
-
 
     # NOTE DW -> TRANSPORTERS SHOULD HAVE SAME KM for substrate and product pairs
-    
     for i, sample in tqdm(tfa_samples.iterrows()):
         # Load fluxes and concentrations
         fluxes = load_fluxes(sample, tmodel, kmodel,
@@ -215,35 +133,52 @@ if __name__ == '__main__':
         concentrations = load_concentrations(sample, tmodel, kmodel,
                                              concentration_scaling=CONCENTRATION_SCALING,
                                              additional_concentrations=additional_concentrations)
-        
-        # ATP dissipation should be saturated KM << [atp_c]
-        atp_c = concentrations['atp_c']
-        kmodel.reactions.cyt_atp2adp.parameters.km_substrate1.bounds = (atp_c*1e-4, atp_c*1e-3)
 
-        # FATP1t - Fatty acid transport unsaturated
-        hdca_e = concentrations['hdca_e']
-        kmodel.reactions.FATP1t.parameters.km_substrate1.bounds = (hdca_e*4.9, hdca_e*5.0)
-        kmodel.reactions.FATP1t.parameters.km_product1.bounds = (hdca_e*4.9, hdca_e*5.0)
+        ##################################################################################
+        # Assume all KM are unsaturated 1 to 3 orders of magnitude above the concentration
+        # Further we limit the activation and inhibition constants 0.1 / 100 fold
+        ##################################################################################
 
-        # # ASPGLUm unsaturated - This is a commited step in the malate aspartate shuttle
-        # # Substrate control of asp and glu 
-        asp_L_c = concentrations['asp_L_c'] 
-        glu_L_c = concentrations['glu_L_c']
-        kmodel.reactions.ASPGLUm.parameters.km_substrate1.bounds = (glu_L_c*4.9, glu_L_c*5)
-        kmodel.reactions.ASPGLUm.parameters.km_substrate2.bounds = (asp_L_c*4.9, asp_L_c*5)
-        kmodel.reactions.ASPGLUm.parameters.km_product1.bounds = (glu_L_c*4.9, glu_L_c*5)
-        kmodel.reactions.ASPGLUm.parameters.km_product2.bounds = (asp_L_c*4.9, asp_L_c*5)
+        for p_name,param in kmodel.parameters.items():
+            if 'km' in p_name:
+                concentration_hook = param.hook
+                this_concentration = concentrations[concentration_hook.name]
+                kmodel.parameters[p_name] = (this_concentration*10, this_concentration*1000)
 
-        # BDH and OCOAT1m unsaturated in their ketones effects (mass action effect)
-        # AcAc and 3HB
-        acac_m = concentrations['acac_m']
-        bhb_m = concentrations['bhb_m']
-        kmodel.reactions.BDHm.parameters.km_substrate2.bounds = (bhb_m*5, bhb_m*10)
-        kmodel.reactions.OCOAT1m.parameters.km_substrate2.bounds = (acac_m*5, acac_m*10)
+            if ('k_activation' in p_name) or ('k_inhibition' in p_name):
+                concentration_hook = param.hook
+                this_concentration = concentrations[concentration_hook.name]
+                kmodel.parameters[p_name] = (this_concentration*0.1, this_concentration*100)
 
-        # FACOALm - Fatty acyl-CoA ligase 
-        hdca_c = concentrations['hdca_c']
-        kmodel.reactions.FACOAL160i.parameters.km_substrate1.bounds = (hdca_c*10, hdca_c*100)
+
+        ##################################################################################
+        # Integrate parameters from Bernda and integrate assumptions from Lenhninger 
+        ##################################################################################
+
+        # Fix insulin modifer activation constants
+        kmodel.reactions.GLCt1r.parameters.k_activation_HAMI_insulin_e_GLCt1r.bounds = (5, 5.001)
+        kmodel.reactions.PFK.parameters.k_activation_HAMI_insulin_e_PFK.bounds = (5, 5.001)
+
+        # Fix stimulation modifer activation constants
+        kmodel.reactions.cyt_atp2adp.parameters.k_activation_PM_stim_e_cyt_atp2adp.bounds = (1,1.001)
+
+        # GLUT4 KM
+        kmodel.reactions.GLCt1r.parameters.km_substrate.bounds = (4.9, 5.1)
+        kmodel.reactions.GLCt1r.parameters.km_product.bounds = (4.9, 5.1)
+
+        # Hexokinase HK1
+        # https://www.brenda-enzymes.org/enzyme.php?ecno=2.7.1.1#KM%20VALUE%20[mM]
+        kmodel.reactions.HEX1.parameters.km_substrate1.bounds = (0.01, 0.05) # ATP Brenda
+        kmodel.reactions.HEX1.parameters.km_substrate2.bounds = (10.0, 15.0) # Glucose Lenhninger
+
+        # ATP dissipation mainly by myosin atpase KM 200 uM
+        # https://www.med.upenn.edu/ostaplab/assets/user-content/documents/mie-reprint.pdf
+        kmodel.reactions.cyt_atp2adp.parameters.km_substrate1.bounds = (0.2, 0.3) # 
+
+        # CYOOm2i - High affinity for O2
+        O2_m = concentrations['o2_m']
+        kmodel.reactions.CYOOm2i.parameters.km_substrate1.bounds = (O2_m*0.01, O2_m*0.1)
+
 
         # Fetch equilibrium constants
         load_equilibrium_constants(sample, tmodel, kmodel,
@@ -254,6 +189,7 @@ if __name__ == '__main__':
         params, lamda_max, lamda_min = sampler.sample(kmodel, fluxes, concentrations,
                                                         only_stable=False,
                                                         min_max_eigenvalues=True,
+                                                        bounds_sample=(0.0, 0.95),
                                                         seed=i+100)
         
         # Test Nv = 0 
@@ -267,11 +203,18 @@ if __name__ == '__main__':
             raise RuntimeError('dxdt for idx {} not equal to 0'
                                .format(np.where(abs(dxdt) > 1e-9*flux_scaling_factor)))
         
+        # Skip TFA sample when there is any nan in lambade_max
+        if np.isnan(lamda_max).any():
+            #raise RuntimeError('Nan in lambda_max for idx {}'.format(i))
+            Warning('Nan in lambda_max for idx {}'.format(i))
+            
+        else:
+            lambda_max_all.append(pd.DataFrame(lamda_max))
+            lambda_min_all.append(pd.DataFrame(lamda_min))
 
-        lambda_max_all.append(pd.DataFrame(lamda_max))
-        lambda_min_all.append(pd.DataFrame(lamda_min))
+            params_population.save(path_for_output.format(i))
 
-        params_population.save(path_for_output.format(i))
+
 
     # Process df and save dataframe
     lambda_max_all = pd.concat(lambda_max_all, axis=1)
@@ -281,15 +224,24 @@ if __name__ == '__main__':
     lambda_max_all.to_csv(tfa_sample_file.replace(".csv","_lambda_max.csv"))
     lambda_min_all.to_csv(tfa_sample_file.replace(".csv","_lambda_min.csv"))
 
-    """
+    """b
     Prune parameters based on the time scales
     """
 
-    MAX_EIGENVALUES = -1/60 # Faster than an hour response time 
-    
+    MAX_EIGENVALUES = -1/60 # Faster than 60 min response time 
+
+    # Build index from files in path_for_output
+    output = './reduced_model_ETC_core_20250228-213124_tfa_sampling'
+    index = []
+    for file in os.listdir(output):
+        if file.endswith(".h5"):
+            index.append(file.split('_')[-1].split('.')[0])
+
+    lambda_max_all.columns = index
+
     # Prune parameter based on eigenvalues
     is_selected = (lambda_max_all < MAX_EIGENVALUES )
-    is_selected.columns = range(lambda_max_all.shape[1])
+    #is_selected.columns = range(lambda_max_all.shape[1])
 
     fast_parameters = []
     fast_index = []
@@ -306,7 +258,7 @@ if __name__ == '__main__':
     parameter_population = ParameterValuePopulation(fast_parameters,
                                                kmodel=kmodel,
                                                index=fast_index)
-    
+    # Save the pruned parameter population
     parameter_population.save( tfa_sample_file.replace(".csv",'_pruned_parameters.hdf5'))
 
 

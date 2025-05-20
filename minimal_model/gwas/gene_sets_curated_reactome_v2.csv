@@ -1,0 +1,254 @@
+gene_name,pathway,use,comment
+ADPGK,Glucose catabolism,FALSE,ADP GK non cannonical
+ALDOA,Glucose catabolism,TRUE,
+ALDOB,Glucose catabolism,TRUE,
+ALDOC,Glucose catabolism,TRUE,
+BPGM,Glucose catabolism,TRUE,
+ENO1,Glucose catabolism,TRUE,
+ENO2,Glucose catabolism,TRUE,
+ENO3,Glucose catabolism,TRUE,
+ENO4,Glucose catabolism,TRUE,
+FBP1,Glucose catabolism,TRUE,
+FBP2,Glucose catabolism,TRUE,
+GAPDH,Glucose catabolism,TRUE,
+GAPDHS,Glucose catabolism,TRUE,
+GPI,Glucose catabolism,TRUE,
+HK1,Glucose catabolism,TRUE,
+HK2,Glucose catabolism,TRUE,
+HK3,Glucose catabolism,TRUE,
+HKDC1,Glucose catabolism,TRUE,
+PFKFB1,Glucose catabolism,TRUE,
+PFKFB2,Glucose catabolism,TRUE,
+PFKFB3,Glucose catabolism,TRUE,
+PFKFB4,Glucose catabolism,TRUE,
+PFKL,Glucose catabolism,TRUE,
+PFKM,Glucose catabolism,TRUE,
+PFKP,Glucose catabolism,TRUE,
+PGAM1,Glucose catabolism,TRUE,
+PGAM2,Glucose catabolism,TRUE,
+PGK1,Glucose catabolism,TRUE,
+PGK2,Glucose catabolism,TRUE,
+PGM2L1,Glucose catabolism,TRUE,
+PKM,Glucose catabolism,TRUE,
+SLC2A1,Glucose catabolism,TRUE,DW added (GLUT1)
+SLC2A4,Glucose catabolism,TRUE,DW added (GLUT4)
+SLC37A1,Glucose catabolism,TRUE,
+SLC37A2,Glucose catabolism,TRUE,
+SLC37A4,Glucose catabolism,TRUE,
+TPI1,Glucose catabolism,TRUE,
+TPR,Glucose catabolism,TRUE,
+SLC16A1,Lactate metabolism,TRUE,DW added
+SLC16A3,Lactate metabolism,TRUE,DW added
+SLC16A7,Lactate metabolism,TRUE,DW added
+PC,Lactate metabolism,TRUE,
+PCK1,Lactate metabolism,TRUE,
+PCK2,Lactate metabolism,TRUE,
+LDHA,Lactate metabolism,TRUE,DW added
+LDHB,Lactate metabolism,TRUE,DW added
+LDHC,Lactate metabolism,TRUE,DW added
+LDHD,Lactate metabolism,TRUE,DW added
+MPC1,Lactate metabolism,TRUE,DW added
+MPC2,Lactate metabolism,TRUE,DW added
+PKLR,Lactate metabolism,TRUE,(Liver and RBC
+SLC37A1,Lactate metabolism,TRUE,
+SLC37A2,Lactate metabolism,TRUE,
+SLC37A4,Lactate metabolism,TRUE,
+ABCD1,Fatty acid oxidation,TRUE,
+ACAA1,Fatty acid oxidation,TRUE,
+ACAA2,Fatty acid oxidation,TRUE,
+ACAD10,Fatty acid oxidation,TRUE,
+ACAD11,Fatty acid oxidation,TRUE,
+ACADL,Fatty acid oxidation,TRUE,
+ACADM,Fatty acid oxidation,TRUE,
+ACADS,Fatty acid oxidation,TRUE,
+ACADVL,Fatty acid oxidation,TRUE,
+ACBD6,Fatty acid oxidation,TRUE,
+ACBD7,Fatty acid oxidation,TRUE,
+ACOT1,Fatty acid oxidation,TRUE,
+ACOT11,Fatty acid oxidation,TRUE,
+ACOT12,Fatty acid oxidation,TRUE,
+ACOT13,Fatty acid oxidation,TRUE,
+ACOT2,Fatty acid oxidation,TRUE,
+ACOT4,Fatty acid oxidation,TRUE,
+ACOT6,Fatty acid oxidation,TRUE,
+ACOT7,Fatty acid oxidation,TRUE,
+ACOT8,Fatty acid oxidation,TRUE,
+ACOT9,Fatty acid oxidation,TRUE,
+ACOX1,Fatty acid oxidation,TRUE,
+ACSF2,Fatty acid oxidation,TRUE,
+ACSL4,Fatty acid oxidation,TRUE,DW added
+ACSM3,Fatty acid oxidation,TRUE,
+ACSM6,Fatty acid oxidation,TRUE,
+CACT,Fatty acid oxidation,TRUE,DW added
+CPT1A,Fatty acid oxidation,TRUE,DW added
+CPT2,Fatty acid oxidation,TRUE,DW added
+DBI,Fatty acid oxidation,TRUE,
+DECR1,Fatty acid oxidation,TRUE,
+DECR2,Fatty acid oxidation,TRUE,
+ECHS1,Fatty acid oxidation,TRUE,
+ECI1,Fatty acid oxidation,TRUE,
+ECI2,Fatty acid oxidation,TRUE,
+EHHADH,Fatty acid oxidation,FALSE,DW excluded (Peroxisomal)
+HADH,Fatty acid oxidation,TRUE,
+HADHA,Fatty acid oxidation,TRUE,
+HADHB,Fatty acid oxidation,TRUE,
+HSD17B4,Fatty acid oxidation,TRUE,
+MCAT,Fatty acid oxidation,TRUE,
+MCEE,Fatty acid oxidation,TRUE,
+MECR,Fatty acid oxidation,TRUE,
+MLYCD,Fatty acid oxidation,FALSE,Synthesis
+MMAA,Fatty acid oxidation,TRUE,
+MMUT,Fatty acid oxidation,TRUE,
+NDUFAB1,Fatty acid oxidation,TRUE,
+PCCA,Fatty acid oxidation,FALSE,BCCA metabolism
+PCCB,Fatty acid oxidation,FALSE,BCCA metabolism
+PCTP,Fatty acid oxidation,TRUE,
+SLC25A20,Fatty acid oxidation,TRUE,DW added
+THEM4,Fatty acid oxidation,TRUE,
+THEM5,Fatty acid oxidation,TRUE,
+AGL,Glycogen breakdown,TRUE,
+CALM1,Glycogen breakdown,TRUE,
+GAA,Glycogen breakdown,TRUE,
+GYG1,Glycogen breakdown,TRUE,
+GYG2,Glycogen breakdown,TRUE,
+PGM1,Glycogen breakdown,TRUE,
+PHKA1,Glycogen breakdown,TRUE,
+PHKA2,Glycogen breakdown,TRUE,
+PHKB,Glycogen breakdown,TRUE,
+PHKG1,Glycogen breakdown,TRUE,
+PHKG2,Glycogen breakdown,TRUE,
+PYGB,Glycogen breakdown,TRUE,
+PYGL,Glycogen breakdown,TRUE,
+PYGM,Glycogen breakdown,TRUE,
+SLC2A2,Glycogen breakdown,FALSE,DW added (GLUT2) Liver + Pancreas
+G6PC,Glycogen breakdown,TRUE,DW added (Liver glucose phosphorylase)
+AKT2,Insulin receptor signaling,TRUE,
+FGF1,Insulin receptor signaling,FALSE,Fibroplast groth factor
+FGF10,Insulin receptor signaling,FALSE,Fibroplast groth factor
+FGF16,Insulin receptor signaling,FALSE,Fibroplast groth factor
+FGF17,Insulin receptor signaling,FALSE,Fibroplast groth factor
+FGF18,Insulin receptor signaling,FALSE,Fibroplast groth factor
+FGF19,Insulin receptor signaling,FALSE,Fibroplast groth factor
+FGF2,Insulin receptor signaling,FALSE,Fibroplast groth factor
+FGF20,Insulin receptor signaling,FALSE,Fibroplast groth factor
+FGF22,Insulin receptor signaling,FALSE,Fibroplast groth factor
+FGF23,Insulin receptor signaling,FALSE,Fibroplast groth factor
+FGF3,Insulin receptor signaling,FALSE,Fibroplast groth factor
+FGF4,Insulin receptor signaling,FALSE,Fibroplast groth factor
+FGF5,Insulin receptor signaling,FALSE,Fibroplast groth factor
+FGF6,Insulin receptor signaling,FALSE,Fibroplast groth factor
+FGF7,Insulin receptor signaling,FALSE,Fibroplast groth factor
+FGF8,Insulin receptor signaling,FALSE,Fibroplast groth factor
+FGF9,Insulin receptor signaling,FALSE,Fibroplast groth factor
+FGFR1,Insulin receptor signaling,FALSE,Fibroplast groth factor
+FGFR2,Insulin receptor signaling,FALSE,Fibroplast groth factor
+FGFR3,Insulin receptor signaling,FALSE,Fibroplast groth factor
+FGFR4,Insulin receptor signaling,FALSE,Fibroplast groth factor
+FLT3,Insulin receptor signaling,FALSE,Fibroplast groth factor
+FLT3LG,Insulin receptor signaling,FALSE,Fibroplast groth factor
+FRS2,Insulin receptor signaling,TRUE,
+GAB1,Insulin receptor signaling,TRUE,
+GAB2,Insulin receptor signaling,TRUE,
+GRB10,Insulin receptor signaling,TRUE,
+GRB2,Insulin receptor signaling,TRUE,
+HRAS,Insulin receptor signaling,TRUE,
+INSR,Insulin receptor signaling,TRUE,
+IRS1,Insulin receptor signaling,TRUE,
+IRS2,Insulin receptor signaling,TRUE,
+KL,Insulin receptor signaling,TRUE,
+KLB,Insulin receptor signaling,TRUE,
+KRAS,Insulin receptor signaling,TRUE,
+MAPK1,Insulin receptor signaling,TRUE,
+MAPK3,Insulin receptor signaling,TRUE,
+NRAS,Insulin receptor signaling,TRUE,
+PDE3B,Insulin receptor signaling,TRUE,
+PDPK1,Insulin receptor signaling,TRUE,
+PIK3C3,Insulin receptor signaling,TRUE,
+PIK3CA,Insulin receptor signaling,TRUE,
+PIK3CB,Insulin receptor signaling,TRUE,
+PIK3R1,Insulin receptor signaling,TRUE,
+PIK3R2,Insulin receptor signaling,TRUE,
+PIK3R4,Insulin receptor signaling,TRUE,
+f,Insulin receptor signaling,TRUE,
+SHC1,Insulin receptor signaling,TRUE,
+SOS1,Insulin receptor signaling,TRUE,
+THEM4,Insulin receptor signaling,TRUE,
+TLR9,Insulin receptor signaling,TRUE,
+TRIB3,Insulin receptor signaling,TRUE,
+CLTRN,Insulin secretion,TRUE,
+CPE,Insulin secretion,TRUE,
+ERO1B,Insulin secretion,TRUE,
+EXOC1,Insulin secretion,TRUE,
+EXOC2,Insulin secretion,TRUE,
+EXOC3,Insulin secretion,TRUE,
+EXOC4,Insulin secretion,TRUE,
+EXOC5,Insulin secretion,TRUE,
+EXOC6,Insulin secretion,TRUE,
+EXOC7,Insulin secretion,TRUE,
+EXOC8,Insulin secretion,TRUE,
+GCK,Insulin secretion,TRUE,DW revised (beta cell metabolism)
+GCKR,Insulin secretion,TRUE,DW revised (beta cell metabolism)
+INS,Insulin secretion,TRUE,DW revised
+KIF5A,Insulin secretion,FALSE,
+KIF5B,Insulin secretion,FALSE,
+KIF5C,Insulin secretion,FALSE,
+MYO5A,Insulin secretion,TRUE,
+MYRIP,Insulin secretion,TRUE,
+P4HB,Insulin secretion,TRUE,
+PCSK1,Insulin secretion,TRUE,
+PCSK2,Insulin secretion,TRUE,
+RAB27A,Insulin secretion,TRUE,
+SLC30A5,Insulin secretion,TRUE,
+SLC30A8,Insulin secretion,TRUE,
+STX1A,Insulin secretion,TRUE,
+VAMP2,Insulin secretion,TRUE,
+AACS,Ketone metabolism,TRUE,
+ACAT1,Ketone metabolism,TRUE,
+ACSS3,Ketone metabolism,TRUE,
+BDH1,Ketone metabolism,TRUE,
+BDH2,Ketone metabolism,TRUE,
+HMGCL,Ketone metabolism,TRUE,
+HMGCLL1,Ketone metabolism,TRUE,
+HMGCS2,Ketone metabolism,TRUE,
+OXCT1,Ketone metabolism,TRUE,
+OXCT2,Ketone metabolism,TRUE,
+AGMO,Triglyceride biosynthesis,TRUE,
+DGAT1,Triglyceride biosynthesis,TRUE,
+DGAT2,Triglyceride biosynthesis,TRUE,
+GK,Triglyceride biosynthesis,TRUE,
+GK2,Triglyceride biosynthesis,TRUE,
+GK3,Triglyceride biosynthesis,TRUE,
+GPAM,Triglyceride biosynthesis,TRUE,
+GPAT2,Triglyceride biosynthesis,TRUE,
+LPIN1,Triglyceride biosynthesis,TRUE,
+LPIN2,Triglyceride biosynthesis,TRUE,
+LPIN3,Triglyceride biosynthesis,TRUE,
+MOGAT1,Triglyceride biosynthesis,TRUE,
+MOGAT2,Triglyceride biosynthesis,TRUE,
+MOGAT3,Triglyceride biosynthesis,TRUE,
+ABHD5,Triglyceride catabolism,TRUE,
+CAV1,Triglyceride catabolism,TRUE,
+FABP1,Triglyceride catabolism,TRUE,
+FABP12,Triglyceride catabolism,TRUE,
+FABP2,Triglyceride catabolism,TRUE,
+FABP3,Triglyceride catabolism,TRUE,
+FABP4,Triglyceride catabolism,TRUE,
+FABP5,Triglyceride catabolism,TRUE,
+FABP6,Triglyceride catabolism,TRUE,
+FABP7,Triglyceride catabolism,TRUE,
+FABP9,Triglyceride catabolism,TRUE,
+GPD2,Triglyceride catabolism,TRUE,
+LIPE,Triglyceride catabolism,TRUE,
+MGLL,Triglyceride catabolism,TRUE,
+PLIN1,Triglyceride catabolism,TRUE,
+PLIN3,Triglyceride catabolism,TRUE,
+PNPLA4,Triglyceride catabolism,TRUE,
+PNPLA5,Triglyceride catabolism,TRUE,
+PPP1CA,Triglyceride catabolism,TRUE,
+PPP1CB,Triglyceride catabolism,TRUE,
+PPP1CC,Triglyceride catabolism,TRUE,
+PRKACA,Triglyceride catabolism,TRUE,
+PRKACB,Triglyceride catabolism,TRUE,
+PRKACG,Triglyceride catabolism,TRUE,
+PNPLA2,Triglyceride catabolism,TRUE,DW added (ATGL)
+ATGL,Triglyceride catabolism,TRUE,DW added (ATGL)

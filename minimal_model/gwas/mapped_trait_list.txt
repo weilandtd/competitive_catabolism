@@ -1,0 +1,1386 @@
+hematocrit
+eosinophil count
+self reported educational attainment
+platelet crit
+lung carcinoma
+erythrocyte volume
+leukocyte quantity
+caffeine metabolite measurement
+reticulocyte count
+neutrophil count, eosinophil count
+granulocyte count
+total cholesterol measurement, C-reactive protein measurement
+low density lipoprotein cholesterol measurement, C-reactive protein measurement
+triglyceride measurement, C-reactive protein measurement
+response to sulfonylurea, QT interval
+JT interval, response to sulfonylurea
+systolic blood pressure
+hypothyroidism
+mean corpuscular hemoglobin
+palmitoleic acid measurement
+gondoic acid measurement
+low density lipoprotein cholesterol measurement
+total cholesterol measurement
+triglyceride measurement
+protein C measurement
+atrial fibrillation
+ADHD symptom measurement
+diastolic blood pressure
+monocyte count
+Myopia
+myeloid leukocyte count
+erythrocyte count
+lymphocyte count
+neutrophil count
+heart rate
+left ventricular structural measurement
+alcohol consumption quality
+diet measurement
+airway imaging measurement
+smoking status measurement, systolic blood pressure
+hemoglobin measurement
+platelet count
+ankylosing spondylitis, psoriasis, ulcerative colitis, Crohn's disease, sclerosing cholangitis
+neutrophil percentage of granulocytes
+basophil count, eosinophil count
+total cholesterol measurement, diastolic blood pressure, triglyceride measurement, systolic blood pressure, hematocrit, ventricular rate measurement, glucose measurement, body mass index, high density lipoprotein cholesterol measurement
+total cholesterol measurement, hematocrit, stroke, ventricular rate measurement, body mass index, atrial fibrillation, high density lipoprotein cholesterol measurement, coronary artery disease, diastolic blood pressure, triglyceride measurement, systolic blood pressure, heart failure, diabetes mellitus, glucose measurement, mortality, cancer
+circulating fibrinogen levels
+gallstones
+Crohn's disease
+inflammatory bowel disease
+interleukin 2 receptor antagonist measurement
+interleukin-1 beta measurement
+interleukin 4 measurement
+interleukin 17 measurement
+CCL2 measurement
+platelet-derived growth factor complex BB dimer amount
+kit ligand amount
+motion sickness
+hippocampal atrophy
+gout
+triacylglycerol 46:1 measurement
+triacylglycerol 46:2 measurement
+lysophosphatidylcholine 20:3 measurement
+Hypertriglyceridemia
+lysophosphatidylethanolamine 20:4 measurement
+lysophosphatidylethanolamine 18:2 measurement
+triacylglycerol 48:3 measurement
+triacylglycerol 48:1 measurement
+triacylglycerol 48:2 measurement
+triacylglycerol 50:2 measurement
+triacylglycerol 50:3 measurement
+triacylglycerol 50:5 measurement
+triacylglycerol 52:1 measurement
+triacylglycerol 50:4 measurement
+alpha-hydroxybutyric acid measurement
+triacylglycerol 52:2 measurement
+alanine measurement
+histidine measurement
+lysophosphatidylcholine 14:0 measurement
+lysophosphatidylcholine 16:1 measurement
+triacylglycerol 52:5 measurement
+triacylglycerol 52:6 measurement
+type 2 diabetes mellitus
+phosphatidylcholine 34:4 measurement
+sex hormone-binding globulin measurement
+body mass index, blood insulin amount
+obsolete_fasting blood glucose measurement
+blood insulin amount
+PR interval
+lactate measurement
+phosphatidylcholine 34:1 measurement
+phosphatidylcholine 34:3 measurement
+phosphatidylcholine 32:1 measurement
+phosphatidylcholine 32:2 measurement
+obsolete_fasting blood glucose measurement, body mass index
+diacylglycerol 36:2 measurement
+systemic scleroderma
+pyruvate measurement
+body mass index
+pyoderma gangrenosum
+FEV change measurement, trait in response to zileuton
+serum alpha-1-antitrypsin amount
+schizophrenia
+autoimmune thyroid disease, systemic lupus erythematosus, type 1 diabetes mellitus, ankylosing spondylitis, psoriasis, common variable immunodeficiency, celiac disease, ulcerative colitis, Crohn's disease, autoimmune disease, juvenile idiopathic arthritis
+t-tau:beta-amyloid 1-42 ratio measurement
+cerebrospinal fluid composition attribute, t-tau measurement
+FEV/FVC ratio, response to bronchodilator
+chronic kidney disease, Proteinuria
+3-hydroxypropylmercapturic acid measurement
+emphysema imaging measurement
+hippocampal sclerosis of aging
+3-hydroxy-1-methylpropylmercapturic acid measurement
+high density lipoprotein cholesterol measurement
+mannose measurement, blood metabolite measurement
+linoleic acid measurement
+BMI-adjusted leptin measurement
+leptin measurement
+seasonal gut microbiome measurement
+age at onset, tuberculosis
+atrophic macular degeneration, age-related macular degeneration, wet macular degeneration
+serum creatinine amount, glomerular filtration rate
+forced expiratory volume, response to bronchodilator
+carotid artery thickness
+corticobasal degeneration disorder
+pelvic organ prolapse
+HOMA-IR
+HOMA-B
+lipoprotein-associated phospholipase A(2) measurement
+type 1 diabetes mellitus
+HbA1c measurement
+calcium measurement
+glucose tolerance test
+pit and fissure surface dental caries
+metabolite measurement
+lipid measurement
+uric acid measurement
+hair color
+urate measurement
+serum albumin amount
+femoral neck bone geometry
+coronary artery disease
+male breast carcinoma
+multiple sclerosis
+lumbar disc degeneration
+breast size
+acute lymphoblastic leukemia
+adiponectin measurement
+serum gamma-glutamyl transferase measurement
+dental caries
+blood pressure trait, triglyceride measurement
+triglyceride measurement, metabolic syndrome
+vitamin B12 measurement
+blood pressure trait
+diabetic retinopathy
+information processing speed
+Alzheimer disease
+chronic kidney disease, serum creatinine amount
+C-reactive protein measurement
+antioxidant measurement
+hormone measurement, thyroid stimulating hormone amount
+aspartate aminotransferase measurement, serum alanine aminotransferase measurement
+birth weight
+energy expenditure
+hormone measurement
+esophageal carcinoma
+polycystic ovary syndrome
+fatty acid measurement
+visceral adipose tissue quantity
+forced expiratory volume
+femoral neck bone mineral density
+orofacial cleft
+metabolic syndrome
+chronic kidney disease
+asthma
+HIV-1 infection, Susceptibility to viral and mycobacterial infections
+pyroglutamine measurement
+body height
+docosapentaenoic acid measurement
+chromosome, telomeric region length
+intelligence
+household income
+eosinophil percentage of leukocytes
+platelet volume
+smoking status measurement, carotid artery thickness
+mean corpuscular hemoglobin concentration
+reticulocyte measurement
+chronotype measurement
+lymphocyte percentage of leukocytes
+vital capacity
+migraine disorder, endometriosis
+L lactate dehydrogenase measurement
+cup-to-disc ratio measurement
+quality of life, dysmenorrheic pain measurement
+BMI-adjusted waist circumference
+refractive error, age at onset, Myopia
+non-melanoma skin carcinoma
+age at onset, Myopia
+adolescent idiopathic scoliosis
+open-angle glaucoma
+reaction time measurement
+suntan
+thyroid stimulating hormone amount
+Ketonuria
+protein measurement
+health study participation
+chronic kidney disease, diabetic nephropathy
+non-grapefruit juice consumption measurement
+bitter beverage consumption measurement
+coffee consumption measurement
+schizophrenia, intelligence, self reported educational attainment
+response to radiation, Urinary retention
+glioma
+bitter alcoholic beverage consumption measurement
+fish consumption measurement
+brain attribute, neuroimaging measurement
+cortical thickness, neuroimaging measurement
+coffee consumption
+brain volume, neuroimaging measurement
+alopecia
+colorectal cancer
+urolithiasis
+cerebral cortex area attribute, neuroimaging measurement
+chronic obstructive pulmonary disease
+cardiac arrhythmia
+ferritin measurement
+major depressive disorder
+triglyceride measurement, coronary artery disease
+insulin measurement
+2-Methylsuccinic acid measurement
+Red cell distribution width
+shoulder impingement syndrome
+alcohol use disorder measurement, alcohol consumption quality
+platelet component distribution width
+non-alcoholic steatohepatitis
+serum metabolite measurement
+liver fat measurement, liver disease biomarker
+electrocardiography
+alcohol use disorder measurement
+interleukin-6 measurement
+white matter hyperintensity measurement
+insulin sensitivity measurement
+serum alanine aminotransferase measurement
+aspartate aminotransferase measurement
+factor VII measurement
+alkaline phosphatase measurement
+brain volume
+reading and spelling ability
+prostate carcinoma
+kidney cancer
+gait quality
+estradiol measurement
+testosterone measurement
+nucleus accumbens volume change measurement, age at assessment
+glucose homeostasis trait, glucose effectiveness measurement
+life span trait
+age at onset, Age-related cataract
+smoking initiation
+urinary metabolite measurement
+age at menarche
+sporadic amyotrophic lateral sclerosis
+diastolic blood pressure, cigarettes per day measurement
+response to antidepressant
+C-peptide measurement
+Staphylococcus aureus infection
+intraocular pressure measurement
+psoriasis
+Child Behaviour Checklist assessment
+hypospadias
+vitamin D measurement
+plasma beta-amyloid 1-42 measurement
+serum amyloid A protein measurement
+optic disc size trait
+obsolete_sleep measurement
+cervical carcinoma
+total blood protein measurement
+cumulative dose response to bevacizumab
+QT interval
+alcohol drinking
+PR segment
+coronary artery calcification
+nitric oxide exhalation measurement
+polychlorinated biphenyls measurement
+treatment refractory schizophrenia
+asymmetrical dimethylarginine measurement, serum dimethylarginine amount
+coffee consumption, cups of coffee per day measurement
+sitting height ratio
+BMI-adjusted hip circumference
+heart rate response to recovery post exercise
+renal cell carcinoma
+Testicular Germ Cell Tumor
+neuroticism measurement
+pulse pressure measurement
+eosinophil percentage of granulocytes
+body fat percentage
+neutrophil count, basophil count
+susceptibility to Mycobacterium tuberculosis infection measurement
+susceptibility to scarlet fever measurement
+peripheral arterial disease, traffic air pollution measurement
+susceptibility to shingles measurement
+non-alcoholic fatty liver disease
+depressive symptom measurement
+susceptibility to common cold measurement
+waist-hip ratio
+BMI-adjusted waist-hip ratio
+perceived unattractiveness to mosquitos measurement
+eye morphology trait
+obsolete_facial morphology quality
+alcohol consumption quality, alcohol drinking
+smoking status measurement, diastolic blood pressure
+breast carcinoma
+alcohol dependence, major depressive disorder
+glomerular filtration rate
+systemic lupus erythematosus
+overall survival, pancreatic carcinoma
+blood protein measurement
+physical activity measurement
+bilirubin measurement
+response to angiotensin-converting enzyme inhibitor
+QRS duration
+neuropathic pain
+bone density
+eye color
+amino acid measurement
+heel bone mineral density
+cognitive behavioural therapy
+P wave duration
+trait in response to allopurinol, uric acid measurement
+childhood onset asthma
+response to interferon, depressive symptom measurement
+insulin response measurement
+insulin sensitivity measurement, insulin response measurement
+mean arterial pressure, alcohol drinking
+medial orbital frontal cortex volume
+lateral orbital frontal cortex volume
+pars orbitalis volume
+pars triangularis volume
+Grey matter density measurement
+systolic blood pressure, alcohol drinking
+superior frontal gyrus volume
+superior parietal cortex volume
+obsolete_corpus callosum mid-anterior volume measurement
+squamous cell lung carcinoma, family history of lung cancer
+lung carcinoma, family history of lung cancer
+diastolic blood pressure, alcohol drinking
+proliferative diabetic retinopathy
+alcohol drinking, high density lipoprotein cholesterol measurement
+triglyceride measurement, alcohol drinking
+mood instability measurement
+balding measurement
+blood urea nitrogen measurement
+intelligence, self reported educational attainment
+Alzheimer disease, cognitive decline measurement, Cognitive impairment
+bone fracture
+alopecia areata
+low density lipoprotein cholesterol measurement, alcohol drinking
+alcohol consumption quality, high density lipoprotein cholesterol measurement
+low density lipoprotein cholesterol measurement, alcohol consumption quality
+triglyceride measurement, alcohol consumption quality
+osteosarcoma, overall survival
+trait in response to sulfasalazine, Drug-induced agranulocytosis
+creatine kinase measurement
+trait in response to thiazide, glucose measurement
+chloride measurement
+serum creatinine amount
+glucose measurement
+birth weight, parental genotype effect measurement
+sodium measurement
+gut microbiome measurement
+cognitive function measurement
+mathematical ability
+malaria
+latent autoimmune diabetes in adults, type 2 diabetes mellitus
+cigarettes per day measurement
+smoking status measurement
+mortality
+age-related hearing impairment
+triglyceride:HDL cholesterol ratio
+IGF-1 measurement
+level of serum globulin type protein
+age at menopause
+complement factor H-related protein 3 measurement
+bipolar I disorder
+serum urea amount
+hemolysis
+response to clopidogrel, response to acetylsalicylate, major adverse cardiovascular event measurement
+central corneal thickness
+response to antipsychotic drug
+social inhibition quality, attention deficit hyperactivity disorder, substance abuse
+apolipoprotein A 1 measurement
+cystatin C measurement
+apolipoprotein B measurement
+depressive symptom measurement, stressful life event measurement
+reticulocyte amount
+clear cell renal carcinoma
+mitochondrial DNA measurement
+fructosamine measurement
+cerebral cortex area attribute
+cortical thickness
+platelet-to-lymphocyte ratio
+renal carcinoma
+hyperlipidemia
+lymphocyte:monocyte ratio
+childhood gender nonconformity
+corneal resistance factor
+aspartate aminotransferase to alanine aminotransferase ratio
+melanoma
+heel bone mineral density, urate measurement
+urate measurement, bone density
+age at first sexual intercourse measurement
+liver volume
+liver fat measurement
+COVID-19
+aging, epigenetic status
+lean body mass
+Uveal Melanoma
+uveal melanoma disease severity
+obsolete_thyroid peroxidase antibody measurement
+blood metabolite measurement
+bipolar disorder
+Moderate albuminuria
+urinary albumin to creatinine ratio
+acylcarnitine measurement
+response to cisplatin, platinum measurement
+risk-taking behaviour
+abdominal aortic calcification measurement
+smoking behavior
+glaucoma
+protein intake measurement
+visual perception quality
+TPE interval measurement
+Abnormality of refraction
+cardiovascular disease
+follistatin measurement
+FEV/FVC ratio
+strand of hair color
+appendicular lean mass
+body height at birth
+triglyceride measurement, sleep duration trait
+leptin measurement, blood insulin amount
+leptin measurement, HOMA-IR
+leptin measurement, type 2 diabetes mellitus
+soluble triggering receptor expressed on myeloid cells 2 measurement
+nephrolithiasis
+sunburn
+putamen volume
+alcoholic liver disease
+obsolete_fasting blood glucose measurement, blood insulin amount, glucose tolerance test
+hypertension
+myocardial infarction
+serine measurement, amino acid measurement
+microglial activation attribute
+lifestyle measurement
+triglyceride measurement, physical activity
+HDL cholesterol change measurement, physical activity
+response to norepinephrine-dopamine reuptake inhibitor
+anxiety
+venous thromboembolism
+diverticular disease
+wellbeing measurement
+extraversion measurement
+DSG4/FABP9 protein level ratio in blood
+ENO2/MGLL protein level ratio in blood
+SCARA5/TGFBI protein level ratio in blood
+EGF/MGLL protein level ratio in blood
+FLT4/ICAM2 protein level ratio in blood
+FIS1/MGLL protein level ratio in blood
+FKBP4/KYAT1 protein level ratio in blood
+PFKFB2/RILP protein level ratio in blood
+PFKFB2/SERPINB1 protein level ratio in blood
+PFKFB2/SRP14 protein level ratio in blood
+PMVK/PRDX5 protein level ratio in blood
+PMVK/PRTFDC1 protein level ratio in blood
+PMVK/PTPN6 protein level ratio in blood
+PMVK/TARBP2 protein level ratio in blood
+PMVK/TBCB protein level ratio in blood
+PODXL2/SEZ6L protein level ratio in blood
+PLAUR/PRSS8 protein level ratio in blood
+AMBP/EFEMP1 protein level ratio in blood
+ERP44/PFKFB2 protein level ratio in blood
+FST/FSTL3 protein level ratio in blood
+FURIN/IGSF3 protein level ratio in blood
+FURIN/PLA2G15 protein level ratio in blood
+CD58/ERBB3 protein level ratio in blood
+HPCAL1/PMVK protein level ratio in blood
+HSPA1A/MGLL protein level ratio in blood
+AHCY/FABP5 protein level ratio in blood
+CANT1/ROR1 protein level ratio in blood
+ATOX1/GYS1 protein level ratio in blood
+CDKN2D/PMVK protein level ratio in blood
+Hypermetropia, Myopia
+alcohol use disorder measurement, longitudinal alcohol consumption measurement
+DFFA/PMVK protein level ratio in blood
+DKK1/MGLL protein level ratio in blood
+ERBB2/FURIN protein level ratio in blood
+CASP8/PFKFB2 protein level ratio in blood
+APOM/MCAM protein level ratio in blood
+FBP1/SIGLEC7 protein level ratio in blood
+FGF21/LEP protein level ratio in blood
+FGFR2/TGFBR2 protein level ratio in blood
+GYS1/PPP1R2 protein level ratio in blood
+GYS1/STK11 protein level ratio in blood
+GYS1/USP8 protein level ratio in blood
+GYS1/WASF1 protein level ratio in blood
+DAPP1/MGLL protein level ratio in blood
+DAPP1/PMVK protein level ratio in blood
+EFNA1/PIK3IP1 protein level ratio in blood
+EFNA1/TNFRSF1A protein level ratio in blood
+FABP1/RBP5 protein level ratio in blood
+FABP1/SULT2A1 protein level ratio in blood
+FABP4/FGF21 protein level ratio in blood
+FABP5/NSFL1C protein level ratio in blood
+FABP5/PDCD5 protein level ratio in blood
+FABP5/PEBP1 protein level ratio in blood
+FABP5/PPCDC protein level ratio in blood
+FABP5/TMSB10 protein level ratio in blood
+F7/VASN protein level ratio in blood
+FABP1/FABP2 protein level ratio in blood
+FABP1/HNMT protein level ratio in blood
+FABP1/LGALS4 protein level ratio in blood
+FABP1/RBP2 protein level ratio in blood
+FADD/MGLL protein level ratio in blood
+CCN2/MGLL protein level ratio in blood
+CD99/CD99L2 protein level ratio in blood
+TGFBI/VASN protein level ratio in blood
+NUCB2/P4HB protein level ratio in blood
+DBI/MESD protein level ratio in blood
+DBI/NUDT5 protein level ratio in blood
+DBI/PARK7 protein level ratio in blood
+DBI/PEBP1 protein level ratio in blood
+DBI/STIP1 protein level ratio in blood
+DBI/TMSB10 protein level ratio in blood
+DAG1/MGLL protein level ratio in blood
+ANXA3/PFKFB2 protein level ratio in blood
+GAL/PM20D1 protein level ratio in blood
+GGH/INHBC protein level ratio in blood
+GGT1/MME protein level ratio in blood
+GLOD4/KYAT1 protein level ratio in blood
+ACAA1/GRPEL1 protein level ratio in blood
+AHSP/BLVRB protein level ratio in blood
+Hypermetropia
+alcohol use disorder measurement, alcohol dependence
+chronic obstructive pulmonary disease, heart rate
+urinary sodium to creatinine ratio
+systolic blood pressure change measurement
+stroke, type 2 diabetes mellitus, coronary artery disease
+hemorrhoid
+Hodgkins lymphoma
+cognitive function measurement, self reported educational attainment
+Cleft palate, cleft lip
+cleft lip
+carrier status, alcohol consumption quality
+carrier status, alcohol drinking
+level of apolipoprotein C-II in blood serum
+level of apolipoprotein C-III in blood serum
+white matter microstructure measurement
+ocular sarcoidosis
+red blood cell density
+monocyte percentage of leukocytes
+trauma exposure measurement
+coffee consumption measurement, tea consumption measurement
+neutrophil percentage of leukocytes
+mean reticulocyte volume
+L-Selectin measurement
+Self-injurious behavior
+Parkinson disease, disease progression measurement
+rectum cancer
+triglyceride measurement, blood VLDL cholesterol amount
+valine measurement
+VLDL particle size
+remnant cholesterol measurement, blood VLDL cholesterol amount
+remnant cholesterol measurement
+triglyceride measurement, high density lipoprotein cholesterol measurement
+phospholipid measurement, blood VLDL cholesterol amount
+free cholesterol measurement, blood VLDL cholesterol amount
+lipid measurement, blood VLDL cholesterol amount
+blood VLDL cholesterol amount
+phospholipid measurement, high density lipoprotein cholesterol measurement
+isoleucine measurement
+hearing threshold trait, hearing process quality
+leucine measurement
+familial hyperlipidemia
+coffee consumption measurement, insomnia
+serine:glycine ratio
+vascular brain injury
+Brain atrophy
+alpha fetoprotein measurement
+muscle measurement
+thyroid cancer
+educational attainment
+dementia
+response to ranibizumab
+response to selective serotonin reuptake inhibitor
+cups of coffee per day measurement
+glycine measurement
+alcohol dependence measurement
+uterine fibroid
+DNA methylation
+asthma exacerbation measurement, response to corticosteroid
+Agents acting on the renin-angiotensin system use measurement
+Calcium channel blocker use measurement
+Antiglaucoma preparations and miotics use measurement
+total cholesterol measurement, triglyceride measurement, low density lipoprotein cholesterol measurement, high density lipoprotein cholesterol measurement
+clostridium difficile infection
+diffusing capacity of the lung for carbon monoxide
+cholesterol efflux capacity measurement
+obsolete_fasting blood glucose measurement, blood insulin amount, HOMA-B
+Diuretic use measurement
+Drugs used in diabetes use measurement
+Beta blocking agent use measurement
+HMG CoA reductase inhibitor use measurement
+neuroimaging measurement
+macula attribute
+verbal-numerical reasoning measurement
+basal cell carcinoma
+Ischemic stroke
+YKL40 measurement
+low density lipoprotein cholesterol measurement, body mass index
+triglyceride measurement, body mass index
+sleep apnea measurement
+complement factor D measurement
+cathepsin D measurement
+executive function measurement
+mucocutaneous lymph node syndrome
+CLEC1A/GPR37 protein level ratio in blood
+CLEC1B/MGLL protein level ratio in blood
+IGFBP1/IGFBP2 protein level ratio in blood
+IGFBP4/OGN protein level ratio in blood
+IL6ST/LEPR protein level ratio in blood
+ITIH3/VCAM1 protein level ratio in blood
+KYAT1/PLPBP protein level ratio in blood
+KYAT1/QDPR protein level ratio in blood
+LAMP3/PRSS8 protein level ratio in blood
+LEPR/NRCAM protein level ratio in blood
+LEPR/NTRK2 protein level ratio in blood
+CNTN1/EGFR protein level ratio in blood
+CLSTN2/MATN2 protein level ratio in blood
+COMP/TGFBI protein level ratio in blood
+MANF/PMVK protein level ratio in blood
+CRADD/PMVK protein level ratio in blood
+CREG1/PLA2G15 protein level ratio in blood
+CRKL/MGLL protein level ratio in blood
+MGLL/PTPN6 protein level ratio in blood
+MGLL/SHMT1 protein level ratio in blood
+MGLL/SKAP2 protein level ratio in blood
+MGLL/STK4 protein level ratio in blood
+MGLL/VTA1 protein level ratio in blood
+MME/NT5E protein level ratio in blood
+METAP2/PFKFB2 protein level ratio in blood
+MGLL/MITD1 protein level ratio in blood
+MGLL/MPIG6B protein level ratio in blood
+MGLL/PDLIM7 protein level ratio in blood
+MGLL/PLA2G4A protein level ratio in blood
+CST3/RARRES2 protein level ratio in blood
+CTSF/SMPD1 protein level ratio in blood
+CXCL3/MGLL protein level ratio in blood
+CTSD/PRCP protein level ratio in blood
+DAG1/DBI protein level ratio in blood
+viral load
+percent glycated albumin
+hemoglobin A1 measurement
+Strabismus
+progressive supranuclear palsy
+eye colour measurement
+rotator cuff tear, shoulder impingement syndrome
+comparative body size at age 10, self-reported
+obesity
+macular telangiectasia type 2
+gestational diabetes
+handedness
+prothrombin time measurement
+pulmonary edema
+Abnormal male internal genitalia morphology
+liver disease
+Abnormality of the liver
+mixed connective tissue disease
+diabetes mellitus, family history
+sinusitis
+concussion
+Abnormality of the gastrointestinal tract
+intestinal disaccharide deficiency and disaccharide malabsorption
+inborn carbohydrate metabolic disorder
+familial lipoprotein lipase deficiency
+glucose metabolism disease
+diabetes mellitus
+Abnormal glucose homeostasis
+narcolepsy
+diabetic neuropathy
+anemia (phenotype)
+encounter with health service
+blood coagulation disease
+polycythemia
+diabetic eye disease
+atrial flutter
+testicular disease
+vitamin B deficiency
+drug use measurement, gout
+body weight
+essential hypertension
+paroxysmal tachycardia
+sign or symptom
+Addictive alcohol use
+alcohol-related disorders
+free cholesterol measurement, high density lipoprotein cholesterol measurement
+cholesteryl esters:total lipids ratio, high density lipoprotein cholesterol measurement
+cholesteryl ester measurement, high density lipoprotein cholesterol measurement
+lipid measurement, lipoprotein measurement
+lipoprotein measurement
+total cholesterol measurement, high density lipoprotein cholesterol measurement
+total cholesterol measurement, blood VLDL cholesterol amount
+cholesterol:total lipids ratio, blood VLDL cholesterol amount
+triglycerides:total lipids ratio, blood VLDL cholesterol amount
+glycoprotein measurement
+lifestyle measurement, alcohol consumption quality
+lifestyle measurement, depressive symptom measurement
+lifestyle measurement, anxiety disorder measurement
+cholesterol:total lipids ratio, high density lipoprotein cholesterol measurement
+phospholipid measurement
+omega-3 polyunsaturated fatty acid measurement
+phospholipids:total lipids ratio, blood VLDL cholesterol amount
+free cholesterol:total lipids ratio, high density lipoprotein cholesterol measurement
+lipid measurement, high density lipoprotein cholesterol measurement
+triglyceride measurement, blood VLDL cholesterol amount, chylomicron amount
+acetate measurement
+acetoacetate measurement
+acetone measurement
+brain attribute
+phospholipids:total lipids ratio, high density lipoprotein cholesterol measurement
+triglyceride measurement, low density lipoprotein cholesterol measurement
+low density lipoprotein cholesterol measurement, phospholipids:total lipids ratio
+triglycerides:total lipids ratio, low density lipoprotein cholesterol measurement
+free cholesterol:total lipids ratio, blood VLDL cholesterol amount
+phospholipid measurement, blood VLDL cholesterol amount, chylomicron amount
+phospholipids:total lipids ratio, blood VLDL cholesterol amount, chylomicron amount
+mean arterial pressure
+educational attainment, anorexia nervosa
+blood molybdenum amount
+blood urea nitrogen measurement, bipolar disorder
+bipolar disorder, glomerular filtration rate
+cardioembolic stroke
+mosaic loss of chromosome X measurement
+serum amyloid A-1 protein amount
+ulcerative colitis
+trait in response to warfarin
+urate measurement, bipolar disorder
+blood strontium measurement
+blood copper measurement
+type 2 diabetes mellitus, coronary artery disease
+octanoylcarnitine measurement
+X-13431 measurement
+X-17653 measurement
+X-23641 measurement
+X-23680 measurement
+ximenoylcarnitine (C26:1) measurement
+X-18921 measurement
+cerotoylcarnitine (C26) measurement
+cis-4-decenoate (10:1n6) measurement
+indolepropionylglycine measurement
+branched-chain, straight-chain, or cyclopropyl 12:1 fatty acid measurement
+retinal vasculature measurement
+methylsuccinate measurement
+mannonate measurement
+mannose measurement
+glutarylcarnitine (C5-DC) measurement
+4-hydroxyphenylacetylglutamine measurement
+adipoylcarnitine (C6-DC) measurement
+ethylmalonate measurement
+dodecadienoate (12:2) measurement
+hexanoylcarnitine measurement
+vaginal microbiome measurement
+essential tremor
+taste liking measurement
+insomnia
+memory performance
+Stuttering
+facial morphology
+aging
+carbohydrate intake measurement
+aging rate
+white matter lesion progression measurement
+non-high density lipoprotein cholesterol measurement
+campesterol measurement
+androsterone sulfate measurement
+atopic eczema
+ANGPTL8 measurement
+size
+Progressive visual loss
+inflammatory biomarker measurement, diet measurement
+smoking behavior trait, risk-taking behaviour
+phospholipids in very large HDL measurement 
+total lipids in very large HDL measurement 
+esterified cholesterol measurement, high density lipoprotein cholesterol measurement
+free cholesterol in very large HDL measurement 
+cholesteryl esters:total lipids ratio, blood VLDL cholesterol amount
+total lipids in very small VLDL measurement
+free cholesterol in very small VLDL measurement 
+free cholesterol in medium VLDL measurement 
+cholesterol esters in medium VLDL measurement
+fatty acid change measurement
+docosahexaenoic acid measurement, fatty acid measurement
+esterified cholesterol measurement
+docosahexaenoic acid measurement
+diglyceride measurement
+triglycerides:total lipids ratio, high density lipoprotein cholesterol measurement
+triglycerides in very large HDL measurement 
+esterified cholesterol measurement, blood VLDL cholesterol amount
+free cholesterol in very large VLDL measurement 
+cholesteryl esters:total lipids ratio, blood VLDL cholesterol amount, chylomicron amount
+free cholesterol measurement, blood VLDL cholesterol amount, chylomicron amount
+cholesteryl ester measurement, blood VLDL cholesterol amount, chylomicron amount
+total cholesterol measurement, blood VLDL cholesterol amount, chylomicron amount
+free cholesterol:total lipids ratio, blood VLDL cholesterol amount, chylomicron amount
+triglycerides in very small VLDL measurement
+total cholesterol in medium VLDL
+polyunsaturated fatty acid measurement
+triglycerides in medium VLDL measurement
+choline measurement
+total lipids in small HDL measurement 
+phospholipids in small HDL measurement 
+triglycerides in small HDL measurement
+free cholesterol in small HDL measurement 
+total lipids in very large VLDL measurement 
+triglycerides in very large VLDL measurement 
+phospholipids in VLDL measurement 
+cholesterol in very small VLDL measurement 
+lipid measurement, blood VLDL cholesterol amount, chylomicron amount
+blood VLDL cholesterol amount, chylomicron amount
+triglycerides in medium LDL measurement 
+total lipids in medium VLDL
+age of onset of type 1 diabetes mellitus
+saturated fatty acids measurement 
+total cholesterol in small LDL
+free cholesterol in small LDL measurement 
+low density lipoprotein cholesterol measurement, free cholesterol:total lipids ratio
+phospholipids in small LDL measurement 
+total lipids in small LDL
+triglycerides in small LDL measurement 
+sphingomyelin measurement
+total cholesterol in small VLDL
+apolipoprotein A 1 measurement, apolipoprotein B measurement
+3-hydroxybutyrate measurement
+citrate measurement
+omega-6 polyunsaturated fatty acid measurement
+glucuronate measurement
+obsolete_lysine measurement
+maleate measurement
+factor VIII measurement, coronary artery disease
+cerebrospinal fluid composition attribute, 3-hydroxyhexanoate measurement
+cerebrospinal fluid composition attribute, methylsuccinoylcarnitine measurement
+cerebrospinal fluid composition attribute, mannose measurement
+cerebrospinal fluid composition attribute, methylsuccinate measurement
+cerebrospinal fluid composition attribute, ethylmalonate measurement
+Ischemic stroke, factor VII measurement
+circulating fibrinogen levels, factor VII measurement
+coronary artery disease, factor VII measurement
+factor XI measurement, circulating fibrinogen levels, tissue plasminogen activator amount, factor VII measurement
+venous thromboembolism, factor VII measurement
+diet measurement, glomerular filtration rate
+total cholesterol measurement, diet measurement
+free cholesterol measurement
+triglyceride measurement, phospholipid measurement
+diet measurement, apolipoprotein B measurement
+language measurement
+cholesteryl ester measurement, blood VLDL cholesterol amount
+glutamine measurement
+total cholesterol measurement, low density lipoprotein cholesterol measurement
+low density lipoprotein cholesterol measurement, cholesteryl esters:total lipids ratio
+cholesteryl ester measurement, low density lipoprotein cholesterol measurement
+lipoprotein measurement, phospholipid measurement
+free cholesterol measurement, low density lipoprotein cholesterol measurement
+puberty onset measurement
+phosphoglycerides measurement 
+triglycerides in small VLDL measurement
+free cholesterol in small VLDL measurement 
+total lipids in small VLDL
+LDL particle size
+total cholesterol change measurement, high density lipoprotein cholesterol measurement
+fatty acid measurement, linoleic acid measurement
+cholesterol esters in large HDL measurement
+total lipids in large HDL
+free cholesterol in large HDL measurement
+phospholipids in large HDL measurement
+phospholipids in large LDL measurement
+total lipids in large LDL
+triglycerides in large VLDL measurement
+total cholesterol in IDL
+intermediate density lipoprotein measurement
+total lipids in IDL
+triglycerides:total lipids ratio, intermediate density lipoprotein measurement
+triglycerides in IDL measurement
+cholesterol esters in large LDL measurement
+total cholesterol in large VLDL
+triglycerides in large LDL measurement 
+free cholesterol in large VLDL measurement 
+total lipids in large VLDL
+cholesterol esters in large VLDL measurement
+HDL particle size
+phospholipids:total lipids ratio, intermediate density lipoprotein measurement
+glycerol measurement
+cholesterol:total lipids ratio, intermediate density lipoprotein measurement
+free cholesterol:total lipids ratio, intermediate density lipoprotein measurement
+free cholesterol in medium HDL measurement 
+total lipids in medium HDL measurement 
+triglycerides in medium HDL measurement 
+phospholipids in medium HDL measurement 
+vitamin D deficiency
+protein FAM151A measurement
+glycogen phosphorylase, liver form measurement
+phosphoglucomutase-1 measurement
+fatty acid-binding protein, liver measurement
+ERO1-like protein beta measurement
+neuroendocrine convertase 1 measurement
+total cholesterol measurement, intermediate density lipoprotein measurement
+cholesteryl ester measurement, intermediate density lipoprotein measurement
+cholesteryl esters:total lipids ratio, intermediate density lipoprotein measurement
+free cholesterol measurement, intermediate density lipoprotein measurement
+lipid measurement, intermediate density lipoprotein measurement
+phospholipid measurement, intermediate density lipoprotein measurement
+triglyceride measurement, intermediate density lipoprotein measurement
+cholesterol:total lipids ratio, low density lipoprotein cholesterol measurement
+low density lipoprotein cholesterol measurement, lipid measurement
+prostate specific antigen amount
+retinal layer thickness
+overnutrition, obesity
+vitamin B12 deficiency
+retinal nerve fibre layer thickness
+metabolic disease
+axin-1 measurement
+drug use measurement, Hypercholesterolemia
+Hypercholesterolemia
+tyrosine measurement
+body fat distribution
+diabetes mellitus, Drugs used in diabetes use measurement
+hypertension, Antihypertensive use measurement
+Hypercholesterolemia, family history
+body weights and measures
+diastolic blood pressure change measurement
+sleep duration trait
+carnitine measurement
+C9 carnitine measurement
+appetite-regulating hormone measurement
+apolipoprotein E measurement
+GDNF family receptor alpha-like measurement
+retinoic acid receptor responder protein 3 measurement
+EGF-containing fibulin-like extracellular matrix protein 1 measurement
+melanoma-associated antigen 10 measurement
+pyridoxamine measurement
+metachronous colorectal adenoma
+glucokinase regulatory protein measurement
+PIK3CA/PIK3R1 measurement
+beta-defensin 1 measurement
+activin/inhibin beta A chain amount
+hepatocyte growth factor-like protein amount
+DCN1-like protein 5 measurement
+peak expiratory flow
+beta-hydroxyisovalerate measurement
+serine measurement
+JT interval
+platelet quantity
+nonanoylcarnitine (C9) measurement
+1-stearoyl-2-docosahexaenoyl-GPE (18:0/22:6) measurement
+2-aminooctanoate measurement
+waist circumference
+X-24295 measurement
+X-15469 measurement
+X-21607 measurement
+X-17654 measurement
+X-17676 measurement
+X-18899 measurement
+X-19438 measurement
+1-myristoyl-2-docosahexaenoyl-GPC (14:0/22:6) measurement
+glutamine conjugate of C6H10O2 (1) measurement
+glutamine conjugate of C6H10O2 (2) measurement
+X-11378 measurement
+X-12101 measurement
+fibroblast growth factor 21 amount
+3-methoxytyrosine measurement
+3- 4-hydroxyphenyl lactate measurement
+3-hydroxy-2-ethylpropionate measurement
+3-hydroxydecanoate measurement
+3-hydroxyoctanoate measurement
+tetradecadienoate (14:2) measurement
+gamma-glutamylthreonine measurement
+butyrylcarnitine measurement
+caproate 6:0 measurement
+imidazole lactate measurement
+malate measurement
+N-acetylhistidine measurement
+body surface area
+X-24748 measurement
+X-24747 measurement
+X-24309 measurement
+glycerophosphorylcholine measurement
+N-acetylserine measurement
+N-acetylthreonine measurement
+X-23639 measurement
+xanthine measurement
+1-linolenoyl-GPC (18:3) measurement
+1-arachidonoyl-GPC (20:4n6) measurement
+1-docosahexaenoyl-GPE (22:6) measurement
+X-12206 measurement
+vanillylmandelate (VMA) measurement
+X-11308 measurement
+X-16580 measurement
+X-16935 measurement
+lysophosphatidylcholine 16:0 measurement
+tetradecenoylcarnitine meaasurement
+triacylglycerol 54:4 measurement
+triacylglycerol 54:5 measurement
+triacylglycerol 54:6 measurement
+triacylglycerol 54:7 measurement
+triacylglycerol 56:6 measurement
+triacylglycerol 56:7 measurement
+triacylglycerol 56:8 measurement
+level of Triacylglycerol (49:2) in blood serum
+triacylglycerol 50:1 measurement
+triacylglycerol 51:2 measurement
+level of Triacylglycerol (51:3) in blood serum
+level of Triacylglycerol (51:4) in blood serum
+triacylglycerol 52:3 measurement
+triacylglycerol 52:4 measurement
+triacylglycerol 53:2 measurement
+level of Triacylglycerol (53:3) in blood serum
+level of Triacylglycerol (53:4) in blood serum
+triacylglycerol 58:7 measurement
+diastolic blood pressure, systolic blood pressure
+Cis-4-decenoyl carnitine measurement
+decanoylcarnitine measurement
+1-stearoyl-2-arachidonoyl-GPI (18:0/20:4) measurement
+1-stearoyl-2-docosapentaenoyl-GPC (18:0/22:5n3) measurement
+1-stearoyl-2-docosapentaenoyl-GPC (18:0/22:5n6) measurement
+1-stearoyl-2-linoleoyl-GPE (18:0/18:2) measurement
+2-hydroxybutyrate/2-hydroxyisobutyrate measurement
+indoleacetylglutamine measurement
+1-(1-enyl-palmitoyl)-2-docosahexaenoyl-GPE (P-16:0/22:6) measurement
+3-hydroxylaurate measurement
+3-methyl-2-oxovalerate measurement
+succinate measurement
+taurocholenate sulfate measurement
+threonine measurement
+5alpha-androstan-3alpha,17beta-diol monosulfate (1) measurement
+4-methyl-2-oxopentanoate measurement
+1-palmitoyl-2-oleoyl-GPE (16:0/18:1) measurement
+1-palmitoyl-2-docosahexaenoyl-GPE (16:0/22:6) measurement
+hexanoylglycine measurement
+1-palmitoyl-2-linoleoyl-GPE (16:0/18:2) measurement
+kynurenate measurement
+1-myristoyl-2-linoleoyl-GPC (14:0/18:2) measurement
+1-myristoyl-GPC (14:0) measurement
+retinol measurement
+X-21736 measurement
+X-21353 measurement
+X-19141 measurement
+pulmonary embolism
+blood sodium bicarbonate amount
+3-hydroxyisovalerate measurement, serum creatinine amount
+cirrhosis of liver
+heart shape trait
+Hyperlipidemia
+nontoxic goiter
+multinodular goiter
+Toxic Nodular Goiter
+age of onset of type 2 diabetes mellitus
+peripheral neuropathy
+diabetic ketoacidosis
+type 2 diabetes nephropathy
+megaloblastic anemia
+enteritis
+visceral:gluteofemoral adipose tissue ratio measurement
+R-6-hydroxywarfarin to R-warfarin ratio measurement
+colorectal cancer, hormone replacement therapy
+S-warfarin measurement
+S-6-hydroxywarfarin measurement
+RS-10-hydroxywarfarin measurement
+nonaylcarnitine measurement
+dodecanoylcarnitine measurement
+C14:2 carnitine measurement
+myristoleoylcarnitine (C14:1) measurement
+oxaloacetic acid measurement
+N6-methyllysine measurement
+aortic measurement
+low density lipoprotein cholesterol measurement, phospholipid measurement
+Alzheimer disease, educational attainment
+free cholesterol in medium LDL measurement 
+phospholipids in medium LDL measurement
+total cholesterol in medium LDL
+dry eye syndrome
+gamma-enolase measurement
+Alzheimer disease, polygenic risk score
+pulse pressure measurement, social deprivation
+attention deficit hyperactivity disorder, autism spectrum disorder, intelligence
+Intrahepatic cholestasis of pregnancy
+longitudinal BMI measurement, non-small cell lung carcinoma
+beverage consumption measurement
+cataract
+X12442--5,8-tetradecadienoate measurement
+X-13435 measurement
+glucose-to-mannose ratio
+phosphatidylcholine (16:0/22:5n3, 18:1/20:4) measurement
+1-palmitoleoylglycerol (16:1) measurement
+palmitoleoyl-linoleoyl-glycerol (16:1/18:2) [1] measurement
+oleoyl-arachidonoyl-glycerol (18:1/20:4) [1] measurement
+N-acetyl-2-aminooctanoate measurement
+1-myristoyl-2-arachidonoyl-GPC (14:0/20:4) measurement
+(2 or 3)-decenoate (10:1n7 or n8) measurement
+4-methylhexanoylglutamine measurement
+arachidonoylcarnitine (C20:4) measurement
+dihomo-linolenoylcarnitine (C20:3n3 or 6) measurement
+nervonoylcarnitine (C24:1) measurement
+protein-glutamine gamma-glutamyltransferase e measurement
+myristoyl-linoleoyl-glycerol (14:0/18:2) [1] measurement
+lignoceroylcarnitine (C24) measurement
+1-carboxyethylphenylalanine measurement
+1-carboxyethylvaline measurement
+1-carboxyethylleucine measurement
+1-carboxyethylisoleucine measurement
+2-ketocaprylate measurement
+3-methylglutarylcarnitine (2) measurement
+1-myristoylglycerol (14:0) measurement
+butyrylcarnitine (C4) measurement
+2-myristoyl-GPC (14:0) measurement
+1-palmitoyl-GPE (16:0) measurement
+hexanoylglutamine measurement
+1-stearoyl-2-oleoyl-GPE (18:0/18:1) measurement
+butyrylglycine measurement
+1-stearoyl-GPE (18:0) measurement
+prostate specific antigen amount, disease progression measurement
+lysophosphatidylcholine 17:0 measurement
+phosphatidylcholine measurement
+level of neuroendocrine convertase 1 in blood serum
+cGMP-specific 3',5'-cyclic phosphodiesterase measurement
+cardiac troponin I measurement
+phosphatidylinositol measurement
+glycerophospholipid measurement
+ceramide measurement
+asparagine measurement
+lysophosphatidylcholine measurement
+BMI-adjusted fasting blood glucose measurement
+BMI-adjusted fasting blood insulin measurement
+level of Phosphatidylinositol (16:0_20:4) in blood serum
+level of Phosphatidylinositol (18:0_20:4) in blood serum
+level of Phosphatidylcholine (14:0_18:1) in blood serum
+level of Phosphatidylcholine (18:0_20:4) in blood serum
+level of Phosphatidylcholine (18:0_22:5) in blood serum
+level of Phosphatidylethanolamine (16:0_18:2) in blood serum
+level of Phosphatidylethanolamine (18:0_18:2) in blood serum
+level of Phosphatidylethanolamine (18:2_0:0) in blood serum
+fatty acid-binding protein; liver measurement
+coagulation factor IX amount
+obsolete_coagulation factor ixab measurement
+level of Sterol ester (27:1/20:5) in blood serum
+level of Ceramide (d40:1) in blood serum
+level of Sterol ester (27:1/18:3) in blood serum
+level of Diacylglycerol (18:1_18:2) in blood serum
+level of Phosphatidylcholine (16:0_0:0) in blood serum
+level of Sterol ester (27:1/20:4) in blood serum
+level of Diacylglycerol (16:1_18:1) in blood serum
+level of Diacylglycerol (18:1_18:1) in blood serum
+level of Phosphatidylcholine (16:1_18:0) in blood serum
+level of Phosphatidylcholine (16:1_18:2) in blood serum
+level of Phosphatidylcholine (16:0_16:1) in blood serum
+level of Phosphatidylcholine (16:0_18:1) in blood serum
+level of Phosphatidylcholine (16:0_18:3) in blood serum
+level of Phosphatidylcholine (16:1_18:1) in blood serum
+level of Phosphatidylcholine (16:0_20:2) in blood serum
+chondroadherin measurement
+quinone oxidoreductase-like protein 1 measurement
+signal peptide, CUB and EGF-like domain-containing protein 1 measurement
+insulin-like growth factor-binding protein 1 amount
+inactive gamma-glutamyltranspeptidase 2 measurement
+C-C motif chemokine 21 measurement
+complement component C1q receptor measurement
+group XIIB secretory phospholipase A2-like protein measurement
+sialic acid-binding Ig-like lectin 12 measurement
+cathepsin F measurement
+palmitoleoyl-protein carboxylesterase NOTUM measurement
+rgm domain family member b measurement
+ribulose-phosphate 3-epimerase measurement
+leptin receptor measurement
+l-lactate dehydrogenase C chain measurement
+leukocyte immunoglobulin-like receptor subfamily A member 5 measurement
+mitogen-activated protein kinase 3 measurement
+MANSC domain-containing protein 1 measurement
+severe acute respiratory syndrome, COVID-19
+photoreceptor cell layer thickness measurement
+body composition measurement
+osteoarthritis, knee
+focal segmental glomerulosclerosis
+tRNA (guanine-N(7)-)-methyltransferase measurement
+tumor protein p53-inducible protein 11 measurement
+tumor necrosis factor receptor superfamily member 1B measurement
+tubulointerstitial nephritis antigen-like measurement
+opioid-binding protein/cell adhesion molecule measurement
+neuropilin-1 measurement
+fructose-1,6-bisphosphatase 1 measurement
+acyl-CoA-binding domain-containing protein 7 measurement
+very long-chain acyl-CoA synthetase measurement
+methylmalonyl-CoA epimerase, mitochondrial measurement
+neural cell adhesion molecule 1 amount
+fibroblast growth factor 19 amount
+follistatin-related protein 3 measurement
+free cholesterol in VLDL measurement 
+degree of unsaturation measurement 
+phospholipids in large VLDL measurement
+cholesterol in large VLDL measurement 
+cholesterol in large HDL measurement 
+free cholesterol to total lipids in medium VLDL percentage 
+cholesteryl esters to total lipids in medium VLDL percentage 
+triglycerides to total lipids in medium VLDL percentage 
+cholesterol to total lipids in medium VLDL percentage 
+phospholipids:total lipids ratio
+triglycerides to total lipids in very large HDL percentage 
+free cholesterol to total lipids in very large HDL percentage 
+cholesterol to total lipids in large HDL percentage 
+phospholipids in LDL measurement 
+cholesteryl ester measurement
+phospholipids in HDL measurement 
+monounsaturated fatty acids; 16:1, 18:1 measurement
+cholesterol in chylomicrons and extremely large VLDL measurement 
+triglycerides in chylomicrons and extremely large VLDL measurement 
+free cholesterol in chylomicrons and extremely large VLDL measurement 
+cholesterol in small HDL measurement 
+triglycerides to total lipids in medium LDL percentage 
+cholesteryl esters to total lipids in small LDL percentage 
+free cholesterol to total lipids in small LDL percentage 
+triglycerides to total lipids in small LDL percentage 
+color vision disorder
+triglyceride change measurement, response to antipsychotic drug
+Headache, blood insulin amount
+Headache, HbA1c measurement
+breast density
+response to stimulus, neutrophil measurement
+response to vaccine, neutrophil measurement
+cholesterol in medium HDL measurement 
+free cholesterol to total lipids in very small VLDL percentage 
+cholesteryl esters to total lipids in very small VLDL percentage 
+cholesterol to total lipids in very small VLDL percentage 
+triglycerides to total lipids in very small VLDL percentage 
+triglycerides to total lipids in medium HDL percentage 
+free cholesterol to total lipids in medium HDL percentage 
+cholesteryl esters to total lipids in medium HDL percentage 
+cholesterol to total lipids in small HDL percentage 
+creativity measurement
+insulin resistance
+total lipids in lipoprotein particles measurement 
+free cholesterol in HDL measurement 
+total lipids in LDL measurement 
+total lipids in VLDL measurement 
+total lipids in HDL measurement 
+cholesterol in very large VLDL measurement 
+phospholipids in very large VLDL measurement 
+free cholesterol to total lipids in chylomicrons and extremely large VLDL percentage 
+free cholesterol to total lipids in very large VLDL percentage 
+triglycerides to total lipids in very large VLDL percentage 
+cholesteryl esters to total lipids in very large VLDL percentage 
+cholesterol to total lipids in very large VLDL percentage 
+triglycerides to total lipids in IDL percentage 
+free cholesterol to total lipids in IDL percentage 
+cholesterol to total lipids in IDL percentage 
+cholesterol to total lipids in large LDL percentage 
+cholesteryl esters to total lipids in IDL percentage 
+cholesteryl esters to total lipids in small HDL percentage 
+triglycerides to total lipids in small HDL percentage 
+free cholesterol to total lipids in small HDL percentage 
+eosinophilic esophagitis
+total phospholipids in lipoprotein particles measurement 
+triglycerides in VLDL measurement 
+triglycerides in LDL measurement 
+triglycerides in HDL measurement 
+polyunsaturated fatty acids to total fatty acids percentage 
+polyunsaturated fatty acids to monounsaturated fatty acids ratio 
+omega-6:omega-3 polyunsaturated fatty acid ratio
+saturated fatty acids to total fatty acids percentage 
+docosahexaenoic acid to total fatty acids percentage 
+cholesterol in large LDL measurement 
+free cholesterol to total lipids in small VLDL percentage 
+cholesterol to total lipids in small VLDL percentage 
+cholesteryl esters to total lipids in small VLDL percentage 
+triglycerides to total lipids in small VLDL percentage 
+free cholesterol to total lipids in large HDL percentage 
+triglycerides to total lipids in large HDL percentage 
+cholesteryl esters to total lipids in large HDL percentage 
+cholesterol to total lipids in medium HDL percentage 
+mitochondrial heteroplasmy measurement
+(S)-3-hydroxybutyrylcarnitine measurement
+1-(1-enyl-palmitoyl)-2-palmitoleoyl-GPC (P-16:0/16:1) measurement
+obsessive-compulsive disorder
+gamma-glutamylglycine measurement
+X-18888 measurement
+caprylate 8:0 measurement
+2-butenoylglycine measurement
+3-hydroxybutyroylglycine measurement
+vitamin D measurement, COVID-19
+level of Phosphatidylcholine (17:0_18:1) in blood serum
+isobutyrate (4:0) measurement
+3-hydroxyhexanoylcarnitine (1) measurement
+undecenoylcarnitine (C11:1) measurement
+indoleacetoylcarnitine measurement
+free androgen index
+3-hydroxysebacate measurement
+cis-4-decenoylcarnitine (C10:1) measurement
+level of phosphatidylcholine
+level of Sterol ester (27:1/16:1) in blood serum
+level of Diacylglycerol (18:1_18:3) in blood serum
+level of Phosphatidylethanolamine (18:0_0:0) in blood serum
+level of Phosphatidylcholine (14:0_18:2) in blood serum
+level of Phosphatidylcholine (15:0_18:1) in blood serum
+triglycerides to phosphoglycerides ratio 
+total lipids in chylomicrons and extremely large VLDL measurement 
+phospholipids in chylomicrons and extremely large VLDL measurement 
+concentration of chylomicrons and extremely large VLDL particles measurement 
+free cholesterol in IDL measurement
+cholesterol in IDL measurement 
+cholesterol in very large HDL measurement 
+cholesteryl esters to total lipids in large VLDL percentage 
+cholesterol to total lipids in large VLDL percentage 
+free cholesterol to total lipids in medium LDL percentage 
+triglycerides to total lipids in large LDL percentage 
+free cholesterol to total lipids in large LDL percentage 
+cholesteryl esters to total lipids in medium LDL percentage 
+cholesteryl esters to total lipids in large LDL percentage 
+bullous pemphigoid
+hearing loss
+sexual dimorphism measurement
+eicosanoids measurement
+complex trait
+neuroticism measurement, cognitive function measurement
+bipolar disorder, gastroesophageal reflux disease
+hippocampal volume
+interleukin-2 receptor subunit alpha measurement
+substance-related disorder
+nicotine dependence
+obsolete_teratocarcinoma-derived growth factor 1 measurement
+cannabis dependence
+erythrocyte attribute
+lymphocyte measurement
+isobutyrylglycine measurement
+Parkinson disease
+1-palmitoyl-GPC (16:0) measurement
+acisoga measurement
+neutrophil measurement
+1-palmitoyl-2-oleoyl-GPC (16:0/18:1) measurement
+socioeconomic status
+restless legs syndrome
+able to hear with hearing aids
+B-cell acute lymphoblastic leukemia, rheumatoid arthritis
+multiple system atrophy
+electrocardiography, magnetic resonance imaging of the heart
+cholelithiasis
+Fuchs endothelial corneal dystrophy
+memory performance, sex interaction measurement
+level of beta-klotho in blood serum
+soluble transferrin receptor measurement
+drug use measurement, lung cancer
+D-Glucose measurement
+phosphoglyceric acid measurement
+ATP measurement
+phosphoenolpyruvic acid measurement
+carbohydrate measurement
+IGF-1 measurement, IGFBP-3 measurement
+obsolete_fat body mass
+uterine fibroid, age at menarche
+Tinnitus
+seasonality measurement, vitamin D measurement
+bipolar disorder, family history
+thyroid disease, drug use measurement
+aspirin use measurement
+diacylglycerol 44:7 measurement
+lysophosphatidylethanolamine measurement
+diacylglycerol 32.2 measurement
+diacylglycerol 34:1 measurement
+diacylglycerol 34:3 measurement
+diacylglycerol 34:2 measurement
+phosphatidylethanolamine measurement
+progression free survival, response to carboplatin, ovarian carcinoma, trait in response to paclitaxel
+plasminogen activator inhibitor 1 measurement
+polyp of colon
+Graves disease
+brain aneurysm
+goiter
+lymphoma
+spinal stenosis
+Cholecystitis
+uterine prolapse
+Varicose veins
+X-13431--nonanoylcarnitine measurement

@@ -1,0 +1,22 @@
+,pathway,gene_name,SNPS,PUBMEDID,STUDY,FIRST AUTHOR,DATE,P-VALUE,SAMPLE_SIZE,MAPPED_TRAIT
+0,Insulin receptor signaling,INSR,rs1035941,39349817,Multivariate genomic analysis of 5 million people elucidates the genetic architecture of shared components of the metabolic syndrome.,Park S,2024-09-30,4e-08,1384348.0,Metabolic syndrome
+1,Insulin receptor signaling,INSR,rs4804416,39349817,Multivariate genomic analysis of 5 million people elucidates the genetic architecture of shared components of the metabolic syndrome.,Park S,2024-09-30,4e-14,1384348.0,Metabolic syndrome
+2,Insulin receptor signaling,INSR,rs8101064,39349817,Multivariate genomic analysis of 5 million people elucidates the genetic architecture of shared components of the metabolic syndrome.,Park S,2024-09-30,4e-12,1384348.0,Metabolic syndrome
+3,Insulin receptor signaling,PIK3C3,rs682408,39349817,Multivariate genomic analysis of 5 million people elucidates the genetic architecture of shared components of the metabolic syndrome.,Park S,2024-09-30,7e-14,1384348.0,Metabolic syndrome
+4,Insulin secretion,EXOC4,rs17167315,39349817,Multivariate genomic analysis of 5 million people elucidates the genetic architecture of shared components of the metabolic syndrome.,Park S,2024-09-30,6e-09,1384348.0,Metabolic syndrome
+5,Insulin secretion,EXOC6,rs2486681,39349817,Multivariate genomic analysis of 5 million people elucidates the genetic architecture of shared components of the metabolic syndrome.,Park S,2024-09-30,4e-17,1384348.0,Metabolic syndrome
+6,Insulin secretion,EXOC6,rs535286942,31589552,Genome-Wide Association Study of the Metabolic Syndrome in UK Biobank.,Lind L,2019-10-07,4e-08,291107.0,Metabolic syndrome
+7,Insulin secretion,GCK,rs1799884,38201907,A Genome-Wide Association Study of Metabolic Syndrome in the Taiwanese Population.,Ho CY,2023-12-25,7e-11,107230.0,Metabolic syndrome
+8,Insulin secretion,GCK,rs2070971,39349817,Multivariate genomic analysis of 5 million people elucidates the genetic architecture of shared components of the metabolic syndrome.,Park S,2024-09-30,1e-08,1384348.0,Metabolic syndrome
+9,Insulin secretion,GCK,rs2908286,38201907,A Genome-Wide Association Study of Metabolic Syndrome in the Taiwanese Population.,Ho CY,2023-12-25,3e-11,107230.0,Metabolic syndrome
+10,Insulin secretion,GCK,rs2908289,38201907,A Genome-Wide Association Study of Metabolic Syndrome in the Taiwanese Population.,Ho CY,2023-12-25,1e-10,107230.0,Metabolic syndrome
+11,Insulin secretion,GCK,rs2971669,38201907,A Genome-Wide Association Study of Metabolic Syndrome in the Taiwanese Population.,Ho CY,2023-12-25,8e-09,107230.0,Metabolic syndrome
+12,Insulin secretion,GCK,rs2971670,38201907,A Genome-Wide Association Study of Metabolic Syndrome in the Taiwanese Population.,Ho CY,2023-12-25,6e-11,107230.0,Metabolic syndrome
+13,Insulin secretion,GCK,rs6975024,38201907,A Genome-Wide Association Study of Metabolic Syndrome in the Taiwanese Population.,Ho CY,2023-12-25,2e-09,107230.0,Metabolic syndrome
+14,Insulin secretion,GCK,rs730497,38201907,A Genome-Wide Association Study of Metabolic Syndrome in the Taiwanese Population.,Ho CY,2023-12-25,9e-11,107230.0,Metabolic syndrome
+15,Insulin secretion,GCK,rs730497,39349817,Multivariate genomic analysis of 5 million people elucidates the genetic architecture of shared components of the metabolic syndrome.,Park S,2024-09-30,2e-08,1384348.0,Metabolic syndrome
+16,Insulin secretion,GCKR,rs1260326,31589552,Genome-Wide Association Study of the Metabolic Syndrome in UK Biobank.,Lind L,2019-10-07,7e-16,291107.0,Metabolic syndrome
+17,Insulin secretion,SLC30A8,rs11558471,39349817,Multivariate genomic analysis of 5 million people elucidates the genetic architecture of shared components of the metabolic syndrome.,Park S,2024-09-30,5e-16,1384348.0,Metabolic syndrome
+18,Lactate metabolism,PCK1,rs2235826,39349817,Multivariate genomic analysis of 5 million people elucidates the genetic architecture of shared components of the metabolic syndrome.,Park S,2024-09-30,3e-11,1384348.0,Metabolic syndrome
+19,Triglyceride biosynthesis,GPAM,rs2792751,39349817,Multivariate genomic analysis of 5 million people elucidates the genetic architecture of shared components of the metabolic syndrome.,Park S,2024-09-30,9.999999999999999e-33,1384348.0,Metabolic syndrome
+20,Triglyceride catabolism,FABP2,rs11724758,39349817,Multivariate genomic analysis of 5 million people elucidates the genetic architecture of shared components of the metabolic syndrome.,Park S,2024-09-30,4e-08,1384348.0,Metabolic syndrome

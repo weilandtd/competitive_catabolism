@@ -1,0 +1,12 @@
+,pathway,gene_name,SNPS,PUBMEDID,STUDY,FIRST AUTHOR,DATE,P-VALUE,SAMPLE_SIZE,OR or BETA,MAPPED_TRAIT
+0,Glucose catabolism,SLC2A4,rs117643180,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,2e-10,113594.0,0.0823219,Ketones
+1,Glucose catabolism,SLC2A4,rs117643180,38448586,Genome-wide characterization of circulating metabolic biomarkers.,Karjalainen MK,2024-03-06,7e-10,83416.0,0.1161,Ketones
+2,Ketone metabolism,OXCT1,rs11745373,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,2.0000000000000002e-28,115079.0,0.0520298,Ketones
+3,Ketone metabolism,OXCT1,rs11745373,36764567,Metabolomic Investigation of Major Depressive Disorder Identifies a Potentially Causal Association With Polyunsaturated Fatty Acids.,Davyson E,2023-02-09,5e-22,88326.0,0.0524505,Ketones
+4,Ketone metabolism,OXCT1,rs7712274,30476138,Sequence variants associating with urinary biomarkers.,Benonisdottir S,2019-04-01,2e-16,136698.0,1.1061947,Ketones
+5,Ketone metabolism,OXCT1,rs7712274,30476138,Sequence variants associating with urinary biomarkers.,Benonisdottir S,2019-04-01,1e-15,117371.0,1.1337868,Ketones
+6,Lactate metabolism,MPC1,rs11557064,36764567,Metabolomic Investigation of Major Depressive Disorder Identifies a Potentially Causal Association With Polyunsaturated Fatty Acids.,Davyson E,2023-02-09,4e-12,88326.0,0.0949581,Ketones
+7,Triglyceride biosynthesis,GPAM,rs2254537,36764567,Metabolomic Investigation of Major Depressive Disorder Identifies a Potentially Causal Association With Polyunsaturated Fatty Acids.,Davyson E,2023-02-09,9e-16,87151.0,0.0427079,Ketones
+8,Triglyceride biosynthesis,GPAM,rs2255400,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,4e-09,115079.0,0.0270253,Ketones
+9,Triglyceride biosynthesis,GPAM,rs2419604,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,3e-19,113594.0,0.0410568,Ketones
+10,Triglyceride biosynthesis,GPAM,rs2792759,38448586,Genome-wide characterization of circulating metabolic biomarkers.,Karjalainen MK,2024-03-06,5e-14,83416.0,0.0427,Ketones

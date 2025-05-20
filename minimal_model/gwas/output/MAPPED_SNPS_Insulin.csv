@@ -1,0 +1,6 @@
+,pathway,gene_name,SNPS,PUBMEDID,STUDY,FIRST AUTHOR,DATE,P-VALUE,SAMPLE_SIZE,MAPPED_TRAIT
+0,Insulin receptor signaling,GRB10,rs2108349,34059833,The trans-ancestral genomic architecture of glycemic traits.,Chen J,2021-05-31,1e-08,151013.0,Insulin
+1,Insulin receptor signaling,GRB10,rs2299156,36808568,"Cross-trait analyses identify shared genetics between migraine, headache, and glycemic traits, and a causal relationship with fasting proinsulin.",Islam MR,2023-02-20,4e-09,571491.0,Insulin
+2,Insulin secretion,GCKR,rs1260326,34059833,The trans-ancestral genomic architecture of glycemic traits.,Chen J,2021-05-31,8e-38,151013.0,Insulin
+3,Insulin secretion,GCKR,rs1260326,39280063,Large-scale exome array summary statistics resources for glycemic traits to aid effector gene prioritization.,Willems SM,2023-10-20,6e-32,104140.0,Insulin
+4,Insulin secretion,GCKR,rs780094,33402679,Sex-dimorphic genetic effects and novel loci for fasting glucose and insulin variability.,Lagou V,2021-01-05,7e-15,105056.0,Insulin

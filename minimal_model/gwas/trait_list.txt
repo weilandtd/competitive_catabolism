@@ -1,0 +1,2238 @@
+Nonsyndromic cleft lip with cleft palate
+Hematocrit
+Eosinophil counts
+Plateletcrit
+Core binding factor acute myeloid leukemia
+Mean corpuscular volume
+Monocyte percentage of white cells
+White blood cell count
+Caffeine metabolism (plasma 1,7-dimethylxanthine (paraxanthine) to 1,3,7-trimethylxanthine (caffeine) ratio)
+High light scatter reticulocyte count
+Sum neutrophil eosinophil counts
+Granulocyte count
+High light scatter reticulocyte percentage of red cells
+Post bronchodilator FEV1
+C-reactive protein levels or total cholesterol levels (pleiotropy)
+C-reactive protein levels or LDL-cholesterol levels (pleiotropy)
+C-reactive protein levels or triglyceride levels (pleiotropy)
+Estrogen receptor status in HER2 negative breast cancer
+Estrogen receptor status in breast cancer
+Response to antidepressants and depression
+QT interval (sulfonylurea treatment interaction)
+JT interval (sulfonylurea treatment interaction)
+Reticulocyte count
+Systolic blood pressure
+Childhood ear infection
+Hypothyroidism
+Mean corpuscular hemoglobin
+Palmitoleic acid (16:1n-7) levels
+Gondoic acid (20:1n-9) levels
+LDL cholesterol levels
+Total cholesterol levels
+Triglyceride levels
+Protein C levels
+Atrial fibrillation
+Attention deficit hyperactivity disorder symptom score
+Prostate-specific antigen levels (conditioned on lead SNPs)
+Myopia
+Male-pattern baldness
+Myeloid white cell count
+Red blood cell count
+Lymphocyte count
+Immature fraction of reticulocytes
+Neutrophil count
+Resting heart rate
+Left atrial antero-posterior diameter
+Attention deficit hyperactivity disorder
+Response to alcohol consumption (flushing response)
+Prudent dietary pattern
+Western dietary pattern
+Subclinical trait of interstitial lung disease (basilar peel-core ratio of high attentuation areas on CT scan)
+Subclinical trait of interstitial lung disease (percentage of high attenuation areas on CT scan)
+Systolic blood pressure x smoking status (current vs non-current) interaction (2df test)
+Hemoglobin levels
+Platelet count
+Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)
+Granulocyte percentage of myeloid white cells
+Sum eosinophil basophil counts
+Monobrow
+Monocyte count
+Lymphocyte percentage of white cells
+Age-related disease endophenotypes
+Age-related diseases, mortality and associated endophenotypes
+Gallstone disease
+Crohn's disease
+Inflammatory bowel disease
+Interleukin-2 receptor antagonist levels
+Interleukin-4 levels
+Interleukin-17 levels
+Monocyte chemoattractant protein-1 levels
+Macrophage inflammatory protein 1a levels
+Platelet-derived growth factor BB levels
+Stem cell factor levels
+Body mass index
+Motion sickness
+Hippocampal atrophy
+Gout
+Metabolite levels
+Hypertriglyceridemia
+Thyroid volume
+Glycemic traits
+Sex hormone-binding globulin levels
+Fasting blood insulin (BMI interaction)
+Fasting blood glucose
+Fasting blood insulin
+PR interval in Tripanosoma cruzi seropositivity
+Fasting blood glucose (BMI interaction)
+Systemic sclerosis
+Breast cancer
+Pyoderma gangrenosum in inflammatory bowel disease
+Response to zileuton treatment in asthma (FEV1 change interaction)
+Epilepsy and lamotrigine-induced maculopapular eruptions
+Serum alpha1-antitrypsin levels
+Schizophrenia
+Pediatric autoimmune diseases
+Type 2 diabetes
+Cerebrospinal fluid t-tau:AB1-42 ratio
+Cerebrospinal T-tau levels
+Alzheimer disease and age of onset
+Post bronchodilator FEV1/FVC ratio
+Proteinuria and chronic kidney disease
+3-hydroxypropylmercapturic acid levels in smokers
+Emphysema imaging phenotypes
+LDL cholesterol
+HDL cholesterol
+Triglycerides
+Cholesterol, total
+Blood metabolite levels
+Plasma omega-6 polyunsaturated fatty acid levels (linoleic acid)
+circulating leptin levels adjusted for BMI
+circulating leptin levels
+Tuberculosis
+Waist-to-hip ratio adjusted for body mass index
+Glomerular filtration rate in non diabetics (creatinine)
+Glomerular filtration rate (creatinine)
+Carotid intima media thickness
+Plasma lactate levels
+Corticobasal degeneration
+Homeostasis model assessment of insulin resistance
+Homeostasis model assessment of beta-cell function
+Lipoprotein-associated phospholipase A2 activity and mass
+Metabolic traits
+Waist circumference and related phenotypes
+Type 1 diabetes
+Electrocardiographic traits
+Glycated hemoglobin levels
+Calcium levels
+Two-hour glucose challenge
+Fasting plasma glucose
+Uric acid levels
+Hematological parameters
+Cognitive performance
+Cardiovascular disease risk factors
+Urate levels
+Hematological and biochemical traits
+Femoral neck bone geometry
+Breast cancer (male)
+Multiple sclerosis
+Disc degeneration (lumbar)
+Non-albumin protein levels
+Breast size
+Acute lymphoblastic leukemia (childhood)
+Adiponectin levels
+Liver enzyme levels (gamma-glutamyl transferase)
+Dental caries
+Triglycerides-Blood Pressure (TG-BP)
+Waist Circumference - Triglycerides (WC-TG)
+Hemoglobin
+Height
+Diabetic retinopathy
+Information processing speed
+Alzheimer's disease (late onset)
+Chronic kidney disease
+C-reactive protein levels
+Thyroid hormone levels
+Obesity-related traits
+Polycystic ovary syndrome
+Palmitic acid (16:0) levels
+Visceral fat
+Pulmonary function decline
+PR interval
+Femoral neck bone mineral density
+Breast cancer in BRCA2 mutation carriers
+Metabolic syndrome
+Paget's disease
+Lipid traits
+Asthma
+HIV-1 susceptibility
+Metabolite levels (Dihydroxy docosatrienoic acid)
+C-reactive protein
+Plasma omega-3 polyunsaturated fatty acid levels (docosapentaenoic acid)
+Leukocyte telomere length
+Eosinophil percentage of white cells
+Hemoglobin concentration
+Mean platelet volume
+Carotid intima media thickness x smoking interaction
+Morningness
+FEV1
+Tourette syndrome
+Mean corpuscular hemoglobin concentration
+Lung function (FVC)
+Menstruation quality of life impact (dysmenorrhea)
+General cognitive ability
+Waist circumference adjusted for body mass index
+Anti-chlamydia trachomatis IgG seropositivity
+Basophil count
+Spherical equivalent or myopia (age of diagnosis)
+Myopia (age of diagnosis)
+Adolescent idiopathic scoliosis
+Reaction time
+Intelligence
+Cognitive ability, years of educational attainment or schizophrenia (pleiotropy)
+Alcohol consumption
+Thyroid stimulating hormone levels
+Ketonuria
+Ketonuria (moderate to severe)
+Ketonuria (mild)
+Protein quantitative trait loci (liver)
+Acceptance of an invitation to participate in a mental health questionnaire
+Pure non-grapefruit juice consumption
+Bitter beverage consumption
+Coffee consumption
+Toxicity response to radiotherapy in prostate cancer (decreased urine stream) (time to event)
+Bitter alcoholic beverage consumption
+Cortical thickness (MOSTest)
+Brain morphology (min-P)
+Subcortical volume (MOSTest)
+Urolithiasis
+Brain morphology (MOSTest)
+Hypertension
+Cortical surface area (MOSTest)
+Subcortical volume (min-P)
+Arrhythmia
+Low density lipoprotein cholesterol levels
+Iron status biomarkers (ferritin levels)
+Severe depressive disorders in coronary artery disease
+Osteoarthritis of the hip or knee
+Coronary artery disease and triglyceride levels (multivariate analysis)
+Hemoglobin A1c levels
+High density lipoprotein cholesterol levels
+Red cell distribution width
+Problematic alcohol use (MTAG)
+Alcohol consumption (drinks per week) (MTAG)
+Autism spectrum disorder
+Platelet distribution width
+Nonalcoholic steatohepatitis
+Serum metabolite levels
+Liver fat content (MRI proton density fat fraction measure)
+Bipolar disorder (MTAG)
+Schizophrenia (MTAG)
+Fasting triglyceride levels
+Postprandial triglyceride levels
+Reticulocyte fraction of red cells
+Electrocardiographic traits (multivariate)
+Problematic alcohol use
+Serum interleukin-6 concentration in active individuals
+Deep white matter hyperintensities
+Gestational insulin sensitivity
+Alanine aminotransferase levels
+Aspartate aminotransferase levels
+Factor VII activity
+Factor VII activity or levels
+Serum alkaline phosphatase levels
+Cortical volume
+Prostate cancer
+Kidney cancer
+Cancer (pleiotropy)
+Walking pace
+Estradiol levels
+Bioavailable testosterone levels
+Nucleus accumbens volume change rate x age interaction (2df)
+Cancer (pleiotropy)(bidirectional)
+Sex hormone-binding globulin levels adjusted for BMI
+Glucose homeostasis traits
+Longevity (90 years and older)
+Age-related cataracts (age at onset)
+Menarche (age at onset)
+Blood pressure (smoking interaction)
+Response to antidepressant treatment (citalopram)
+Glycemic traits (pregnancy)
+Staphylococcus aureus infection
+Vitamin D levels
+Plasma amyloid beta peptide concentrations (ABx-42)
+Breast cancer (early onset)
+Rheumatoid arthritis
+Serum total protein levels
+Serum albumin levels
+Response to chemotherapy in breast cancer hypertensive cases (cumulative dose) (bevacizumab)
+QT interval
+Red blood cell traits
+PR segment duration
+Magnesium levels
+Polychlorinated biphenyl levels
+Schizophrenia (treatment resistant)
+Lipid metabolism phenotypes
+Asymmetrical dimethylarginine levels
+Coffee consumption (cups per day)
+Urate levels in overweight individuals
+Urate levels in obese individuals
+Sitting height ratio
+Hip circumference adjusted for BMI
+Heart rate response to recovery post exercise (30 sec)
+Heart rate response to recovery post exercise (10 sec)
+Heart rate response to recovery post exercise (40 sec)
+Heart rate response to recovery post exercise (50 sec)
+Heart rate response to recovery post exercise (20 sec)
+Pursuit maintenance gain
+Systolic blood pressure (cigarette smoking interaction)
+Renal cell carcinoma
+Testicular germ cell tumor
+Autism spectrum disorder or schizophrenia
+BMI (adjusted for smoking behaviour)
+Diastolic blood pressure
+Neuroticism
+Renal underexcretion gout
+Renal overload gout
+Pulse pressure
+Venous thromboembolism adjusted for sickle cell variant rs77121243-T
+Body fat percentage
+Sum basophil neutrophil counts
+Myringotomy
+Scarlet fever
+Lung cancer in ever smokers
+Daytime nap
+Peripheral arterial disease (traffic-related air pollution interaction)
+Nonalcoholic fatty liver disease
+Alcohol consumption in current drinkers
+Depressive symptoms
+Lung adenocarcinoma
+Chronic sinus infection
+Waist-hip ratio
+Mosquito bite size
+Body mass index (joint analysis main effects and smoking interaction)
+Perceived unattractiveness to mosquitoes
+BMI in non-smokers
+Facial morphology (factor 14, intercanthal width)
+Facial morphology (factor 22)
+White blood cell count (monocyte)
+Alcohol consumption (drinks per week)
+Diastolic blood pressure (cigarette smoking interaction)
+Major depression and alcohol dependence
+Glomerular filtration rate
+Systemic lupus erythematosus
+Blood protein levels
+Gamma glutamyl transferase levels
+Alanine transaminase levels
+Lactate dehydrogenase levels
+Experiencing mood swings
+Psoriasis
+Serum metabolite concentrations in chronic kidney disease
+Serum bilirubin levels in metabolic syndrome
+QRS duration
+Possible neuropathic pain in post total joint replacement surgery for osteoarthritis
+Major depressive disorder
+Total body bone mineral density
+Iris color (a* coordinate)
+Iris color (b* coordinate)
+Branched-chain amino acid levels (Isoleucine)
+Branched-chain amino acid levels (Leucine)
+Branched-chain amino acid levels (Valine)
+High altitude adaptation
+Heel bone mineral density
+P wave duration
+Serum uric acid levels in response to allopurinol in gout
+Asthma (childhood onset)
+Depression in response to interferon-based therapy in chronic hepatitis C
+Insulin levels adjusted for BMI
+Ratio of the area under the curve for insulin and the area under the curve for glucose
+Area under the curve of insulin levels
+Incremental insulin
+Corrected insulin response
+Corrected insulin response adjusted for insulin sensitivity index
+Estimated glomerular filtration rate in non-diabetics
+Estimated glomerular filtration rate
+Parental longevity (combined parental attained age, Martingale residuals)
+Mean arterial pressure x alcohol consumption interaction (2df test)
+Medial orbital frontal cortex volume
+Lateral orbital frontal cortex volume
+Pars orbitalis volume
+Pars triangularis volume
+Systolic blood pressure x alcohol consumption interaction (2df test)
+Superior frontal gyrus volume
+Superior parietal cortex volume
+Corpus callosum mid-anterior volume
+Familial squamous cell lung carcinoma
+Basal cell carcinoma
+Diastolic blood pressure x alcohol consumption interaction (2df test)
+Proliferative diabetic retinopathy (vs no DR)
+HDL cholesterol levels
+Mental health study participation (completed survey)
+HDL cholesterol levels x alcohol consumption (drinkers vs non-drinkers) interaction (2df)
+Mean arterial pressure
+HDL cholesterol levels in current drinkers
+Triglyceride levels in current drinkers
+Benign prostatic hyperplasia and lower urinary tract symptoms
+Benign prostatic hyperplasia and lower urinary tract symptoms (prostate cancer excluded)
+LDL cholesterol levels in current drinkers
+Triglyceride levels x alcohol consumption (drinkers vs non-drinkers) interaction (2df)
+Waist-to-hip ratio adjusted for BMI
+Balding type 1
+Keratinocyte cancer (MTAG)
+Educational attainment (years of education)
+Blood urea nitrogen levels
+Body mass index (joint analysis main effects and physical activity interaction)
+Body mass index in physically active individuals
+Cognitive ability
+Cognitive ability (MTAG)
+Accelerated cognitive decline after conversion of mild cognitive impairment to Alzheimer's disease (Alzhiemer's diagnosis trajectory interaction)
+Bone fracture in osteoporosis
+Alopecia areata
+LDL cholesterol levels x alcohol consumption (drinkers vs non-drinkers) interaction (2df)
+HDL cholesterol levels x alcohol consumption (regular vs non-regular drinkers) interaction (2df)
+LDL cholesterol levels x alcohol consumption (regular vs non-regular drinkers) interaction (2df)
+Triglyceride levels x alcohol consumption (regular vs non-regular drinkers) interaction (2df)
+Overall survival in osteosarcoma
+Sulfasalazine-induced agranulocytosis
+Creatine kinase levels
+Change in glucose in response to thiazide diuretic treatment in hypertension
+Potassium levels
+Chloride levels
+Creatinine levels
+Serum uric acid levels
+Blood sugar levels
+Offspring birth weight
+Urinary sodium excretion
+Non-lobar intracerebral hemorrhage (MTAG)
+Sensorimotor dexterity
+Predicted visceral adipose tissue
+Cognitive performance (MTAG)
+Self-reported math ability (MTAG)
+Highest math class taken (MTAG)
+Waist-to-hip ratio adjusted for BMI (additive genetic model)
+Latent autoimmune diabetes vs. type 2 diabetes
+Metabolic syndrome (multivariate analysis)
+Birth weight
+Educational attainment (MTAG)
+Self-reported math ability
+Breast cancer specific mortality in breast cancer
+Age-related hearing impairment
+Triglyceride to HDL cholesterol ratio
+Lung function (FEV1) and waist to hip ratio adjusted for BMI
+Lung function (FEV1) and waist circumference adjusted for BMI
+Insulin-like growth factor 1 levels
+Complement factor H-related protein 3 levels
+Serum phosphate levels
+Age at menopause
+Testosterone levels
+Total bilirubin levels
+Bipolar I disorder
+Urea levels
+hemolysis of donated blood (osmotic)
+Response to antipsychotic treatment in schizophrenia
+Fasting glucose
+Two-hour glucose
+Fasting insulin
+Serum urate levels
+Externalizing behaviour (multivariate analysis)
+Apolipoprotein A1 levels
+Cystatin C levels
+Apolipoprotein B levels
+Depressive symptoms x stressful life events interaction (2df test)
+Lung function (FEV1)
+Bilirubin levels
+Blood glucose levels
+Mean sphered cell volume
+Clear cell renal cell carcinoma
+Mitochondrial DNA copy number
+Fructosamine levels
+Insulin levels
+Cortical thickness
+Alcohol consumption x experiences in childhood (felt loved by family member) interaction
+Smoking x traumatic event in childhood (sexually molested) interaction
+Cortical surface area
+Hyperlipidemia
+Lymphocyte-to-monocyte ratio
+Cardiorespiratory fitness (vo2 max)
+Childhood gender nonconformity
+Corneal resistance factor (MTAG)
+Aspartate aminotransferase to alanine aminotransferase ratio
+Colorectal cancer
+Direct bilirubin levels
+Non-melanoma skin cancer
+Cancer
+Liver enzyme levels (alanine transaminase)
+Liver enzyme levels (alkaline phosphatase)
+Heel bone mineral density x serum urate levels interaction
+Age at first birth
+Femur bone mineral density x serum urate levels interaction
+Low testosterone levels
+Liver volume
+Percent liver fat
+COVID-19 (covid vs negative)
+Fat-free mass
+Uveal melanoma
+Disease severity in uveal melanoma (TNM stage 3 or 4 vs TNM stage 1 or 2)
+Mosaic loss of chromosome Y (Y chromosome dosage)
+Systemic seropositive rheumatic diseases (Systemic sclerosis or systemic lupus erythematosus or rheumatoid arthritis or idiopathic inflammatory myopathies)
+Brown vs. black hair color
+Bipolar disorder
+Microalbuminuria
+Urinary albumin-to-creatinine ratio in diabetes
+Childhood obesity
+Urinary albumin-to-creatinine ratio
+Peripheral artery disease
+Adventurousness
+Abdominal aortic calcification levels
+Blond vs. brown/black hair color
+Brain region volumes
+Heel bone mineral density (MTAG)
+Total body bone mineral density (MTAG)
+Relative protein intake
+Ebbinghaus illusion (overestimation)
+TPE interval (resting)
+OTU97_100 (Ruminococcaceae) abundance
+C_Actinobacteria abundance
+OTU97_354 (Alloprevotella) abundance
+Cholesterol
+Non-oily fish consumption
+Refractive error
+Lung function (FEV1/FVC)
+OTU99_19 (Bacteria) prevalence
+Cardiovascular disease
+P_Actinobacteria abundance
+Urinary metabolite levels in chronic kidney disease
+OTU97_19 (Bacteria) prevalence
+OTU99_39 (Alphaproteobacteria) prevalence
+Gout (combined type)
+Autoimmune traits
+Intrinsic epigenetic age acceleration
+Blood protein levels in cardiovascular risk
+Cervical cancer
+Cervical cancer (MTAG)
+Hair color
+Appendicular lean mass
+Serum metabolite levels (CMS)
+Birth length (MTAG)
+Birth weight (MTAG)
+Triglyceride levels x short total sleep time interaction (2df test)
+Triglyceride levels x long total sleep time interaction (2df test)
+Circulating leptin levels or fasting insulin levels
+Circulating leptin levels or HOMA-IR
+Circulating leptin levels or type 2 diabetes
+Bone mineral density (hip) and hip bone size
+Hip bone size
+Cerebrospinal fluid sTREM-2 levels
+HDL cholesterol levels x long total sleep time interaction (2df test)
+Kidney stones
+Morning person
+HDL cholesterol levels x short total sleep time interaction (2df test)
+Putamen volume
+Alcohol consumption (drinkers vs non-drinkers)
+Intraocular pressure
+Age at loss of ambulation in Duchenne muscular dystrophy
+Alcohol consumption (heavy vs. light/non-drinkers)
+Serum 25-Hydroxyvitamin D levels
+Midgestational total 25-hydroxyvitamin D levels (maternal genetic effect)
+Alcohol-associated liver disease in non drinkers
+Glycemic traits (multi-trait analysis)
+Plasma free amino acid levels (adjusted for twenty other PFAAs)
+Plasma free amino acid levels
+Proportion of activated microglia (inferior temporal cortex)
+Leisure sedentary behaviour (computer use)
+Triglycerides x physical activity interaction (2df test)
+HDL cholesterol x physical activity interaction (2df test)
+Response to norepinephrine-dopamine reuptake inhibitors (responders vs non-responders)
+Depressed affect
+Worry
+Total testosterone levels
+Hand grip strength
+Hip shape (DXA scan)
+Positive affect
+Life satisfaction
+Venous thromboembolism
+Type 2 diabetes (adjusted for BMI)
+Diverticular disease
+Telomere length
+Systolic blood pressure (baseline)
+DSG4/FABP9 protein level ratio
+DOK2/PDLIM7 protein level ratio
+ENO2/MGLL protein level ratio
+SCARA5/TGFBI protein level ratio
+EGF/MGLL protein level ratio
+FLT3/FLT3LG protein level ratio
+FLT4/ICAM2 protein level ratio
+FIS1/MGLL protein level ratio
+PFKFB2/RILP protein level ratio
+PFKFB2/SERPINB1 protein level ratio
+PFKFB2/SRP14 protein level ratio
+PMVK/PRDX5 protein level ratio
+PMVK/PRTFDC1 protein level ratio
+PMVK/PTPN6 protein level ratio
+PMVK/TARBP2 protein level ratio
+PMVK/TBCB protein level ratio
+PODXL2/SEZ6L protein level ratio
+PLAUR/PRSS8 protein level ratio
+AMBP/EFEMP1 protein level ratio
+ERP44/PFKFB2 protein level ratio
+FST/FSTL3 protein level ratio
+FURIN/IGSF3 protein level ratio
+FURIN/PLA2G15 protein level ratio
+CD58/ERBB3 protein level ratio
+HPCAL1/PMVK protein level ratio
+HSPA1A/MGLL protein level ratio
+AHCY/FABP5 protein level ratio
+High myopia
+CANT1/ROR1 protein level ratio
+ART3/RGMA protein level ratio
+ATOX1/GYS1 protein level ratio
+CDKN2D/PMVK protein level ratio
+Low myopia vs hyperopia
+Alcohol use disorder (consumption score)
+DFFA/PMVK protein level ratio
+DKK1/MGLL protein level ratio
+ERBB2/FURIN protein level ratio
+CASP8/PFKFB2 protein level ratio
+APOM/MCAM protein level ratio
+FBP1/SIGLEC7 protein level ratio
+FGF21/LEP protein level ratio
+FGFR2/TGFBR2 protein level ratio
+FGR/NCF2 protein level ratio
+GYS1/PPP1R2 protein level ratio
+GYS1/STK11 protein level ratio
+GYS1/USP8 protein level ratio
+GYS1/WASF1 protein level ratio
+NCF2/S100A11 protein level ratio
+DAPP1/MGLL protein level ratio
+DAPP1/PMVK protein level ratio
+EFNA1/PIK3IP1 protein level ratio
+EFNA1/TNFRSF1A protein level ratio
+FABP1/RBP5 protein level ratio
+FABP1/SULT2A1 protein level ratio
+FABP4/FGF21 protein level ratio
+FABP5/NSFL1C protein level ratio
+FABP5/PDCD5 protein level ratio
+FABP5/PEBP1 protein level ratio
+FABP5/PPCDC protein level ratio
+FABP5/TMSB10 protein level ratio
+F7/VASN protein level ratio
+FABP1/FABP2 protein level ratio
+FABP1/HNMT protein level ratio
+FABP1/LGALS4 protein level ratio
+FABP1/RBP2 protein level ratio
+FADD/MGLL protein level ratio
+CCN2/MGLL protein level ratio
+CD99/CD99L2 protein level ratio
+TGFBI/VASN protein level ratio
+DAG1/MGLL protein level ratio
+ANXA3/PFKFB2 protein level ratio
+GGH/INHBC protein level ratio
+GGT1/MME protein level ratio
+ACAA1/GRPEL1 protein level ratio
+AHSP/BLVRB protein level ratio
+Hyperopia
+Smoking initiation (ever regular vs never regular) (MTAG)
+Alcohol use disorder
+Chronic obstructive pulmonary disease or resting heart rate (pleiotropy)
+Urinary sodium to creatinine ratio
+Gout vs asymptomatic hyperuricemia
+Serum levels of protein FABP1
+Serum levels of protein GFRAL
+Serum levels of protein GAA
+Childhood body mass index
+Hodgkin's lymphoma
+Depression
+Unilateral cleft lip and palate
+Unilateral cleft lip
+Bilateral cleft lip and palate
+Cognitive aspects of educational attainment
+Oral glucose tolerance test-0h in pregnancy
+Daily alcohol intake in rs671 GG genotype
+Alcohol drinking status in rs671 GG genotype
+Daily alcohol intake
+Alcohol drinking status (ever drinker vs never drinker)
+Daily alcohol intake in rs671 GA genotype
+Alcohol drinking status in rs671 GA genotype
+Daily alcohol intake x rs671 interaction (2df)
+Alcohol drinking status x rs671 interaction (2df)
+Apolipoprotein C-II levels
+Apolipoprotein C-III levels
+Household income (MTAG)
+Average oral glucocorticoid dose in mepolizumab-treated eosinophilic granulomatosis with polyangiitis
+Breast cancer (estrogen-receptor positive)
+Breast cancer (progesterone-receptor positive)
+Ocular sarcoidosis
+Autoimmune thyroid disease
+Chronotype (sMEQ score)
+Attention deficit hyperactivity disorder (hyperactivity-impulsivity symptoms)
+Trauma exposure in major depressive disorder
+Central corneal thickness
+Total triglycerides levels
+Gut microbiota (bacterial taxa, hurdle binary method)
+Trauma exposure
+Mean spheric corpuscular volume
+Caffeine consumption from coffee or tea
+Mean reticulocyte volume
+Neutrophil percentage of white cells
+L-selectin levels
+Deliberate self-harm
+Parkinson's disease progression (cognitive)
+Parental lifespan
+Rectal cancer
+Fasting triglycerides levels in small VLDL
+Fasting mean diameter of VLDLD particles
+Fasting triglycerides in VLDL
+Fasting serum total triglycerides
+Fasting triglycerides levels in small HDL
+Postprandial phospholipid levels in medium VLDL
+Postprandial triglycerides levels in medium VLDL
+Postprandial free cholesterol in medium VLDL
+Postprandial total lipids in medium VLDL
+Postprandial medium VLDL particle concentration
+Postprandial triglycerides in VLDL
+Postprandial triglycerides levels in small VLDL
+Postprandial phospholipid levels in small HDL
+Postprandial serum total triglycerides
+Postprandial mean diameter of VLDLD particles
+Diastolic blood pressure (MTAG)
+Fasting isoleucine
+Systolic blood pressure (MTAG)
+Hearing function (2 kHz)
+Fasting total lipids in medium VLDL
+Fasting medium VLDL particle concentration
+Fasting phospholipid levels in medium VLDL
+Fasting triglycerides levels in medium VLDL
+Fasting free cholesterol in medium VLDL
+Metabolic biomarkers (multivariate analysis)
+Seropositivity (peptide co-occurrence module 12: H. pylori, for phages))
+Platelet count at delivery
+Postprandial isoleucine
+Postprandial leucine
+Postprandial triglycerides levels in medium HDL
+Atrial fibrillation (MTAG)
+Stroke (MTAG)
+Familial combined hyperlipidemia defined by Consensus criteria
+Familial combined hyperlipidemia defined by Mexico criteria
+Thyroid stimulating hormone levels within normal range in pregnancy
+Dyslipidemia
+Decaffeinated coffee consumption and/or insomnia
+Severe autoimmune type 2 diabetes
+Brain vascular stenosis
+Skeletal muscle mass
+Thyroid cancer
+Educational attainment
+Cystatin C plasma levels
+Anxiety
+Familial combined hyperlipidemia defined by Dutch criteria
+Familial combined hyperlipidemia defined by Brunzell criteria
+Familial combined hyperlipidemia defined by Goldstein criteria
+Dementia
+Electrocardiogram morphology (amplitude at temporal datapoints)
+Alcohol use disorder (total score)
+Alcohol use disorder (dependence and problematic use scores)
+Adult body size
+Uterine fibroids
+Diastolic blood pressure (baseline)
+Pelvic organ prolapse
+BRCA1/2-negative high-risk breast cancer
+Metabolically unhealthy in normal weight
+Facial wrinkles
+DNA methylation variation (age effect)
+Coronary artery disease in type 1 diabetes
+Medication use (agents acting on the renin-angiotensin system)
+Medication use (calcium channel blockers)
+Medication use (thyroid preparations)
+Fasting blood insulin adjusted for BMI
+Fasting blood glucose adjusted for BMI
+Lipid traits (pleiotropy) (HIPO component 2)
+Clostridium difficile infection in multiple myeloma
+Diffusing capacity of carbon monoxide
+Cholesterol efflux capacity
+Glycemic traits (pleiotropy)
+Medication use (diuretics)
+Medication use (drugs used in diabetes)
+Medication use (beta blocking agents)
+Medication use (HMG CoA reductase inhibitors)
+wg rh intensity-contrast frontalpole
+wg rh intensity-contrast supramarginal
+Macular thickness
+wg rh intensity-contrast parsorbitalis
+wg rh intensity-contrast middletemporal
+wg rh intensity-contrast parahippocampal
+wg rh intensity-contrast superiorfrontal
+HippSubfield lh volume subiculum-head
+wg rh intensity-contrast rostralanteriorcingulate
+wg lh intensity-contrast lateralorbitofrontal
+wg lh intensity-contrast middletemporal
+wg rh intensity-contrast lateralorbitofrontal
+wg lh intensity-contrast parstriangularis
+wg lh intensity-contrast rostralmiddlefrontal
+wg lh intensity-contrast parsopercularis
+Ischemic stroke in dyslipidemia
+Insulin levels in lean individuals
+Alanine transaminase levels in high alcohol intake
+Chitinase-3-like protein 1 levels
+Body mass index and LDL-C (pairwise)
+Body mass index and triglycerides (pairwise)
+Obstructive sleep apnea trait (minimum oxyhemoglobin saturation across sleep episode)
+Age-related hearing impairment (MTAG)
+Adipsin levels in type 2 diabetes
+Follistatin levels
+Cathepsin D levels
+Kawasaki disease
+HOMA-B (corrected for HOMA-IR)
+CLEC1A/GPR37 protein level ratio
+CLEC1B/MGLL protein level ratio
+IGFBP1/IGFBP2 protein level ratio
+IGFBP4/OGN protein level ratio
+IL6ST/LEPR protein level ratio
+B4GALT1/LRP11 protein level ratio
+AZU1/MPO protein level ratio
+ITIH3/VCAM1 protein level ratio
+LAMP3/PRSS8 protein level ratio
+LRP11/NECTIN2 protein level ratio
+LRP11/ROR1 protein level ratio
+LEPR/NRCAM protein level ratio
+LEPR/NTRK2 protein level ratio
+CNTN1/EGFR protein level ratio
+CLSTN2/MATN2 protein level ratio
+COMP/TGFBI protein level ratio
+MANF/PMVK protein level ratio
+CRADD/PMVK protein level ratio
+CREG1/PLA2G15 protein level ratio
+CRKL/MGLL protein level ratio
+MGLL/PTPN6 protein level ratio
+MGLL/SHMT1 protein level ratio
+MGLL/SKAP2 protein level ratio
+MGLL/STK4 protein level ratio
+MGLL/VTA1 protein level ratio
+MNDA/NCF2 protein level ratio
+MME/NT5E protein level ratio
+METAP2/PFKFB2 protein level ratio
+MGLL/MITD1 protein level ratio
+MGLL/MPIG6B protein level ratio
+MGLL/PDLIM7 protein level ratio
+MGLL/PLA2G4A protein level ratio
+CST3/RARRES2 protein level ratio
+CTSF/SMPD1 protein level ratio
+CXCL3/MGLL protein level ratio
+CTSD/PRCP protein level ratio
+Pre-treatment viral load in HIV-1 infection
+Percent glycated albumin
+Low HDL-cholesterol levels
+Strabismus
+Anorexia nervosa, attention-deficit/hyperactivity disorder, autism spectrum disorder, bipolar disorder, major depression, obsessive-compulsive disorder, schizophrenia, or Tourette syndrome (pleiotropy)
+Epithelial ovarian cancer
+Progressive supranuclear palsy
+Iris heterochromicity
+Body size at age 10
+Obesity (extreme)
+Macular telangiectasia type 2
+Glycated hemoglobin HbA1c levels
+Oral glucose tolerance test-2h
+Oral glucose tolerance test-0h
+Handedness (left-handed vs. right-handed)
+Hemoglobin A1c (HbA1c, maximum, inv-norm transformed)
+hemoglobin (minimum, inv-norm transformed)
+hemoglobin (mean, inv-norm transformed)
+height (minimum, inv-normal transformed)
+hemoglobin (maximum, inv-norm transformed)
+low density lipoprotein cholesterol (LDLC, mean, inv-norm transformed)
+height (mean, inv-normal transformed)
+Hemoglobin A1c (HbA1c, mean, inv-norm transformed)
+Hemoglobin A1c (HbA1c, minimum, inv-norm transformed)
+What is your height? (cm, inv-normal transformed)
+Alanine transaminase (ALT, maximum, inv-norm transformed)
+Albumin (mean, inv-norm transformed)
+Albumin (minimum, inv-norm transformed)
+lymphocyte (absolute count, mean, inv-norm transformed)
+lymphocyte (absolute count, maximum, inv-norm transformed)
+Alanine transaminase (ALT, mean, inv-norm transformed)
+Alanine transaminase (ALT, minimum, inv-norm transformed)
+Aspartate aminotransferase (AST, maximum, inv-norm transformed)
+Aspartate aminotransferase (AST, minimum, inv-norm transformed)
+Aspartate aminotransferase (AST, mean, inv-norm transformed)
+PT international normalized ratio (INR, minimum, inv-norm transformed)
+low density lipoprotein cholesterol (LDLC, maximum, inv-norm transformed)
+Albumin (maximum, inv-norm transformed)
+mean corpuscular volume (MCV, mean, inv-norm transformed)
+Abnormal spermatozoa (PheCode 609.2)
+Chronic liver disease and cirrhosis (PheCode 571)
+Abnormal results of function study of liver (PheCode 573.7)
+Other chronic nonalcoholic liver disease (PheCode 571.5)
+Unspecified diffuse connective tissue disease (PheCode 709.7)
+Calculus of kidney (PheCode 594.1)
+Concussion (PheCode 817)
+mean corpuscular hemoglobin (MCH, maximum, inv-norm transformed)
+mean corpuscular hemoglobin (MCH, mean, inv-norm transformed)
+mean corpuscular volume (MCV, maximum, inv-norm transformed)
+mean corpuscular volume (MCV, minimum, inv-norm transformed)
+Peritoneal or intestinal adhesions (PheCode 560.3)
+platelet count (minimum, inv-norm transformed)
+heart rate (HR, mean, inv-normal transformed)
+Intestinal disaccharidase deficiencies and disaccharide malabsorption (PheCode 271.3)
+Disorders of carbohydrate transport and metabolism (PheCode 271)
+Other nutritional deficiency (PheCode 263)
+Hyperglyceridemia (PheCode 272.12)
+platelet count (mean, inv-norm transformed)
+heart rate (HR, maximum, inv-normal transformed)
+Type 2 diabetes (PheCode 250.2)
+Impaired fasting glucose (PheCode 250.41)
+Diabetes mellitus (PheCode 250)
+Other abnormal glucose (PheCode 250.42)
+Abnormal glucose (PheCode 250.4)
+Diabetic retinopathy (PheCode 250.7)
+Cataplexy and narcolepsy (PheCode 347)
+Atrial fibrillation and flutter (PheCode 427.2)
+platelet count (maximum, inv-norm transformed)
+Other anemias (PheCode 285)
+Encounter for long-term (current) use of anticoagulants (PheCode 286.2)
+Other and unspecified coagulation defects (PheCode 286.7)
+Polycythemia, secondary (PheCode 289.8)
+Cardiac dysrhythmias (PheCode 427)
+Type 2 diabetes with ophthalmic manifestations (PheCode 250.23)
+Atrial flutter (PheCode 427.22)
+Atrial fibrillation (PheCode 427.21)
+Testicular dysfunction (PheCode 257)
+Testicular hypofunction (PheCode 257.1)
+triglyceride (maximum, inv-norm transformed)
+triglyceride (mean, inv-norm transformed)
+red cell diameter width (RDW, mean, inv-norm transformed)
+total cholesterol (maximum, inv-norm transformed)
+systolic blood pressure (SBP, mean, inv-normal transformed)
+triglyceride (minimum, inv-norm transformed)
+red cell diameter width (RDW, maximum, inv-norm transformed)
+systolic blood pressure (SBP, maximum, inv-normal transformed)
+total cholesterol (minimum, inv-norm transformed)
+Gout (PheCode 274.1)
+red blood cell count (RBC, mean, inv-norm transformed)
+red blood cell count (RBC, minimum, inv-norm transformed)
+total cholesterol (mean, inv-norm transformed)
+red blood cell count (RBC, maximum, inv-norm transformed)
+red cell diameter width (RDW, minimum, inv-norm transformed)
+Takes medication for gout?
+Biological Sibling:  Cancer, Breast
+white blood cell count (WBC, maximum, inv-norm transformed)
+mean corpuscular hemoglobin (MCH, minimum, inv-norm transformed)
+mean corpuscular hemoglobin concentration (MCHC, mean, inv-norm transformed)
+white blood cell count (WBC, minimum, inv-norm transformed)
+Weight (mean, inv-normal transformed)
+Hypertension (PheCode 401)
+Weight (maximum, inv-normal transformed)
+Weight (minimum, inv-normal transformed)
+Essential hypertension (PheCode 401.1)
+white blood cell count (WBC, mean, inv-norm transformed)
+Paroxysmal tachycardia, unspecified (PheCode 427.1)
+What is your weight? (pounds, inv-normal transformed)
+Psychophysical visual disturbances (PheCode 368.91)
+Alcoholism (PheCode 317.1)
+Alcohol-related disorders (PheCode 317)
+Free cholesterol levels in small HDL
+Cholesteryl esters to total lipids ratio in small HDL
+Cholesteryl ester levels in small HDL
+Total lipid levels in lipoprotein particles
+Total fatty acid levels
+Total concentration of lipoprotein particles
+Triglyceride levels in VLDL
+Cholesterol levels in very large HDL
+Cholesteryl ester levels in very large HDL
+Triglyceride levels in very large VLDL
+Cholesterol levels in very small VLDL
+Cholesterol to total lipids ratio in very small VLDL
+Triglycerides to total lipids ratio in very large VLDL
+Glycine levels
+Glycoprotein acetyls levels
+Histidine levels
+Isoleucine levels
+Lactate levels
+Linoleic acid levels
+Phosphatidylcholine levels
+Omega-3 fatty acid levels
+Total cholesterol minus HDL-C levels
+Triglyceride levels in small VLDL
+Phospholipid levels in small VLDL
+Phospholipids to total lipids ratio in small VLDL
+Free cholesterol to total lipids ratio in very large HDL
+Total lipid levels in very large HDL
+Triglyceride levels in chylomicrons and extremely large VLDL
+Acetate levels
+Acetoacetate levels
+Albumin levels
+Acetone levels
+Alanine levels
+Facial morphology (segment 2)
+White matter hyperintensities
+Cholesterol levels in small HDL
+Phospholipid levels in small HDL
+Concentration of small HDL particles
+Phospholipids to total lipids ratio in small HDL
+Cholesterol levels in small VLDL
+Triglyceride levels in small LDL
+Triglycerides to total lipids ratio in small LDL
+Phospholipid levels in VLDL
+Total lipid levels in VLDL
+Concentration of VLDL particles
+Free cholesterol to total lipids ratio in very large VLDL
+Total lipid levels in very large VLDL
+Concentration of very large VLDL particles
+Phospholipid levels in very large VLDL
+Triglyceride levels in very small VLDL
+Phospholipid levels in very small VLDL
+Phospholipids to total lipids ratio in very small VLDL
+Concentration of very small VLDL particles
+Phospholipids to total lipids ratio in chylomicrons and extremely large VLDL
+Phospholipid levels in chylomicrons and extremely large VLDL
+Sex hormone-binding globulin levels in premenopausal women
+Sex hormone-binding globulin levels in postmenopausal women
+Mean arterial pressure (BMI adjusted)
+Bipolar disorder or blood urea nitrogen levels (MTAG)
+Bipolar disorder or glomerular filtration rate estimated from creatine (MTAG)
+Hyperthyroidism
+Fibroblast growth factor 2 levels
+Systolic blood pressure (BMI adjusted)
+Ischemic stroke (cardioembolic)
+Ulcerative colitis
+Stable warfarin dose
+Bipolar disorder or urate levels (MTAG)
+Bipolar disorder or glomerular filtration rate estimated from cystatin (MTAG)
+Plasma strontium levels
+Type 2 diabetes mellitus or coronary artery disease (pleiotropy)
+Plasma orotidine levels in chronic kidney disease
+Urine orotidine levels in chronic kidney disease
+Urine nonenedioate (C9:1-DC)* levels in chronic kidney disease
+Breast cancer or ovarian cancer (pleiotropy)
+Urine X-24798 levels in chronic kidney disease
+Plasma X-17653 levels in chronic kidney disease
+Urine X-21827 levels in chronic kidney disease
+Plasma X-23680 levels in chronic kidney disease
+Urine X-23680 levels in chronic kidney disease
+Urine X-24330 levels in chronic kidney disease
+Plasma cis-4-decenoate (10:1n6)* levels in chronic kidney disease
+Retinal venular width
+Retinal arteriolar tortuosity
+Plasma mannonate* levels in chronic kidney disease
+Plasma mannose levels in chronic kidney disease
+Urine pimelate (C7-DC) levels in chronic kidney disease
+Sphingomyelin (d42:0) levels
+Urine 4-hydroxyphenylacetoylcarnitine levels in chronic kidney disease
+Plasma 2'-O-methyluridine levels in chronic kidney disease
+Estimated glomerular filtration rate (creatinine)
+Vaginal microbiome MetaCyc pathway (PWY-7159|chlorophyllide a biosynthesis III (aerobic, light independent))
+Essential tremor
+Hormone-sensitive cancer
+Regional cortical thickness (parsorbitalis)
+Cake icing liking
+Descending thoracic aortic diameter
+Crisps liking
+Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)
+Vaginal microbiome MetaCyc pathway (PWY-6507|4-deoxy-L-threo-hex-4-enopyranuronate degradation)
+Vaginal microbiome relative abundance (s_Gardnerella vaginalis)
+Vaginal microbiome relative abundance (p_Actinobacteriota)
+Vaginal microbiome relative abundance (Lactobacillus crispatus or Lactobacillus iners or Gardnerella vaginalis) (pleiotropy)
+Vaginal microbiome relative abundance (s_Lactobacillus jensenii)
+Vaginal microbiome MetaCyc pathway (PWY-5507|adenosylcobalamin biosynthesis I (early cobalt insertion))
+Vaginal microbiome MetaCyc pathway (PWY0-1061|superpathway of L-alanine biosynthesis)
+Vaginal microbiome MetaCyc pathway (FERMENTATION-PWY|mixed acid fermentation)
+Vaginal microbiome MetaCyc pathway (FUCCAT-PWY|fucose degradation)
+Vaginal microbiome MetaCyc pathway (PWY-5005|biotin biosynthesis II)
+Vaginal microbiome MetaCyc pathway (PWY-6749|CMP-legionaminate biosynthesis I)
+Vaginal microbiome relative abundance (f_Bifidobacteriaceae)
+Vaginal microbiome presence (s_Lactobacillus paragasseri/gasseri)
+Vaginal microbiome relative abundance (c_Actinobacteria)
+Vaginal microbiome relative abundance (g_Atopobium)
+Vaginal microbiome relative abundance (c_Gammaproteobacteria)
+Cognitive performance (visuoconstruction) (longitudinal)
+Estimated glomerular filtration rate (cystatin c)
+Biological age (PhenoAge)
+Low-carbohydrate diet (LCD) score
+Facial wrinkles (under eye)
+Vaginal microbiome MetaCyc pathway (THRESYN-PWY|superpathway of L-threonine biosynthesis)
+Triacylglyceride levels
+BMI at birth
+Coronary artery disease
+Insomnia
+Non-HDL cholesterol levels
+Gulonate levels in elite athletes
+Campesterol levels in elite athletes
+Facial morphology (segment 34)
+Betonicine levels in elite athletes
+Androsterone sulfate levels in elite athletes
+1-(1-enyl-palmitoyl)-2-palmitoyl-GPC (P-16:0/16:0) levels in elite athletes
+Plasma ANGPTL8 levels
+3,7-dimethylurate levels in elite athletes
+4-allylphenol sulfate levels in elite athletes
+Beta-citrylglutamate levels in elite athletes
+BMI and adiposity (confirmatory factor analysis Factor 7)
+Body size (confirmatory factor analysis Factor 21)
+Age-related eyesight deterioration (confirmatory factor analysis Factor 27)
+Inflammatory markers and poor diet (confirmatory factor analysis Factor 30)
+Hypertension (confirmatory factor analysis Factor 12)
+Alcohol use and misuse (confirmatory factor analysis Factor 22)
+Educational attainment (confirmatory factor analysis Factor 10)
+Use of dietary supplements (confirmatory factor analysis Factor 13)
+Bone density (confirmatory factor analysis Factor 19)
+Neutrophils and lymphocytes in blood (confirmatory factor analysis Factor 35)
+Smoking and associated risk behaviours (confirmatory factor analysis Factor 6)
+Concentration of very large HDL particles
+Phospholipids in very large HDL
+Total lipids in very large HDL
+Phospholipids to total lipids ratio in very large HDL
+Free cholesterol in very large HDL
+Cholesterol esters in very large HDL
+Cholesteryl esters to total lipids ratio in very large HDL
+Cholesteryl esters to total lipids ratio in very small VLDL
+Total lipids in very small VLDL
+Free cholesterol in very small VLDL
+Free cholesterol to total lipids ratio in medium VLDL
+Free cholesterol in medium VLDL
+Cholesteryl esters to total lipids ratio in medium VLDL
+Total cholesterol to total lipids ratio in medium VLDL
+Cholesterol esters in medium VLDL
+Serum total triglyceride levels
+Ratio of polyunsaturated fatty acids to total fatty acids
+Pyruvate levels
+Remnant cholesterol (non-HDL, non-LDL -cholesterol)
+Serum total cholesterol levels
+Omega-3 fatty acids levels
+Estimated description of fatty acid chain length not actual carbon number
+Esterified cholesterol levels
+Docosahexaenoic acid (22:6) levels
+Diacylglycerol levels
+Triglycerides to total lipids ratio in very large HDL
+Triglycerides in very large HDL
+Total cholesterol to total lipids ratio in very large VLDL
+Cholesterol esters in very large VLDL
+Total cholesterol in very large VLDL
+Cholesteryl esters to total lipids ratio in very large VLDL
+Free cholesterol in very large VLDL
+Cholesteryl esters to total lipids ratio in chylomicrons and extremely large VLDL
+Free cholesterol levels in chylomicrons and extremely large VLDL
+Cholesteryl ester levels in chylomicrons and extremely large VLDL
+Triglycerides to total lipids ratio in very small VLDL
+Total cholesterol levels in chylomicrons and extremely large VLDL
+Free cholesterol to total lipids ratio in chylomicrons and extremely large VLDL
+Triglycerides in very small VLDL
+Breast cancer subtype (triple negative vs luminal A-like)
+Breast cancer subtype (triple negative vs luminal B-like)
+Total cholesterol in medium VLDL
+Ratio of monounsaturated fatty acids to total fatty acids
+Monounsaturated fatty acids (16:1, 18:1) levels
+Triglycerides to total lipids ratio in medium VLDL
+Polyunsaturated fatty acids
+Triglycerides in medium VLDL
+Phosphatidylcholine and other choline levels
+Total lipids in small HDL
+Triglycerides to total lipids ratio in small HDL
+Phospholipids in small HDL
+Triglycerides in small HDL
+Free cholesterol in small HDL
+Total lipids in very large VLDL
+Triglycerides in very large VLDL
+Phospholipids in very large VLDL
+Total cholesterol to total lipids ratio in very small VLDL
+Total cholesterol in very small VLDL
+Phospholipids in very small VLDL
+Total lipid levels in chylomicrons and extremely large VLDL
+Concentration of chylomicrons and extremely large VLDL particles
+Triglycerides in medium LDL
+Concentration of medium VLDL particles
+Phospholipids to total lipids ratio in medium VLDL
+Total lipids in medium VLDL
+Phospholipids in medium VLDL
+Age of onset of type 1 diabetes
+Total cholesterol levels in small HDL
+Total cholesterol to total lipids ratio in small HDL
+Saturated fatty acids
+Total Cholesterol in small LDL
+Free cholesterol in small LDL
+Free cholesterol to total lipids ratio in small LDL
+Phospholipids in small LDL
+Concentration of small LDL particles
+Total lipids in small LDL
+Triglycerides in small LDL
+Sphingomyelins levels
+Total cholesterol in small VLDL
+Ratio of apolipoprotein B to apolipoprotein A1 levels
+Apolipoprotein A-I levels
+3-Hydroxybutyrate levels
+Citrate levels
+Conjugated linoleic acid
+Ratio of omega-6 fatty acids to total fatty acids
+Omega-6 fatty acids levels
+Glucose levels
+Glucuronate levels in elite athletes
+Pro-hydroxy-pro levels in elite athletes
+Eubacterium F sp000434115 abundance in stool
+Klebsiella pneumoniae abundance in stool
+Klebsiella abundance in stool
+Behenoyl dihydrosphingomyelin (d18:0/22:0) levels in elite athletes
+Sphingomyelin (d18:1/24:1, d18:2/24:0) levels in elite athletes
+Pregnanediol-3-glucuronide levels in elite athletes
+Stearoyl sphingomyelin (d18:1/18:0) levels in elite athletes
+Brain orotidine levels
+Cerebrospinal fluid mannose levels
+Ischemic stroke or factor VII levels (pleiotropy)
+Fibrinogen levels or factor VII levels (pleiotropy)
+Choline phosphate levels in elite athletes
+Coronary artery disease or factor VII levels (pleiotropy)
+UBA6398 abundance in stool
+Palmitoyl-arachidonoyl-glycerol (16:0/20:4) [1] levels in elite athletes
+Fibrinogen levels or factor VII levels or factor XI levels or tissue plasminogen activator levels (pleiotropy)
+Venous thromboembolism or factor VII levels (pleiotropy)
+Cholesterol to total lipids ratio in small HDL
+Total lipid levels in small HDL
+Concentration of medium HDL particles
+Free cholesterol to total lipids ratio in small VLDL
+Total lipid levels in small VLDL
+Concentration of small VLDL particles
+Average diameter for VLDL particles
+Free cholesterol levels in very large VLDL
+Total esterified cholesterol levels
+Total free cholesterol levels
+Alcohol consumption x playing computer games interaction
+Triglyceride levels in small HDL
+Ratio of triglycerides to phosphoglycerides
+Total concentration of branched-chain amino acids (leucine + isoleucine + valine)
+Ratio of saturated fatty acids to total fatty acids
+Sphingomyelin levels
+Apolipoprotein B levels x vegetarianism interaction
+Gestational diabetes
+Testosterone levels in postmenopausal women
+Cognitive domain scores for language
+Annual frequency of asthma exacerbations in non-smokers
+Omega-6 fatty acid levels
+Ratio of omega-6 fatty acids to omega-3 fatty acids
+Cholesterol to total lipids ratio in small VLDL
+Cholesteryl esters to total lipids ratio in small VLDL
+Cholesteryl ester levels in small VLDL
+Free cholesterol levels in very large HDL
+Cholesteryl ester levels in very small VLDL
+Docosahexaenoic acid levels
+Glutamine levels
+Phosphoglycerides levels
+Ratio of polyunsaturated fatty acids to monounsaturated fatty acids
+Free cholesterol levels in small VLDL
+Phospholipid levels in very large HDL
+Free cholesterol to total lipids ratio in very small VLDL
+Total lipid levels in very small VLDL
+Estimated glomerular filtration rate (adjusted for BMI) x vegetarianism interaction
+Cholesterol levels in small LDL
+Cholesteryl esters to total lipids ratio in small LDL
+Cholesteryl ester levels in small LDL
+Total phospholipid levels in lipoprotein particles
+Degree of unsaturation
+Free cholesterol levels in small LDL
+Triglycerides to total lipids ratio in small VLDL
+Saturated fatty acid levels
+Triglyceride levels in very large HDL
+Cholesterol levels in medium HDL
+Leucine levels
+Polyunsaturated fatty acid levels
+Phenylalanine levels
+Tanner 3 to Tanner 4 pubertal stage transition (joint longitudinal BMI and survival model)
+Total phosphoglycerides levels
+Estimated degree of unsaturation
+Valine levels
+Total cholines levels
+Total fatty acids
+acne vulgaris
+Triglycerides in small VLDL
+Total cholesterol to total lipids ratio in small VLDL
+Cholesterol esters in small VLDL
+Free cholesterol in small VLDL
+Nonalcoholic fatty liver disease (imputed)
+Total lipids in small VLDL
+Phospholipids in small VLDL
+Total cholesterol levels in VLDL
+Mean diameter of VLDL particles
+Total cholesterol levels in very large HDL
+Total cholesterol to total lipids ratio in very large HDL
+Total protein levels
+Basal ganglia structure
+Alkaline phosphatase levels
+Serum chloride levels
+Total cholesterol levels in LDL
+Triglyceride levels in LDL
+Mean diameter of LDL particles
+Total cholesterol to total lipids ratio in large HDL
+Total cholesterol in large HDL
+Ratio of 18:2 linoleic acid to total fatty acids
+Cholesterol esters in large HDL
+Cholesteryl esters to total lipids ratio in large HDL
+Total lipids in large HDL
+Free cholesterol to total lipids ratio in large HDL
+Free cholesterol in large HDL
+Phospholipids in large HDL
+Phospholipids to total lipids ratio in large HDL
+Triglycerides to total lipids ratio in large HDL
+Phospholipids in large LDL
+Concentration of large LDL particles
+Total lipids in large LDL
+Total cholesterol levels in medium HDL
+Total cholesterol to total lipids ratio in medium HDL
+Triglycerides to total lipids ratio in large VLDL
+Cholesterol esters in medium HDL
+Cholesteryl esters to total lipids ratio in medium HDL
+Triglycerides in large VLDL
+Total Cholesterol in IDL
+Concentration of IDL particles
+Total lipids in IDL
+Triglycerides to total lipids ratio in IDL
+Linoleic acid (18:2) levels
+Triglycerides in IDL
+Free cholesterol to total lipids ratio in large LDL
+Cholesterol esters in large LDL
+Triglycerides to total lipids ratio in large LDL
+Total Cholesterol in large VLDL
+Total cholesterol to total lipids ratio in large VLDL
+Triglycerides in large LDL
+Free cholesterol in large VLDL
+Free cholesterol to total lipids ratio in large VLDL
+Total lipids in large VLDL
+Cholesteryl esters to total lipids ratio in large VLDL
+Concentration of large VLDL particles
+Cholesterol esters in large VLDL
+Phospholipids in large VLDL
+Total cholesterol in HDL3
+Total cholesterol in HDL2
+Triglyceride levels in HDL
+Mean diameter of HDL particles
+Total cholesterol levels in HDL
+Phospholipids to total lipids ratio in IDL
+Free cholesterol levels
+Glycerol levels
+Glycoprotein acetylation
+Total cholesterol to total lipids ratio in IDL
+Free cholesterol to total lipids ratio in IDL
+Concentration of large HDL particles
+Free cholesterol in medium HDL
+Free cholesterol to total lipids ratio in medium HDL
+Total lipids in medium HDL
+Triglycerides in medium HDL
+Phospholipids in medium HDL
+Triglycerides to total lipids ratio in medium HDL
+Vitamin D insufficiency
+Glycogen phosphorylase, liver form levels (PYGL.11441.11.3)
+Phosphoglucomutase-1 levels (PGM1.9173.21.3)
+Fatty acid-binding protein, liver levels (FABP1.11516.7.3)
+Cholesterol levels in large VLDL
+Cholesterol levels in IDL
+Average diameter for HDL particles
+Cholesterol to total lipids ratio in IDL
+Cholesteryl ester levels in IDL
+Cholesteryl esters to total lipids ratio in IDL
+Free cholesterol levels in IDL
+Total lipid levels in IDL
+Phospholipid levels in IDL
+Triglyceride levels in IDL
+Cholesterol levels in large HDL
+Cholesteryl ester levels in large HDL
+Cholesterol to total lipids ratio in large HDL
+Free cholesterol levels in large HDL
+Total lipid levels in large HDL
+Phospholipid levels in large HDL
+Triglyceride levels in large HDL
+Cholesterol levels in large LDL
+Cholesteryl ester levels in large LDL
+Cholesterol to total lipids ratio in large LDL
+Cholesteryl esters to total lipids ratio in large LDL
+Free cholesterol levels in large LDL
+Phospholipids to total lipids ratio in large LDL
+Phospholipid levels in large LDL
+Total lipid levels in large LDL
+Triglyceride levels in large LDL
+Cholesterol to total lipids ratio in large VLDL
+Cholesteryl ester levels in large VLDL
+Prostate-specific antigen levels
+Malignant neoplasm of female breast (PheCode 174.11)
+Breast cancer [female] (PheCode 174.1)
+Sodium (mean, inv-norm transformed)
+heart rate (HR, minimum, inv-normal transformed)
+Retinal thickness (pixel 66_60)
+Retinal thickness (pixel 113_16)
+Overweight, obesity and other hyperalimentation (PheCode 278)
+Retinal thickness (functional principal component 4)
+Retinal nerve fibre layer (RNFL) thickness
+Disorders of lipid metabolism (PheCode 272)
+Gouty arthropathy (PheCode 274.11)
+Gestational diabetes mellitus
+Insulin-resistant gestational diabetes mellitus
+Hyperlipidemia (PheCode 272.1)
+Morbid obesity (PheCode 278.11)
+Obesity (PheCode 278.1)
+Body mass index (BMI, minimum, inv-normal transformed)
+Blood urea nitrogen (BUN, mean, inv-norm transformed)
+Takes medication for high cholesterol?
+Blood urea nitrogen (BUN, maximum, inv-norm transformed)
+Calcium (maximum, inv-norm transformed)
+Blood urea nitrogen (BUN, minimum, inv-norm transformed)
+High blood pressure / hypertension
+Calcium (mean, inv-norm transformed)
+High cholesterol
+Tyrosine levels
+Gout and other crystal arthrop (PheCode 274)
+diastolic blood pressure (DBP, maximum, inv-normal transformed)
+Body fat distribution (arm fat ratio)
+Body fat distribution (leg fat ratio)
+Takes medication for Diabetes/sugar?
+Body fat distribution (trunk fat ratio)
+diastolic blood pressure (DBP, mean, inv-normal transformed)
+Takes medication for high blood pressure?
+Biological Father: High cholesterol
+creatinine (minimum, inv-norm transformed)
+creatinine (mean, inv-norm transformed)
+Diabetes / "Sugar"
+Night sleep phenotypes
+hematocrit (mean, inv-norm transformed)
+hematocrit (minimum, inv-norm transformed)
+high density lipoprotein cholesterol (HDLC, maximum, inv-norm transformed)
+Glucose (fasting status unknown, maximum, inv-norm transformed)
+Glucose (fasting status unknown, minimum, inv-norm transformed)
+hematocrit (maximum, inv-norm transformed)
+Glucose (fasting status unknown, mean, inv-norm transformed)
+Body mass index (BMI, maximum, inv-normal transformed)
+high density lipoprotein cholesterol (HDLC, mean, inv-norm transformed)
+high density lipoprotein cholesterol (HDLC, minimm, inv-norm transformed)
+Height (maximum, inv-normal transformed)
+Left ventricular mass indexed by body surface area
+Right ventricular stroke volume
+Right ventricular end diastolic volume
+Descending aorta diameter
+FVC
+C-reactive protein levels (MTAG)
+High-density lipoprotein levels (MTAG)
+Low-density lipoprotein levels (MTAG)
+Triglyceride levels (MTAG)
+Body mass index (MTAG)
+Apolipoprotein E levels
+Glycogen phosphorylase, liver form levels
+Ganglioside GM2 activator levels
+GDNF family receptor alpha-like levels
+Retinoic acid receptor responder protein 3 levels
+Lysosomal alpha-glucosidase levels
+EGF-containing fibulin-like extracellular matrix protein 1 levels
+Melanoma-associated antigen 10 levels
+RBC levels of Pyridoxamine
+Metachronous colorectal adenoma
+Glucokinase regulatory protein levels
+Phosphoglucomutase-1 levels
+PIK3CA/PIK3R1 levels
+Beta-defensin 1 levels
+Inhibin beta A chain levels
+Beta-enolase levels
+Beta-klotho levels
+DCN1-like protein 5 levels
+Peak expiratory flow
+Mannose levels
+Beta-hydroxyisovalerate levels
+Serine levels
+Orbital telorism
+Very low density lipoprotein cholesterol levels
+Adipoylcarnitine (C6-DC) levels
+Monounsaturated fatty acid levels
+1-stearoyl-2-docosahexaenoyl-GPE (18:0/22:6) levels
+AFP levels
+X-23680 levels
+X-24295 levels
+X-17654 levels
+X-18921 levels
+X-19438 levels
+1-myristoyl-2-docosahexaenoyl-GPC (14:0/22:6) levels
+2'-o-methylcytidine levels
+2'-o-methyluridine levels
+X-11378 levels
+Circulating docosahexaenoic acid levels
+Total omega-3 fatty acid levels
+Total omega-6 fatty acid levels
+Cardioembolic stroke (MTAG)
+Factor VII levels
+Smoking initiation
+Fibroblast growth factor 21 levels
+Interleukin-12 subunit beta levels
+Fms-related tyrosine kinase 3 ligand levels
+Drinks per week
+3-methoxytyrosine levels
+3-(4-hydroxyphenyl) lactate levels
+3-hydroxydecanoate levels
+3-hydroxyoctanoate levels
+Tetradecadienoate (14:2) (X-12442) levels
+Cigarettes smoked per day
+Dodecadienoate (12:2) (X-21343) levels
+Gamma-glutamylthreonine levels
+Cis-4-decenoate (10:1n6) (X-23293) levels
+Imidazole lactate levels
+Malate levels
+N-acetylhistidine levels
+Triglyceride levels in non-type 2 diabetes
+Body surface area
+Hypertension complicating pregnancy
+Back pain
+X-24309 levels
+Glycerophosphorylcholine (GPC) levels
+N-acetylserine levels
+N-acetylthreonine levels
+X-23293 levels
+X-23297 levels
+X-23639 levels
+Xanthine levels
+1-linolenoyl-GPC (18:3) levels
+1-arachidonoyl-gpc (20:4n6) levels
+1-docosahexaenoyl-GPE (22:6) levels
+Vanillylmandelate (VMA) levels
+X-11308 levels
+X-16935 levels
+X-13529 levels
+X-12442 levels
+lysoPhosphatidylcholine acyl C16:0 levels
+lysoPhosphatidylcholine acyl C16:1 levels
+lysoPhosphatidylcholine acyl C20:3 levels
+Phosphatidylcholine diacyl C34:4 levels
+Triacylglycerol (54:4) levels
+Triacylglycerol (54:5) levels
+Triacylglycerol (54:6) levels
+Triacylglycerol (54:7) levels
+Triacylglycerol (56:6) levels
+Triacylglycerol (56:7) levels
+Sphingomyelin (d32:1) levels
+Triacylglycerol (46:2) levels
+Triacylglycerol (48:1) levels
+Triacylglycerol (48:2) levels
+Triacylglycerol (48:3) levels
+Triacylglycerol (49:2) levels
+Triacylglycerol (50:1) levels
+Triacylglycerol (50:2) levels
+Triacylglycerol (50:3) levels
+Triacylglycerol (50:4) levels
+Triacylglycerol (50:5) levels
+Triacylglycerol (51:2) levels
+Triacylglycerol (51:3) levels
+Triacylglycerol (51:4) levels
+Triacylglycerol (52:2) levels
+Triacylglycerol (52:3) levels
+Triacylglycerol (52:4) levels
+Triacylglycerol (52:5) levels
+Triacylglycerol (52:6) levels
+Triacylglycerol (53:2) levels
+Triacylglycerol (53:3) levels
+Triacylglycerol (53:4) levels
+Sphingomyelin (d40:2) levels
+Triacylglycerol (58:7) levels
+Hepatocyte growth factor-like protein levels
+Change in intelligence quotient in pediatric CNS tumors treated with craniospinal irradiation
+Blood pressure (pleiotropy model 2 SBP adjusted for estimated causal effects x DBP)
+Adipoylcarnitine levels
+1-stearoyl-2-arachidonoyl-GPI (18:0/20:4) levels
+1-stearoyl-2-docosapentaenoyl-GPC (18:0/22:5n3) levels
+1-stearoyl-2-docosapentaenoyl-GPC (18:0/22:5n6) levels
+1-stearoyl-2-linoleoyl-GPE (18:0/18:2) levels
+2-hydroxybutyrate/2-hydroxyisobutyrate levels
+Indoleacetylglutamine levels
+1-(1-enyl-palmitoyl)-2-docosahexaenoyl-GPE (p-16:0/22:6) levels
+3-(4-hydroxyphenyl)lactate levels
+3-hydroxylaurate levels
+3-methyl-2-oxovalerate levels
+Succinate levels
+Taurocholenate sulfate levels
+Threonine levels
+Blood pressure (pleiotropy model 1 DBP adjusted for estimated causal effects x SBP)
+5alpha-androstan-3alpha,17beta-diol monosulfate (1) levels
+4-methyl-2-oxopentanoate levels
+1-palmitoyl-2-oleoyl-GPE (16:0/18:1) levels
+1-palmitoyl-2-docosahexaenoyl-GPE (16:0/22:6) levels
+1-palmitoyl-3-linoleoyl-glycerol (16:0/18:2) levels
+1-palmitoyl-GPC (16:0) levels
+1-palmitoyl-2-linoleoyl-GPE (16:0/18:2) levels
+Kynurenate levels
+Kynurenine levels
+1-myristoyl-2-linoleoyl-GPC (14:0/18:2) levels
+1-myristoyl-GPC (14:0) levels
+Quinolinate levels
+Retinol (Vitamin A) levels
+1-oleoyl-2-linoleoyl-glycerol (18:1/18:2) levels
+1-oleoyl-3-linoleoyl-glycerol (18:1/18:2) levels
+X-17653 levels
+X-21736 levels
+X-22145 levels
+X-21343 levels
+X-21353 levels
+X-21607 levels
+X-19141 levels
+3-ketoacyl-CoA thiolase, peroxisomal levels
+Glycerol-3-phosphate phosphatase levels
+3-hydroxybutyrate dehydrogenase type 2 levels
+Neutrophil cytosol factor 1 levels
+Fatty acid-binding protein, liver levels
+Alpha-L-fucoside fucohydrolase levels
+Fms-related tyrosine kinase 3 ligand (analyte X14093.10) levels
+Klotho levels
+Lactotransferrin (analyte X2780.35) levels
+Fructose-1,6-bisphosphatase isozyme 2 levels
+Insulin receptor levels
+Cancer (standard GWA)
+Height (standard GWA)
+Pulmonary embolism
+LDL (standard GWA)
+BMI (standard GWA)
+Systolic blood pressure (standard GWA)
+Dupuytren's disease
+Eye color
+Bicarbonate (mean, inv-norm transformed)
+Bicarbonate (minimum, inv-norm transformed)
+Bicarbonate (maximum, inv-norm transformed)
+Cirrhosis
+End-diastolic bi-ventricular shape (principal component 2)
+Mixed hyperlipidemia (PheCode 272.13)
+Body mass index (BMI, mean, inv-normal transformed)
+Simple and unspecified goiter (PheCode 240)
+Nontoxic uninodular goiter (PheCode 241.1)
+Nontoxic multinodular goiter (PheCode 241.2)
+Nontoxic nodular goiter (PheCode 241)
+Youth-onset type 2 diabetes
+monocyte (fraction, mean, inv-norm transformed)
+Stem Cell Growth Factor-beta levels
+Early onset colorectal cancer
+monocyte (absolute count, maximum, inv-norm transformed)
+Hereditary and idiopathic peripheral neuropathy (PheCode 356)
+monocyte (absolute count, mean, inv-norm transformed)
+monocyte (absolute count, minimum, inv-norm transformed)
+Type 1 diabetes with ophthalmic manifestations (PheCode 250.13)
+Type 1 diabetes with neurological manifestations (PheCode 250.14)
+Type 1 diabetes with ketoacidosis (PheCode 250.11)
+Hypothyroidism NOS (PheCode 244.4)
+Hypothyroidism (PheCode 244)
+Biological Mother:  Cancer, Breast
+neutrophil (absolute count, mean, inv-norm transformed)
+Viral Enteritis (PheCode 8.6)
+lymphocyte (fraction, maximum, inv-norm transformed)
+monocyte (fraction, maximum, inv-norm transformed)
+low density lipoprotein cholesterol (LDLC, minimum, inv-norm transformed)
+lymphocyte (absolute count, minimum, inv-norm transformed)
+monocyte (fraction, minimum, inv-norm transformed)
+Dyslexia
+Circulating fibroblast growth factor 21 levels
+Gluteofemoral adipose tissue volumes (adjusted for BMI and height)
+R-6-hydroxywarfarin to R-warfarin ratio
+Colorectal cancer x estrogen-progesterone hormone therapy interaction
+Colorectal cancer x menopausal hormone therapy interaction (3df test)
+R-6-hydroxywarfarin levels
+RS-10-hydroxywarfarin levels
+Maximum habitual alcohol consumption (MTAG)
+Maximum habitual alcohol consumption
+Chronic elevation of alanine aminotransferase (cALT) levels
+Free cholesterol levels in HDL
+Total lipid levels in HDL
+Cholesteryl ester levels in HDL
+Phospholipid levels in HDL
+Concentration of HDL particles
+Descending aorta maximum area
+Carnitine C9 levels
+Metabolite peak levels (QI648)
+Metabolite peak levels (QI6204)
+Metabolite peak levels (QI6252)
+N6-methyllysine levels
+Metabolite peak levels (QI618)
+Metabolite peak levels (QI619)
+Metabolite peak levels (QI15802)
+Metabolite peak levels (QI15804)
+Metabolite peak levels (QI15587)
+Metabolite peak levels (QI15625)
+Metabolite peak levels (QI15628)
+Metabolite peak levels (QI15633)
+Metabolite peak levels (QI15785)
+Metabolite peak levels (QI9845)
+Metabolite peak levels (QI409)
+Metabolite peak levels (QI510)
+Metabolite peak levels (QI565)
+Metabolite peak levels (QI588)
+Descending aorta maximum area (MTAG)
+Metabolite peak levels (QI15545)
+Metabolite peak levels (QI9680)
+Free cholesterol levels in large VLDL
+Total lipid levels in large VLDL
+Triglyceride levels in large VLDL
+Phospholipid levels in large VLDL
+Phospholipids to total lipids ratio in large VLDL
+Cholesteryl ester levels in LDL
+Ratio of linoleic acid to total fatty acids
+Free cholesterol levels in LDL
+Phospholipid levels in LDL
+Total lipid levels in LDL
+Average diameter for LDL particles
+Cholesterol to total lipids ratio in medium HDL
+Cholesteryl ester levels in medium HDL
+Free cholesterol levels in medium HDL
+Total lipid levels in medium HDL
+Phospholipids to total lipids ratio in medium HDL
+Phospholipid levels in medium HDL
+Cholesterol to total lipids ratio in medium LDL
+Triglyceride levels in medium HDL
+Cholesterol levels in medium LDL
+Cholesteryl esters to total lipids ratio in medium LDL
+Cholesteryl ester levels in medium LDL
+Free cholesterol to total lipids ratio in medium LDL
+Free cholesterol levels in medium LDL
+Total lipid levels in medium LDL
+Phospholipid levels in medium LDL
+Concentration of medium LDL particles
+Phospholipids to total lipids ratio in medium LDL
+Triglyceride levels in medium LDL
+Triglycerides to total lipids ratio in medium LDL
+Cholesterol to total lipids ratio in medium VLDL
+Free cholesterol levels in medium VLDL
+Alzheimer's disease or educational attainment (pleiotropy)
+Total lipid levels in medium VLDL
+Phospholipid levels in medium VLDL
+Triglyceride levels in medium VLDL
+Ratio of omega-3 fatty acids to total fatty acids
+Phospholipid levels in small LDL
+Phospholipids to total lipids ratio in small LDL
+Total lipid levels in small LDL
+Free cholesterol levels in VLDL
+Cholesteryl ester levels in VLDL
+VLDL cholesterol levels
+Cholesterol levels in very large VLDL
+Cholesterol to total lipids ratio in very large VLDL
+Cholesteryl ester levels in very large VLDL
+Cholesterol levels in chylomicrons and extremely large VLDL
+Clinical LDL cholesterol levels
+Free cholesterol in medium LDL
+Phospholipids in medium LDL
+Total cholesterol in medium LDL
+Dry eye disease
+Gamma-enolase levels
+BMI-adjusted waist-hip ratio
+Alzheimer’s disease polygenic risk score (upper quantile vs lower quantile)
+Pulse pressure x low social support interaction (2df test)
+Pulse pressure x low social support interaction (1df test)
+Diastolic blood pressure x depressive symptoms interaction (2df test)
+Attention deficit hyperactivity disorder or autism spectrum disorder or intelligence (pleiotropy)
+Dietary macronutrient intake (multi-trait analysis)
+Intrahepatic cholestasis of pregnancy
+Insomnia in migraine with aura
+Non-small cell lung cancer x BMI trajectory interaction
+Alcohol consumption (drinks per month) (UKB data field 1578, 4424)
+Bread type: White vs wholemeal/wholegrain and brown (UKB data field 1448)
+Cereal consumption (bowls per week) (UKB data field 1458)
+Hearing loss
+Uterine leiomyomata
+Cataract
+Principal component-derived dietary pattern 8
+Right ventricular stroke volume (MTAG)
+Right ventricular end systolic volume
+Predicted heart recovery rate
+Uterine leiomyoma or breast cancer (pleiotropy)
+X-12442--5,8-tetradecadienoate levels
+X-13435 levels
+Glucose-to-mannose ratio
+Heart failure
+1-palmitoleoylglycerol (16:1) levels
+Palmitoleoyl-linoleoyl-glycerol (16:1/18:2) [1] levels
+Oleoyl-arachidonoyl-glycerol (18:1/20:4) [1] levels
+1-myristoyl-2-arachidonoyl-GPC (14:0/20:4) levels
+Early-onset ischemic stroke
+Serum glutamic-oxaloacetic transaminase levels
+Sleep health score
+Myristoyl-linoleoyl-glycerol (14:0/18:2) [1] levels
+1-carboxyethylphenylalanine levels
+1-carboxyethylvaline levels
+1-carboxyethylleucine levels
+1-carboxyethylisoleucine levels
+Mannonate levels
+1-myristoylglycerol (14:0) levels
+2-myristoyl-GPC (14:0) levels
+1-palmitoyl-GPE (16:0) levels
+1-stearoyl-2-oleoyl-GPE (18:0/18:1) levels
+1-stearoyl-GPE (18:0) levels
+Acylcarnitine (13:0) levels
+Phosphatidylcholine diacyl C40:5 levels
+Phosphatidylcholine diacyl C40:6 levels
+Phosphatidylcholine diacyl C32:1 levels
+Phosphatidylcholine diacyl C32:2 levels
+Phosphatidylcholine diacyl C34:1 levels
+Phosphatidylcholine diacyl C34:3 levels
+Phosphatidylcholine diacyl C36:5 levels
+Phosphatidylcholine diacyl C36:6 levels
+Phosphatidylcholine diacyl C38:5 levels
+Vertex-wise sulcal depth
+Vertex-wise cortical thickness
+Systolic blood pressure (BMI unadjusted)
+cGMP-specific 3',5'-cyclic phosphodiesterase levels
+High-sensitivity cardiac troponin I concentration
+Triacylglycerol (52:3) [NL-16:1] levels
+Asthma-COPD overlap syndrome
+Vertex-wise cortical surface area
+Total Phosphatidylglycerol levels
+Total Trihexosylcermide levels
+Bone mineral density (spine)
+Trihexosylcermide (d18:1/16:0) levels
+Trihexosylcermide (d18:1/18:0) levels
+Trihexosylcermide (d18:1/22:0) levels
+Asparagine levels
+Triacylglycerol (48:2) [NL-16:0] levels
+lysoPhosphatidylcholine acyl C14:0 levels
+lysoPhosphatidylcholine acyl C18:0 levels
+Fasting glucose adjusted for BMI
+Glycated haemoglobin HbA1c levels adjusted for BMI
+Fasting insulin adjusted for BMI
+EMILIN-3 level in Chronic kidney disease with hypertension and no diabetes (8773_172)
+Phosphatidylinositol (16:0_20:4) levels
+Phosphatidylinositol (18:0_20:4) levels
+Phosphatidylcholine (14:0_18:1) levels
+Phosphatidylcholine (18:0_22:5) levels
+Phosphatidylethanolamine (16:0_18:2) levels
+Phosphatidylethanolamine (18:0_18:2) levels
+Phosphatidylethanolamine (18:2_0:0) levels
+Coagulation factor IX levels
+Coagulation factor IXab levels
+Ceramide (d40:1) levels
+Sterol ester (27:1/18:3) levels
+Diacylglycerol (18:1_18:2) levels
+Phosphatidylcholine (16:0_0:0) levels
+Diacylglycerol (16:1_18:1) levels
+Diacylglycerol (18:1_18:1) levels
+Phosphatidylcholine (16:1_18:0) levels
+Phosphatidylcholine (16:1_18:2) levels
+Phosphatidylcholine (16:0_16:1) levels
+Phosphatidylcholine (16:0_18:1) levels
+Phosphatidylcholine (16:0_18:3) levels
+Phosphatidylcholine (16:1_18:1) levels
+Phosphatidylcholine (16:0_20:2) levels
+Inorganic pyrophosphatase 2, mitochondrial levels
+Keratin, type I cytoskeletal 19 levels
+Chondrocalcin levels
+Sleep apnea (MTAG)
+Prostaglandin reductase 2 levels
+Quinone oxidoreductase-like protein 1 levels
+Cytokine SCM-1 beta levels
+Signal peptide, CUB and EGF-like domain-containing protein 1 levels
+ADP-ribosylation factor GTPase-activating protein 1 levels
+Insulin-like growth factor-binding protein 1 levels
+Inactive gamma-glutamyltranspeptidase 2 levels
+Interleukin-22 receptor subunit alpha-2 levels
+Enoyl-CoA delta isomerase 2, mitochondrial levels
+Eukaryotic elongation factor 2 kinase levels
+Complement component C1q receptor levels
+Group XIIB secretory phospholipase A2-like protein levels
+Sialic acid-binding Ig-like lectin 12 levels
+SLIT and NTRK-like protein 6 levels
+Somatoliberin levels
+Cathepsin F levels
+Palmitoleoyl-protein carboxylesterase NOTUM levels
+RGM domain family member B levels
+Liver carboxylesterase 1 levels
+Leptin receptor levels
+Liver-expressed antimicrobial peptide 2 levels
+Leukocyte immunoglobulin-like receptor subfamily A member 5 levels
+Mitogen-activated protein kinase 3 levels
+MANSC domain-containing protein 1 levels
+Resistance to COVID-19 infection (Exposed negative vs positive)
+Chronic obstructive pulmonary disease liability (machine learning-based score)
+Severe COVID-19 infection
+Cigarettes smoked per day (MTAG)
+Photoreceptor cell layer thickness phenotypes (MTAG)
+Liver proton density fat fraction
+Body composition (MOSTest)
+Medication use for T2D (number of purchases)
+Idiopathic knee osteoarthritis
+Physical activity
+Alcohol frequency weekly (standard GWA)
+Height (weighted GWA)
+Primary focal segmental glomerulosclerosis in chronic kidney disease
+tRNA (guanine-N(7)-)-methyltransferase levels
+Tumor protein p53-inducible protein 11 levels
+Tumor necrosis factor receptor superfamily member 1B levels
+Tubulointerstitial nephritis antigen-like levels
+Acetyl-CoA acetyltransferase, mitochondrial levels
+Transmembrane and coiled-coil domains protein 3 levels
+Neurotrimin levels
+Opioid-binding protein/cell adhesion molecule levels
+Neuropilin-1 levels
+Fructose-1,6-bisphosphatase 1 levels
+Endosialin levels
+Very long-chain acyl-CoA synthetase levels
+Alpha-1B-glycoprotein levels
+ATP-dependent 6-phosphofructokinase, muscle type levels
+Acyl-coenzyme A thioesterase 8 levels
+Fructose-bisphosphate aldolase B levels
+Vasorin levels
+Alpha- and gamma-adaptin-binding protein p34 levels
+Malonyl-CoA decarboxylase, mitochondrial levels
+Neural cell adhesion molecule 1, 120 kDa isoform levels
+Fibroblast growth factor 19 levels
+Fibroblast growth factor receptor 1 levels
+Follistatin-related protein 3 levels
+Apolipoprotein A1 levels (UKB data field 23440)
+Omega-3 fatty acids levels (UKB data field 23444)
+Degree of unsaturation (UKB data field 23443)
+Total fatty acids levels (UKB data field 23442)
+3-hydroxybutyrate levels (UKB data field 23474)
+Acetate levels (UKB data field 23475)
+Acetoacetate levels (UKB data field 23476)
+Acetone levels (UKB data field 23477)
+Alanine levels (UKB data field 23460)
+Total concentration of branched-chain amino acids (leucine + isoleucine + valine) (UKB data field 23464)
+Glucose levels (UKB data field 23470)
+Lactate levels (UKB data field 23471)
+Pyruvate levels (UKB data field 23472)
+Isoleucine levels (UKB data field 23465)
+Leucine levels (UKB data field 23466)
+Valine levels (UKB data field 23467)
+Citrate levels (UKB data field 23473)
+Glutamine levels (UKB data field 23461)
+Concentration of large VLDL particles (UKB data field 23495)
+Total lipids in large VLDL (UKB data field 23496)
+Phospholipids in large VLDL (UKB data field 23497)
+Cholesterol in large VLDL (UKB data field 23498)
+Total lipids in IDL (UKB data field 23524)
+Triglycerides in very small VLDL (UKB data field 23522)
+Concentration of large HDL particles (UKB data field 23558)
+Cholesterol in large HDL (UKB data field 23561)
+Phospholipids in large HDL (UKB data field 23560)
+Total lipids in large HDL (UKB data field 23559)
+Free cholesterol to total lipids in medium VLDL percentage (UKB data field 23597)
+Cholesteryl esters to total lipids in medium VLDL percentage (UKB data field 23596)
+Triglycerides to total lipids in medium VLDL percentage (UKB data field 23598)
+Cholesterol to total lipids in medium VLDL percentage (UKB data field 23595)
+Phospholipids to total lipids in small VLDL percentage (UKB data field 23599)
+Triglycerides to total lipids in very large HDL percentage (UKB data field 23633)
+Free cholesterol to total lipids in very large HDL percentage (UKB data field 23632)
+Cholesterol to total lipids in large HDL percentage (UKB data field 23635)
+Phospholipids to total lipids in very large HDL percentage (UKB data field 23629)
+Phospholipids to total lipids in large HDL percentage (UKB data field 23634)
+Total esterified cholesterol levels (UKB data field 23415)
+Phospholipids in LDL (UKB data field 23413)
+Cholesteryl esters in LDL (UKB data field 23417)
+Phospholipids in HDL (UKB data field 23414)
+Saturated fatty acids levels (UKB data field 23448)
+Omega-6 fatty acids levels (UKB data field 23445)
+Polyunsaturated fatty acids levels (UKB data field 23446)
+Monounsaturated fatty acids levels (UKB data field 23447)
+Cholesterol in chylomicrons and extremely large VLDL (UKB data field 23484)
+Cholesteryl esters in chylomicrons and extremely large VLDL (UKB data field 23485)
+Total lipids in very large VLDL (UKB data field 23489)
+Triglycerides in chylomicrons and extremely large VLDL (UKB data field 23487)
+Free cholesterol in chylomicrons and extremely large VLDL (UKB data field 23486)
+Concentration of very large VLDL particles (UKB data field 23488)
+Total lipids in small VLDL (UKB data field 23510)
+Phospholipids in small LDL (UKB data field 23546)
+Free cholesterol in medium HDL (UKB data field 23570)
+Concentration of small HDL particles (UKB data field 23572)
+Free cholesterol in small HDL (UKB data field 23577)
+Cholesteryl esters in small HDL (UKB data field 23576)
+Phospholipids to total lipids in chylomicrons and extremely large VLDL percentage (UKB data field 23579)
+Cholesterol in small HDL (UKB data field 23575)
+Phospholipids in small HDL (UKB data field 23574)
+Triglycerides in small HDL (UKB data field 23578)
+Triglycerides in medium HDL (UKB data field 23571)
+Total lipids in small HDL (UKB data field 23573)
+Triglycerides to total lipids in medium LDL percentage (UKB data field 23623)
+Cholesteryl esters to total lipids in small LDL percentage (UKB data field 23626)
+Free cholesterol to total lipids in small LDL percentage (UKB data field 23627)
+Phospholipids to total lipids in small LDL percentage (UKB data field 23624)
+Triglycerides to total lipids in small LDL percentage (UKB data field 23628)
+Total cholesterol levels (MTAG)
+Color vision defects (Tritan)
+Antipsychotic-induced triglycerides change in schizophrenia (4-week)
+Male puberty timing (late vs. average onset facial hair)
+Male puberty timing (age at voice breaking MTAG)
+ICD10 I63: Cerebral infarction
+Hyperplasia of prostate (Union N40)
+Headache or fasting insulin levels
+Headache or HbA1c levels
+Breast dense area
+Neutrophil perturbation response (neutrophil 2/neutrophil 4 ratio in response to KCl perturbation measured by WDF dye)
+Neutrophil perturbation response (side fluorescence standard deviation of neutrophil 4 in response to alhydrogel perturbation measured by WDF dye)
+Lung function (forced vital capacity)
+Cholesteryl esters in HDL (UKB data field 23418)
+Total free cholesterol levels (UKB data field 23419)
+Free cholesterol in VLDL (UKB data field 23420)
+Triglycerides in medium LDL (UKB data field 23543)
+Phospholipids in medium LDL (UKB data field 23539)
+Phospholipids in medium HDL (UKB data field 23567)
+Cholesterol in medium HDL (UKB data field 23568)
+Cholesteryl esters in medium HDL (UKB data field 23569)
+Free cholesterol to total lipids in very small VLDL percentage (UKB data field 23607)
+Cholesteryl esters to total lipids in very small VLDL percentage (UKB data field 23606)
+Cholesterol to total lipids in very small VLDL percentage (UKB data field 23605)
+Triglycerides to total lipids in very small VLDL percentage (UKB data field 23608)
+Phospholipids to total lipids in IDL percentage (UKB data field 23609)
+Free cholesterol to total lipids in medium HDL percentage (UKB data field 23642)
+Triglycerides to total lipids in medium HDL percentage (UKB data field 23643)
+Cholesteryl esters to total lipids in medium HDL percentage (UKB data field 23641)
+Cholesterol to total lipids in small HDL percentage (UKB data field 23645)
+Insulin resistance
+Total cholesterol levels (UKB data field 23400)
+Total cholesterol minus HDL-C levels (UKB data field 23401)
+Total concentration of lipoprotein particles (UKB data field 23427)
+Total lipids in lipoprotein particles (UKB data field 23423)
+Free cholesterol in HDL (UKB data field 23422)
+Total lipids in LDL (UKB data field 23425)
+Total lipids in HDL (UKB data field 23426)
+Total lipids in VLDL (UKB data field 23424)
+Average diameter for LDL particles (UKB data field 23432)
+Average diameter for VLDL particles (UKB data field 23431)
+Concentration of VLDL particles (UKB data field 23428)
+Concentration of HDL particles (UKB data field 23430)
+Triglycerides in very large VLDL (UKB data field 23494)
+Cholesterol in very large VLDL (UKB data field 23491)
+Phospholipids in very large VLDL (UKB data field 23490)
+Cholesteryl esters in very large VLDL (UKB data field 23492)
+Free cholesterol in very large VLDL (UKB data field 23493)
+Triglycerides in small VLDL (UKB data field 23515)
+Concentration of very large HDL particles (UKB data field 23551)
+Total lipids in very large HDL (UKB data field 23552)
+Triglycerides in small LDL (UKB data field 23550)
+Phospholipids in very large HDL (UKB data field 23553)
+Free cholesterol to total lipids in chylomicrons and extremely large VLDL percentage (UKB data field 23582)
+Free cholesterol to total lipids in very large VLDL percentage (UKB data field 23587)
+Triglycerides to total lipids in very large VLDL percentage (UKB data field 23588)
+Cholesteryl esters to total lipids in very large VLDL percentage (UKB data field 23586)
+Cholesterol to total lipids in very large VLDL percentage (UKB data field 23585)
+Triglycerides to total lipids in IDL percentage (UKB data field 23613)
+Free cholesterol to total lipids in IDL percentage (UKB data field 23612)
+Cholesterol to total lipids in IDL percentage (UKB data field 23610)
+Phospholipids to total lipids in large LDL percentage (UKB data field 23614)
+Cholesterol to total lipids in large LDL percentage (UKB data field 23615)
+Cholesteryl esters to total lipids in IDL percentage (UKB data field 23611)
+Cholesteryl esters to total lipids in small HDL percentage (UKB data field 23646)
+Triglycerides to total lipids in small HDL percentage (UKB data field 23648)
+Free cholesterol to total lipids in small HDL percentage (UKB data field 23647)
+Total phospholipids in lipoprotein particles (UKB data field 23411)
+Triglycerides in VLDL (UKB data field 23408)
+Phospholipids in VLDL (UKB data field 23412)
+Triglycerides in LDL (UKB data field 23409)
+Triglycerides in HDL (UKB data field 23410)
+Monounsaturated fatty acids to total fatty acids percentage (UKB data field 23454)
+Omega-3 fatty acids to total fatty acids percentage (UKB data field 23451)
+Docosahexaenoic acid levels (UKB data field 23450)
+Omega-6 fatty acids to omega-3 fatty acids ratio (UKB data field 23459)
+Polyunsaturated fatty acids to total fatty acids percentage (UKB data field 23453)
+Polyunsaturated fatty acids to monounsaturated fatty acids ratio (UKB data field 23458)
+Saturated fatty acids to total fatty acids percentage (UKB data field 23455)
+Linoleic acid to total fatty acids percentage (UKB data field 23456)
+Omega-6 fatty acids to total fatty acids percentage (UKB data field 23452)
+Concentration of small VLDL particles (UKB data field 23509)
+Triglycerides in medium VLDL (UKB data field 23508)
+Triglycerides in large LDL (UKB data field 23536)
+Cholesterol in large LDL (UKB data field 23533)
+Total lipids in large LDL (UKB data field 23531)
+Phospholipids in large LDL (UKB data field 23532)
+Cholesteryl esters in large LDL (UKB data field 23534)
+Free cholesterol in large HDL (UKB data field 23563)
+Concentration of medium HDL particles (UKB data field 23565)
+Cholesteryl esters in large HDL (UKB data field 23562)
+Total lipids in medium HDL (UKB data field 23566)
+Free cholesterol to total lipids in small VLDL percentage (UKB data field 23602)
+Cholesterol to total lipids in small VLDL percentage (UKB data field 23600)
+Cholesteryl esters to total lipids in small VLDL percentage (UKB data field 23601)
+Triglycerides to total lipids in small VLDL percentage (UKB data field 23603)
+Phospholipids to total lipids in very small VLDL percentage (UKB data field 23604)
+Free cholesterol to total lipids in large HDL percentage (UKB data field 23637)
+Triglycerides to total lipids in large HDL percentage (UKB data field 23638)
+Cholesteryl esters to total lipids in large HDL percentage (UKB data field 23636)
+Cholesterol to total lipids in medium HDL percentage (UKB data field 23640)
+Phospholipids to total lipids in medium HDL percentage (UKB data field 23639)
+HDL cholesterol levels (UKB data field 23406)
+LDL cholesterol levels (UKB data field 23405)
+Total triglycerides levels (UKB data field 23407)
+Mitochondrial DNA heteroplasmy (chrM:955:A:AC case-only heteroplasmy)
+4-hydroxyphenylacetoylcarnitine levels
+1-(1-enyl-palmitoyl)-2-palmitoleoyl-GPC (P-16:0/16:1) levels
+Neurocognitive measure (immediate recall) in obsessive-compulsive disorder
+Systemic lupus erythematosus (MTAG)
+Sphingomyelin (d40:1) levels
+X-18888 levels
+Dodecadienoate (12:2) levels
+Vitamin D levels or COVID-19 (MTAG)
+Phosphatidylcholine (17:0_18:1) levels
+(2 or 3)-decenoate (10:1n7 or n8) levels
+Indoleacetoylcarnitine levels
+Free androgen index
+3-hydroxysebacate levels
+Cis-4-decenoate (10:1n6) levels
+Phosphatidylcholine (16:0_17:1) levels
+Sterol ester (27:1/16:1) levels
+Diacylglycerol (18:1_18:3) levels
+Phosphatidylethanolamine (18:0_0:0) levels
+Phosphatidylcholine (14:0_18:2) levels
+Phosphatidylcholine (15:0_18:1) levels
+Total cholines levels (UKB data field 23436)
+Phosphatidylcholines levels (UKB data field 23437)
+Average diameter for HDL particles (UKB data field 23433)
+Phosphoglycerides levels (UKB data field 23434)
+Triglycerides to phosphoglycerides ratio (UKB data field 23435)
+Sphingomyelins levels (UKB data field 23438)
+Total lipids in chylomicrons and extremely large VLDL (UKB data field 23482)
+Phospholipids in chylomicrons and extremely large VLDL (UKB data field 23483)
+Concentration of chylomicrons and extremely large VLDL particles (UKB data field 23481)
+Albumin levels (UKB data field 23479)
+Glycoprotein acetyls levels (UKB data field 23480)
+Total lipids in medium VLDL (UKB data field 23503)
+Cholesteryl esters in large VLDL (UKB data field 23499)
+Free cholesterol in large VLDL (UKB data field 23500)
+Triglycerides in large VLDL (UKB data field 23501)
+Cholesteryl esters in IDL (UKB data field 23527)
+Triglycerides in IDL (UKB data field 23529)
+Free cholesterol in IDL (UKB data field 23528)
+Cholesterol in IDL (UKB data field 23526)
+Cholesteryl esters in very large HDL (UKB data field 23555)
+Free cholesterol in very large HDL (UKB data field 23556)
+Cholesterol in very large HDL (UKB data field 23554)
+Triglycerides in very large HDL (UKB data field 23557)
+Cholesteryl esters to total lipids in large VLDL percentage (UKB data field 23591)
+Cholesterol to total lipids in large VLDL percentage (UKB data field 23590)
+Phospholipids to total lipids in large VLDL percentage (UKB data field 23589)
+Phospholipids to total lipids in medium VLDL percentage (UKB data field 23594)
+Free cholesterol to total lipids in medium LDL percentage (UKB data field 23622)
+Triglycerides to total lipids in large LDL percentage (UKB data field 23618)
+Free cholesterol to total lipids in large LDL percentage (UKB data field 23617)
+Cholesteryl esters to total lipids in medium LDL percentage (UKB data field 23621)
+Phospholipids to total lipids in medium LDL percentage (UKB data field 23619)
+Cholesteryl esters to total lipids in large LDL percentage (UKB data field 23616)
+Conventional bullous pemphigoid
+Hearing problems
+Breast area percent density
+Multi-trait sex score
+Metabolic signature
+Multi-trait sum score
+Post-traumatic stress disorder
+Gastroesophageal reflux disease or bipolar disorder (pleiotropy)
+Osteoarthritis
+Right hippocampal volume
+Ventromedial occipital thickness (unadjusted for global measures)
+ICD10 M51: Intervertebral disc disorder
+Flt3L levels
+IL2RA levels
+Addiction risk factors
+Cognitive performance (global cognitive function) (longitudinal)
+Cognitive performance (memory) (longitudinal)
+Cannabis use disorder (MTAG)
+Hyper-haemoglobinised percentage of red cells
+Macrocytic percentage of red cells
+Red blood cell side fluorescence
+Red blood cell side fluorescence distribution width
+Neutrophil forward scatter distribution width
+Coronary artery calcification
+Platelet forward scatter distribution width
+Delta of the red cell haemoglobins
+Reticulocyte production index
+Lymphocyte side fluorescence
+Metabolite levels (3-hydroxydecanoate)
+Metabolite levels (gamma-glutamylthreonine)
+Parkinson's disease
+Platelet forward scatter
+Red cell distribution width - standard deviation
+Metabolite levels (1-palmitoylglycerophosphocholine (16:0); 1-palmitoyl-GPC (16:0); C16:0 LPC; C16_0_LPC)
+Metabolite levels (pyruvate; cmh_pyruvate; Pyruvate)
+Metabolite levels (mannose)
+Metabolite levels (threonine)
+Neutrophil side fluorescence
+Alcohol use disorder (MTAG)
+Metabolite levels (alanine)
+Metabolite levels (2'-O-methyluridine)
+Metabolite levels (1-palmitoyl-2-oleoyl-GPC (16:0/18:1); C34:1 PC; C34_1_PC)
+Aging
+Bone mineral density mean
+Whole body fat free mass (UKB data field 23101)
+Current medication use (UKB data field 20003)
+Femoral neck width
+Body fat percentage (adjusted for testosterone and SHBG)
+B-cell lymphoblastic leukemia or rheumatoid arthritis (pleiotropy)
+IL6 expression at 6 weeks in whole blood upon Bbmix moi10 stimulation in Lyme borreliosis
+Multiple system atrophy
+ECG cardiac MRI latent space
+25-hydroxyvitamin D levels (skin colour stratified)
+25-Hydroxyvitamin D levels
+ECG latent space
+Myocardial infarction
+Cholelithiasis (UKB data field 20002_1162)
+Soluble transferrin receptor concentration
+Memory decline
+Takes medication for lung cancer?
+Calcium (minimum, inv-norm transformed)
+Baseline memory x sex interaction
+Pyruvate levels in blood donors
+Lactate levels in blood donors
+D-Glucose levels in blood donors
+2-phospho-D-glycerate or 3-phospho-D-glycerate levels in blood donors
+ATP levels in blood donors
+Phosphoenolpyruvate levels in blood donors
+D-Hexose-phosphate levels in blood donors
+Estimated glomerular filtration rate (creatinine, cystatin c)
+Telomere length (principal component 1)
+Baseline memory
+Baseline memory in normal cognition
+Serum levels of protein IGF1
+IGF-1 and IGFBP-3 levels (bivariate analysis)
+Whole body fat mass (UKB data field 23100)
+Age at menarche or uterine leiomyomata (pleiotropy)
+Tinnitus
+High-sensitivity C-reactive protein levels
+Bone mineral density variability
+Postmenopausal breast cancer
+Hearing difficulty
+T1 CAT volume L LateralOccipitalCortexinferiordivision
+Serum 25-Hydroxyvitamin D levels (conditioned on BMI)
+Serum 25-Hydroxyvitamin D level variance
+Serum 25-Hydroxyvitamin D levels x season interaction
+Serum 25-Hydroxyvitamin D levels (summer)
+neutrophil (fraction, minimum, inv-norm transformed)
+Biological Father: Bipolar Disorder
+estimated glomerular filtration rate (eGFR, minimum, inv-norm transformed)
+estimated glomerular filtration rate (eGFR, mean, inv-norm transformed)
+neutrophil (absolute count, maximum, inv-norm transformed)
+neutrophil (fraction, mean, inv-norm transformed)
+creatinine (maximum, inv-norm transformed)
+CAMSIS occupational score (MTAG)
+estimated glomerular filtration rate (eGFR, maximum, inv-norm transformed)
+Takes medication for Thyroid problems?
+Cranial vault shape (segment 8)
+Random glucose levels
+Color vision defects (Deutan-Protan)
+Uric acid levels (1KG-JEWEL7K)
+Total cholesterol levels (1KG-JEWEL7K)
+Waist-hip index
+Hip index
+Serum creatinine levels
+Diacylglycerol_44:7_[M+H-H2O]1+ levels
+Lysophosphatidylethanolamine_16:0_[M-H]1- levels
+Phosphatidylcholine-O_34:1_[M+H]1+/Phosphatidylcholine-P_34:0_[M+H]1+/Phosphatidylethanolamine-O_37:1_[M+H]1+ levels
+Phosphatidylcholine-O_34:3_[M+H]1+/Phosphatidylcholine-P_34:2_[M+H]1+/Phosphatidylethanolamine-P_37:2_[M+H]1+ levels
+Phosphatidylcholine-O_30:1_[M+H]1+/Phosphatidylcholine-P_30:0_[M+H]1+/Phosphatidylethanolamine-O_33:1_[M+H]1+ levels
+Phosphatidylcholine-O_31:0_[M+H]1+/Phosphatidylethanolamine-O_34:0_[M+H]1+ levels
+Phosphatidylcholine-O_34:2_[M+H]1+/Phosphatidylcholine-P_34:1_[M+H]1+/Phosphatidylethanolamine-O_37:2_[M+H]1+ levels
+Phosphatidylcholine-O_32:1_[M+H]1+/Phosphatidylcholine-P_32:0_[M+H]1+/Phosphatidylethanolamine-O_35:1_[M+H]1+ levels
+Diacylglycerol_32:2_[M+H-H2O]1+ levels
+Diacylglycerol_34:1_[M+H-H2O]1+ levels
+Diacylglycerol_34:3_[M+H-H2O]1+ levels
+Diacylglycerol_34:2_[M+H-H2O]1+ levels
+Phosphatidylcholine-2O_32:0_[M+H]1+ levels
+Phosphatidylcholine-O_36:2_[M+H]1+/Phosphatidylcholine-P_36:1_[M+H]1+/Phosphatidylethanolamine-P_39:1_[M+H]1+ levels
+Phosphatidylcholine-O_36:3_[M+H]1+/Phosphatidylcholine-P_36:2_[M+H]1+ levels
+Phosphatidylethanolamine_34:1_[M-H]1- levels
+A body shape index
+Progression free survival in epithelial ovarian cancer treated with carboplatin and paclitaxel
+Retinal vascular fractal density
+FVC or gastro-oesophageal reflux disease (pleiotropy)
+FEV1 or gastro-oesophageal reflux disease (pleiotropy)
+Gamma glutamyl transpeptidase
+Weight
+Goiter
+Hearing loss, difficulty in hearing
+Spinal canal stenosis
+Cholecystitis
+Cholelithiasis
+Atrial fibrillation/atrial flutter
+Angina pectoris
+Uterine prolapse
+Triacylglycerol_50:2_[M+NH4]1+ levels
+Triacylglycerol_50:3_[M+NH4]1+ levels
+Triacylglycerol_50:4_[M+NH4]1+ levels
+Triacylglycerol_50:5_[M+NH4]1+ levels
+Triacylglycerol_52:6_[M+NH4]1+ levels
+Sphingomyelin_34:1_[M+H]1+ levels
+Sphingomyelin_33:1_[M+H]1+ levels
+Sphingomyelin_34:0_[M+H]1+ levels
+Sphingomyelin_34:2_[M+H]1+ levels
+Sphingomyelin(33:1)_[M-CH3]1- levels
+Sphingomyelin_35:1_[M+H]1+ levels
+Sphingomyelin(37:1)_[M+H]1+ levels

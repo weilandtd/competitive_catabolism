@@ -1,0 +1,44 @@
+,pathway,gene_name,SNPS,PUBMEDID,STUDY,FIRST AUTHOR,DATE,P-VALUE,SAMPLE_SIZE,MAPPED_TRAIT
+0,Fatty acid oxidation,CPT1A,rs2229738,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,2e-77,115006.0,Fatty acids
+1,Fatty acid oxidation,CPT1A,rs2229738,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,4e-64,115006.0,Fatty acids
+2,Fatty acid oxidation,CPT1A,rs2229738,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,2.9999999999999997e-62,115006.0,Fatty acids
+3,Fatty acid oxidation,CPT1A,rs2229738,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,1.0000000000000001e-24,115006.0,Fatty acids
+4,Fatty acid oxidation,CPT1A,rs2229738,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,5e-23,115006.0,Fatty acids
+5,Fatty acid oxidation,CPT1A,rs2229738,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,8.000000000000001e-23,115006.0,Fatty acids
+6,Fatty acid oxidation,CPT1A,rs2229738,38448586,Genome-wide characterization of circulating metabolic biomarkers.,Karjalainen MK,2024-03-06,4e-109,136016.0,Fatty acids
+7,Fatty acid oxidation,CPT1A,rs2229738,38448586,Genome-wide characterization of circulating metabolic biomarkers.,Karjalainen MK,2024-03-06,2e-71,136016.0,Fatty acids
+8,Fatty acid oxidation,CPT1A,rs2229738,38448586,Genome-wide characterization of circulating metabolic biomarkers.,Karjalainen MK,2024-03-06,6e-22,136016.0,Fatty acids
+9,Fatty acid oxidation,CPT1A,rs2229738,38448586,Genome-wide characterization of circulating metabolic biomarkers.,Karjalainen MK,2024-03-06,6e-20,136016.0,Fatty acids
+10,Insulin receptor signaling,KLB,rs11940694,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,2e-09,115006.0,Fatty acids
+11,Insulin receptor signaling,KLB,rs11940694,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,1e-08,115006.0,Fatty acids
+12,Insulin receptor signaling,PIK3R1,rs13186403,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,2e-08,115006.0,Fatty acids
+13,Insulin secretion,EXOC6,rs2478236,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,1e-09,115006.0,Fatty acids
+14,Insulin secretion,EXOC6,rs2478236,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,2e-09,115006.0,Fatty acids
+15,Insulin secretion,EXOC6,rs2478236,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,4e-09,115006.0,Fatty acids
+16,Insulin secretion,GCKR,rs1260326,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,4.0000000000000003e-162,115006.0,Fatty acids
+17,Insulin secretion,GCKR,rs1260326,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,3e-157,115006.0,Fatty acids
+18,Insulin secretion,GCKR,rs1260326,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,2e-144,115006.0,Fatty acids
+19,Insulin secretion,GCKR,rs1260326,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,9.999999999999999e-143,115006.0,Fatty acids
+20,Insulin secretion,GCKR,rs1260326,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,4e-117,115006.0,Fatty acids
+21,Insulin secretion,GCKR,rs1260326,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,1.9999999999999998e-110,115006.0,Fatty acids
+22,Insulin secretion,GCKR,rs1260326,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,2e-105,115006.0,Fatty acids
+23,Insulin secretion,GCKR,rs1260326,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,1e-78,115006.0,Fatty acids
+24,Insulin secretion,GCKR,rs1260326,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,3e-60,115006.0,Fatty acids
+25,Insulin secretion,GCKR,rs1260326,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,2.9999999999999998e-40,115006.0,Fatty acids
+26,Insulin secretion,GCKR,rs1260326,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,5e-23,115006.0,Fatty acids
+27,Insulin secretion,GCKR,rs1260326,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,2e-21,115006.0,Fatty acids
+28,Insulin secretion,GCKR,rs1260326,36764567,Metabolomic Investigation of Major Depressive Disorder Identifies a Potentially Causal Association With Polyunsaturated Fatty Acids.,Davyson E,2023-02-09,3e-118,88268.0,Fatty acids
+29,Insulin secretion,GCKR,rs1260326,36764567,Metabolomic Investigation of Major Depressive Disorder Identifies a Potentially Causal Association With Polyunsaturated Fatty Acids.,Davyson E,2023-02-09,2e-117,88268.0,Fatty acids
+30,Insulin secretion,GCKR,rs1260326,36764567,Metabolomic Investigation of Major Depressive Disorder Identifies a Potentially Causal Association With Polyunsaturated Fatty Acids.,Davyson E,2023-02-09,5e-67,88268.0,Fatty acids
+31,Insulin secretion,GCKR,rs1260326,38448586,Genome-wide characterization of circulating metabolic biomarkers.,Karjalainen MK,2024-03-06,2e-156,136016.0,Fatty acids
+32,Insulin secretion,GCKR,rs1260326,38448586,Genome-wide characterization of circulating metabolic biomarkers.,Karjalainen MK,2024-03-06,2.9999999999999998e-114,136016.0,Fatty acids
+33,Insulin secretion,GCKR,rs1260326,38448586,Genome-wide characterization of circulating metabolic biomarkers.,Karjalainen MK,2024-03-06,7e-110,136016.0,Fatty acids
+34,Insulin secretion,GCKR,rs1260326,38448586,Genome-wide characterization of circulating metabolic biomarkers.,Karjalainen MK,2024-03-06,4e-94,136016.0,Fatty acids
+35,Insulin secretion,GCKR,rs1260326,38448586,Genome-wide characterization of circulating metabolic biomarkers.,Karjalainen MK,2024-03-06,2.0000000000000002e-82,126671.0,Fatty acids
+36,Insulin secretion,GCKR,rs1260326,38448586,Genome-wide characterization of circulating metabolic biomarkers.,Karjalainen MK,2024-03-06,7.000000000000001e-75,136016.0,Fatty acids
+37,Insulin secretion,GCKR,rs1260326,38448586,Genome-wide characterization of circulating metabolic biomarkers.,Karjalainen MK,2024-03-06,1e-59,136016.0,Fatty acids
+38,Insulin secretion,GCKR,rs1260326,38448586,Genome-wide characterization of circulating metabolic biomarkers.,Karjalainen MK,2024-03-06,5e-30,136016.0,Fatty acids
+39,Triglyceride biosynthesis,DGAT2,rs72997616,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,9e-22,115006.0,Fatty acids
+40,Triglyceride biosynthesis,DGAT2,rs72997616,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,5e-13,115006.0,Fatty acids
+41,Triglyceride biosynthesis,GPAM,rs2792703,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,4e-16,115006.0,Fatty acids
+42,Triglyceride biosynthesis,GPAM,rs2803619,35213538,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.,Richardson TG,2022-02-25,9e-10,115006.0,Fatty acids
